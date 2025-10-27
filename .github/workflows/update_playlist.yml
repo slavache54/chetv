@@ -3,7 +3,7 @@ name: Update IPTV Playlist
 on:
   schedule:
     # Запуск раз в день в 3:00 по UTC
-    - cron: '0 3 * * *'
+    - cron: '0 */5 * * *'
   workflow_dispatch:
 
   # --- ДОБАВЬТЕ ЭТОТ БЛОК ---
