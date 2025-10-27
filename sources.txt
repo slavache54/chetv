@@ -1,6 +1,9 @@
 https://raw.githubusercontent.com/IPTVSHARED/VeronaTV/refs/heads/main/VeronaTV.m3u
 https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVru.m3u
 http://server-1.onlinetv-sochi.ru/live/mod.m3u
+https://loganettv.vercel.app/all.m3u
+https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV
+
 
 
 
