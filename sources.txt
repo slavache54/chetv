@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/IPTVSHARED/VeronaTV/refs/heads/main/VeronaTV.m3u
+https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV 
+https://loganettv.vercel.app/all.m3u
