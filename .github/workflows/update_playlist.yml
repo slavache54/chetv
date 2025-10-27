@@ -6,6 +6,11 @@ on:
     - cron: '0 3 * * *'
   workflow_dispatch:
 
+  # --- ДОБАВЬТЕ ЭТОТ БЛОК ---
+permissions:
+  contents: write
+# -------------------------
+
 jobs:
   build-playlist:
     runs-on: ubuntu-latest
