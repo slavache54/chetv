@@ -2,6 +2,7 @@ https://raw.githubusercontent.com/IPTVSHARED/VeronaTV/refs/heads/main/VeronaTV.m
 https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVru.m3u
 http://server-1.onlinetv-sochi.ru/live/mod.m3u
 https://loganettv.vercel.app/all.m3u
+https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/mega.m3u
 https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV
 http://pl.fox-tv.fun/6ba0941e/89bac430/tv.m3u
 http://pl.fox-tv.fun/6ba0941e/89bac430/vod.m3u
@@ -10,7 +11,9 @@ http://d6ac4167aea2.faststreem.org/playlists/uplist/acad15b2757cbbdaaa89e24f5941
 https://raw.githubusercontent.com/Shamilbro1/tv/refs/heads/main/TV.m3u
 https://raw.githubusercontent.com/Shamilbro1/tv/refs/heads/main/Wink
 https://raw.githubusercontent.com/Shamilbro1/tv/refs/heads/main/klub18%2B
-https://loganettv.vercel.app/strawberry.m3u
+https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/strawberry.m3u
+https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/refs/heads/main/LoganetXStrawberry.m3u
+
 
 
 
