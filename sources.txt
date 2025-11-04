@@ -13,6 +13,13 @@ https://raw.githubusercontent.com/Shamilbro1/tv/refs/heads/main/Wink
 https://raw.githubusercontent.com/Shamilbro1/tv/refs/heads/main/klub18%2B
 https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/strawberry.m3u
 https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/refs/heads/main/LoganetXStrawberry.m3u
+https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/movie.m3u
+https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/kids.m3u
+https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/mega.m3u
+https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u8
+
+
+
 
 
 
