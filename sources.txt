@@ -17,6 +17,7 @@ https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/movie.m3u
 https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/kids.m3u
 https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/mega.m3u
 https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u8
+https://raw.githubusercontent.com/polzafre/polzafre/refs/heads/main/polzafre.m3u
 
 
 
