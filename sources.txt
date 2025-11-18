@@ -19,6 +19,7 @@ https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/mega.m3u
 https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u8
 https://raw.githubusercontent.com/polzafre/polzafre/refs/heads/main/polzafre.m3u
 https://raw.githubusercontent.com/Artur4ikvip/Grand-TV/refs/heads/main/RUZIEVPLUSTV25.m3u
+http://rafail1982.uz/playlists/RAFAIL.m3u
 
 
 
