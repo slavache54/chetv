@@ -7,7 +7,7 @@ from collections import defaultdict
 
 # --- НАСТРОЙКИ ---
 SOURCES_FILE = 'sources.txt'
-OUTPUT_FILE = 'master_playlist.mзu'
+OUTPUT_FILE = 'master_playlist.m3u'
 DEFAULT_CATEGORY = 'Общие'
 MAX_CONCURRENT_REQUESTS = 200
 TIMEOUT = 5
@@ -18,7 +18,6 @@ GOOD_CONTENT_TYPES = ['video/', 'application/vnd.apple.mpegurl', 'application/x-
 HEADERS = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36' }
 
 def load_sources():
-    """Загружает источники из файла, поддерживая формат 'Название,URL'."""
     sources = []
     if not os.path.exists(SOURCES_FILE):
         return sources
@@ -27,7 +26,6 @@ def load_sources():
             line = line.strip()
             if not line or line.startswith('#'):
                 continue
-            
             parts = line.split(',', 1)
             if len(parts) == 2:
                 name, url = parts[0].strip(), parts[1].strip()
@@ -71,7 +69,7 @@ async def check_stream_url(session, channel, semaphore):
         return None
 
 async def main():
-    print("--- Запуск скрипта с поддержкой структуры плейлистов ---")
+    print("--- Запуск скрипта с объединением категорий ---")
     sources = load_sources()
     if not sources:
         print(f"[ОШИБКА] Файл '{SOURCES_FILE}' не найден или пуст.")
@@ -93,11 +91,12 @@ async def main():
                         for line in content.splitlines():
                             if line.strip().startswith("#EXTM3U") and 'url-tvg' in line:
                                 final_header = line.strip(); epg_found = True; print(f"    -> Найден заголовок с EPG."); break
+                    
                     parsed_channels = parse_m3u_content(content)
-                    for ch in parsed_channels:
-                        # --- ВОТ ЭТО ИЗМЕНЕНИЕ ---
-                        # Создаем "плоскую" категорию, понятную для Televizo
-                        ch['category'] = f"{source_name} - {ch['category']}"
+                    
+                    # --- ИЗМЕНЕНИЕ: Мы больше НЕ МОДИФИЦИРУЕМ категорию ---
+                    # Категория канала остается такой, какая она была в исходном файле.
+                    
                     all_channels.extend(parsed_channels)
                     print(f"    -> Найдено {len(parsed_channels)} каналов.")
             except (aiohttp.ClientError, asyncio.TimeoutError) as e:
@@ -134,3 +133,4 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
