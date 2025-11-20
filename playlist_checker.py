@@ -8,7 +8,8 @@ from collections import defaultdict
 # --- НАСТРОЙКИ ---
 SOURCES_FILE = 'sources.txt'
 OUTPUT_FILE = 'master_playlist.m3u'
-DEFAULT_CATEGORY = 'Общие'
+# DEFAULT_CATEGORY больше не используется, но пусть остается
+DEFAULT_CATEGORY = 'Общие' 
 MAX_CONCURRENT_REQUESTS = 200
 TIMEOUT = 5
 CHUNK_SIZE = 2048
@@ -38,14 +39,13 @@ def load_sources():
 
 def parse_m3u_content(content):
     channels = []
-    pattern = re.compile(r'#EXTINF:-1(.*?),([^\n]*)\n(https?://[^\n]*)')
+    pattern = re.compile(r'#EXTINF:-1.*?,([^\n]*)\n(https?://[^\n]*)')
     matches = pattern.findall(content)
-    for attributes, name, url in matches:
-        group_title_match = re.search(r'group-title="(.*?)"', attributes, re.IGNORECASE)
-        category = group_title_match.group(1).strip() if group_title_match else DEFAULT_CATEGORY
+    for name, url in matches:
         clean_name = name.strip()
         if clean_name and url:
-            channels.append({'name': clean_name, 'url': url.strip(), 'category': category})
+            # Мы больше не парсим категорию здесь, она будет присвоена позже
+            channels.append({'name': clean_name, 'url': url.strip()})
     return channels
 
 async def check_stream_url(session, channel, semaphore):
@@ -69,7 +69,7 @@ async def check_stream_url(session, channel, semaphore):
         return None
 
 async def main():
-    print("--- Запуск скрипта с объединением категорий ---")
+    print("--- Запуск скрипта с группировкой по источникам ---")
     sources = load_sources()
     if not sources:
         print(f"[ОШИБКА] Файл '{SOURCES_FILE}' не найден или пуст.")
@@ -94,8 +94,10 @@ async def main():
                     
                     parsed_channels = parse_m3u_content(content)
                     
-                    # --- ИЗМЕНЕНИЕ: Мы больше НЕ МОДИФИЦИРУЕМ категорию ---
-                    # Категория канала остается такой, какая она была в исходном файле.
+                    # --- ВОТ ГЛАВНОЕ ИЗМЕНЕНИЕ ---
+                    # Присваиваем ВСЕМ каналам из этого файла категорию, равную имени источника
+                    for ch in parsed_channels:
+                        ch['category'] = source_name
                     
                     all_channels.extend(parsed_channels)
                     print(f"    -> Найдено {len(parsed_channels)} каналов.")
@@ -117,6 +119,7 @@ async def main():
                 unique_urls.add(result['url']); categorized_working_channels[result['category']].append(result)
 
     print("\nПроверка завершена.")
+    # Сортировка по имени источника будет работать автоматически
     sorted_categories = sorted(categorized_working_channels.keys())
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write(f"{final_header}\n")
@@ -133,4 +136,3 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
-
