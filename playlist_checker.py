@@ -1,7 +1,9 @@
 import asyncio
 import aiohttp
+import re
 import os
 import sys
+from collections import defaultdict
 
 # --- НАСТРОЙКИ ---
 SOURCES_FILE = 'sources.txt'
@@ -13,72 +15,104 @@ HEADERS = {
     'Accept': '*/*'
 }
 
-def load_source_urls():
-    """Загружает только URL из файла источников."""
-    urls = []
+def load_sources():
+    """Загружает источники из файла формата 'Название,URL'."""
+    sources = []
     if not os.path.exists(SOURCES_FILE):
-        return urls
+        return sources
     with open(SOURCES_FILE, 'r', encoding='utf-8') as f:
-        for line in f:
+        for i, line in enumerate(f):
             line = line.strip()
             if not line or line.startswith('#'):
                 continue
             
-            # Ищем URL, даже если есть название
-            if ',' in line:
-                url = line.split(',', 1)[1].strip()
+            parts = line.split(',', 1)
+            if len(parts) == 2:
+                name, url = parts[0].strip(), parts[1].strip()
+                sources.append({'name': name, 'url': url})
             else:
+                name = f"Источник {i + 1}"
                 url = line
-            
-            if url:
-                urls.append(url)
-    return urls
+                sources.append({'name': name, 'url': url})
+    return sources
+
+def parse_m3u_content(content):
+    """Просто парсит M3U, извлекая название и URL канала."""
+    channels = []
+    # Простой regex, который ищет название после запятой и URL на следующей строке
+    pattern = re.compile(r'#EXTINF:-1.*?,([^\n]*)\n(https?://[^\n]*)')
+    matches = pattern.findall(content)
+    for name, url in matches:
+        clean_name = name.strip()
+        if clean_name and url:
+            channels.append({'name': clean_name, 'url': url.strip()})
+    return channels
 
 async def main():
-    """Основная функция для "тупой" склейки плейлистов."""
-    # --- ИСПРАВЛЕНИЕ ЗДЕСЬ ---
-    print("--- Запуск скрипта 'тупой' склейки плейлистов (БЕЗ ПРОВЕРКИ И ПАРСИНГА) ---")
+    """Основная функция для объединения плейлистов с группировкой БЕЗ ПРОВЕРКИ."""
+    print("--- Запуск скрипта с группировкой по источникам (БЕЗ ПРОВЕРКИ) ---")
     
-    source_urls = load_source_urls()
-    if not source_urls:
+    sources = load_sources()
+    if not sources:
         print(f"[ОШИБКА] Файл '{SOURCES_FILE}' не найден или пуст.")
         return
         
-    print(f"Найдено {len(source_urls)} плейлистов-источников для склейки.")
+    print(f"Найдено {len(sources)} плейлистов-источников для объединения.")
 
-    # Создаем или очищаем итоговый файл
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f_out:
-        # Записываем заголовок только один раз
-        f_out.write("#EXTM3U\n")
-
-    is_first_playlist = True
+    final_header = '#EXTM3U'
+    epg_found = False
+    # Словарь для хранения каналов, сгруппированных по имени источника
+    categorized_channels = defaultdict(list)
+    total_channels_found = 0
 
     async with aiohttp.ClientSession(headers=HEADERS) as session:
-        for i, url in enumerate(source_urls, 1):
+        for source in sources:
+            source_name = source['name']
+            url = source['url']
             try:
-                print(f"  ({i}/{len(source_urls)}) Скачивание: {url}")
+                print(f"  Обработка: {source_name} ({url})")
                 async with session.get(url, timeout=20) as response:
                     response.raise_for_status()
                     content = await response.text()
+
+                    if not epg_found:
+                        for line in content.splitlines():
+                            if line.strip().startswith("#EXTM3U") and 'url-tvg' in line:
+                                final_header = line.strip()
+                                epg_found = True
+                                print(f"    -> Найден и сохранен заголовок с EPG.")
+                                break
                     
-                    # Открываем итоговый файл в режиме дозаписи (append)
-                    with open(OUTPUT_FILE, 'a', encoding='utf-8') as f_out:
-                        # Пропускаем заголовок #EXTM3U для всех плейлистов, кроме первого
-                        lines_to_write = content.splitlines()
-                        if not is_first_playlist:
-                            lines_to_write = [line for line in lines_to_write if not line.strip().startswith('#EXTM3U')]
-                        
-                        f_out.write('\n'.join(lines_to_write) + '\n')
+                    parsed_channels = parse_m3u_content(content)
                     
-                    is_first_playlist = False
-                    print(f"    -> Успешно добавлено.")
+                    # Просто добавляем все найденные каналы в категорию с именем источника
+                    categorized_channels[source_name].extend(parsed_channels)
+                    
+                    count = len(parsed_channels)
+                    total_channels_found += count
+                    print(f"    -> Найдено и добавлено {count} каналов.")
 
             except (aiohttp.ClientError, asyncio.TimeoutError) as e:
-                print(f"    -> ОШИБКА: Не удалось скачать плейлист: {e}")
+                print(f"    -> ОШИБКА: Не удалось загрузить плейлист: {e}")
 
-    print("\nСклейка завершена.")
+    print("\nОбъединение завершено.")
+
+    # Сортируем категории (имена источников) по алфавиту
+    sorted_categories = sorted(categorized_channels.keys())
+    
+    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+        f.write(f"{final_header}\n")
+        for category in sorted_categories:
+            # Сортируем каналы внутри каждой категории по имени
+            channels_in_category = sorted(categorized_channels[category], key=lambda x: x['name'])
+            for channel in channels_in_category:
+                f.write(f'#EXTINF:-1 group-title="{category}",{channel["name"]}\n')
+                f.write(f'{channel["url"]}\n')
+            
+    print("\n--- Результаты ---")
     print(f"✅ Итоговый плейлист сохранен в файл: {OUTPUT_FILE}")
-    print("\nВнимание: Плейлисты были объединены без какой-либо обработки или проверки.")
+    print(f"📊 Всего каналов добавлено в плейлист: {total_channels_found}")
+    print("\nВнимание: Проверка на работоспособность и удаление дубликатов были отключены.")
 
 if __name__ == '__main__':
     asyncio.run(main())
