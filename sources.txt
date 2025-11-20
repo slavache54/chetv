@@ -9,7 +9,6 @@
 Каналы Fox Tv Films,http://pl.fox-tv.fun/6ba0941e/89bac430/vod.m3u
 Каналы Произвольный плейлист,http://d6ac4167aea2.faststreem.org/playlists/uplist/acad15b2757cbbdaaa89e24f5941c770/playlist.m3u8
 Каналы loganettv Эротика,https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/strawberry.m3u
-Каналы loganettv Эротика 2,https://loganettv.vercel.app/strawberry.m3u
 Каналы loganettv Фильмы,https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/movie.m3u
 Каналы loganettv Детские,https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/kids.m3u
 Каналы Мультипликация,https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u8
@@ -17,6 +16,7 @@
 Каналы GRAND-TV,https://raw.githubusercontent.com/Artur4ikvip/Grand-TV/refs/heads/main/RUZIEVPLUSTV25.m3u
 Каналы RAFAIL,http://rafail1982.uz/playlists/RAFAIL.m3u
 Каналы SetTV,https://satexpresstv.ru/apk/setv.m3u
+
 
 
 
