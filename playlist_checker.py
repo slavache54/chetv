@@ -7,7 +7,7 @@ from collections import defaultdict
 
 # --- НАСТРОЙКИ ---
 SOURCES_FILE = 'sources.txt'
-OUTPUT_FILE = 'master_playlist.m3u'
+OUTPUT_FILE = 'master_playlist.mзu'
 DEFAULT_CATEGORY = 'Общие'
 MAX_CONCURRENT_REQUESTS = 200
 TIMEOUT = 5
@@ -17,7 +17,6 @@ BAD_CONTENT_TYPES = ['text/html', 'application/json', 'image/']
 GOOD_CONTENT_TYPES = ['video/', 'application/vnd.apple.mpegurl', 'application/x-mpegurl']
 HEADERS = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36' }
 
-# --- НОВОЕ: Функция для загрузки источников с именами ---
 def load_sources():
     """Загружает источники из файла, поддерживая формат 'Название,URL'."""
     sources = []
@@ -34,29 +33,24 @@ def load_sources():
                 name, url = parts[0].strip(), parts[1].strip()
                 sources.append({'name': name, 'url': url})
             else:
-                # Если запятой нет, используем автоматическую нумерацию
                 name = f"Источник {i + 1}"
                 url = line
                 sources.append({'name': name, 'url': url})
     return sources
 
 def parse_m3u_content(content):
-    # ... (эта функция остается без изменений) ...
     channels = []
     pattern = re.compile(r'#EXTINF:-1(.*?),([^\n]*)\n(https?://[^\n]*)')
     matches = pattern.findall(content)
-
     for attributes, name, url in matches:
         group_title_match = re.search(r'group-title="(.*?)"', attributes, re.IGNORECASE)
         category = group_title_match.group(1).strip() if group_title_match else DEFAULT_CATEGORY
         clean_name = name.strip()
-
         if clean_name and url:
             channels.append({'name': clean_name, 'url': url.strip(), 'category': category})
     return channels
 
 async def check_stream_url(session, channel, semaphore):
-    # ... (эта функция остается без изменений) ...
     async with semaphore:
         try:
             async with session.get(channel['url'], timeout=TIMEOUT, allow_redirects=True) as response:
@@ -78,21 +72,15 @@ async def check_stream_url(session, channel, semaphore):
 
 async def main():
     print("--- Запуск скрипта с поддержкой структуры плейлистов ---")
-    
-    # --- ИЗМЕНЕНИЕ: Используем новую функцию для загрузки источников ---
     sources = load_sources()
     if not sources:
         print(f"[ОШИБКА] Файл '{SOURCES_FILE}' не найден или пуст.")
         return
-        
     print(f"Найдено {len(sources)} плейлистов-источников.")
-
     final_header = '#EXTM3U'
     epg_found = False
     all_channels = []
-
     async with aiohttp.ClientSession(headers=HEADERS) as session:
-        # --- ИЗМЕНЕНИЕ: Проходим по списку словарей, а не просто URL ---
         for source in sources:
             source_name = source['name']
             url = source['url']
@@ -101,25 +89,20 @@ async def main():
                 async with session.get(url, timeout=15) as response:
                     response.raise_for_status()
                     content = await response.text()
-
                     if not epg_found:
                         for line in content.splitlines():
                             if line.strip().startswith("#EXTM3U") and 'url-tvg' in line:
                                 final_header = line.strip(); epg_found = True; print(f"    -> Найден заголовок с EPG."); break
-                    
                     parsed_channels = parse_m3u_content(content)
-                    
-                    # --- ИЗМЕНЕНИЕ: Формируем вложенную категорию ---
                     for ch in parsed_channels:
-                        # Создаем категорию вида "Название Источника;Оригинальная Категория"
-                        ch['category'] = f"{source_name};{ch['category']}"
-                    
+                        # --- ВОТ ЭТО ИЗМЕНЕНИЕ ---
+                        # Создаем "плоскую" категорию, понятную для Televizo
+                        ch['category'] = f"{source_name} - {ch['category']}"
                     all_channels.extend(parsed_channels)
                     print(f"    -> Найдено {len(parsed_channels)} каналов.")
             except (aiohttp.ClientError, asyncio.TimeoutError) as e:
                 print(f"    -> Не удалось загрузить: {e}")
 
-    # ... (вся дальнейшая логика проверки и записи остается ТОЧНО ТАКОЙ ЖЕ) ...
     if not all_channels: print("\nНе найдено ни одного канала для проверки."); return
     print(f"\nВсего найдено {len(all_channels)} каналов. Начинается 'Умная проверка'...")
     categorized_working_channels = defaultdict(list)
@@ -135,7 +118,6 @@ async def main():
                 unique_urls.add(result['url']); categorized_working_channels[result['category']].append(result)
 
     print("\nПроверка завершена.")
-    # Сортировка по вложенным категориям будет работать автоматически и правильно
     sorted_categories = sorted(categorized_working_channels.keys())
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write(f"{final_header}\n")
