@@ -7,7 +7,7 @@ http://pl.fox-tv.fun/6ba0941e/89bac430/tv.m3u
 http://pl.fox-tv.fun/6ba0941e/89bac430/vod.m3u
 http://d6ac4167aea2.faststreem.org/playlists/uplist/acad15b2757cbbdaaa89e24f5941c770/playlist.m3u8
 https://loganettv.vercel.app/strawberry.m3u
-https://loganettv.vercel.app/all.m3u
+https://loganettv.vercel.app/mega.m3u
 https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u8
 https://raw.githubusercontent.com/polzafre/polzafre/refs/heads/main/polzafre.m3u
 https://raw.githubusercontent.com/Artur4ikvip/Grand-TV/refs/heads/main/RUZIEVPLUSTV25.m3u
@@ -15,6 +15,7 @@ http://rafail1982.uz/playlists/RAFAIL.m3u
 https://satexpresstv.ru/apk/setv.m3u
 http://pl.ru-tv.site/6323b77e/d4636a8e/tv.m3u
 http://pl.ru-tv.site/6323b77e/d4636a8e/vod.m3u
+
 
 
 
