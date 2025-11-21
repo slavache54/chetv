@@ -14,6 +14,7 @@ http://rafail1982.uz/playlists/RAFAIL.m3u
 https://satexpresstv.ru/apk/setv.m3u
 http://pl.ru-tv.site/6323b77e/d4636a8e/tv.m3u
 http://pl.ru-tv.site/6323b77e/d4636a8e/vod.m3u
+http://pl.ru-tv.site/6323b77e/d4636a8e/vodall.m3u
 
 
 
