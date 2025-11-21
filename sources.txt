@@ -2,14 +2,19 @@ https://raw.githubusercontent.com/IPTVSHARED/VeronaTV/refs/heads/main/VeronaTV.m
 https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVru.m3u
 http://server-1.onlinetv-sochi.ru/live/mod.m3u
 https://loganettv.vercel.app/all.m3u
-https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/mega.m3u
 https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV
 http://pl.fox-tv.fun/6ba0941e/89bac430/tv.m3u
 http://pl.fox-tv.fun/6ba0941e/89bac430/vod.m3u
 http://d6ac4167aea2.faststreem.org/playlists/uplist/acad15b2757cbbdaaa89e24f5941c770/playlist.m3u8
-https://raw.githubusercontent.com/loganettv/playlists/main/strawberry.m3u
-https://raw.githubusercontent.com/loganettv/playlists/main/movie.m3u
-https://raw.githubusercontent.com/loganettv/playlists/main/kids.m3u
+https://m3u.su/lgx
+https://m3u.su/lgo
+https://m3u.su/lgs
+https://m3u.su/lgl
+https://m3u.su/lgu
+https://m3u.su/lgn
+https://m3u.su/bb3
+https://m3u.su/bb2
+https://m3u.su/bbf
 https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u8
 https://raw.githubusercontent.com/polzafre/polzafre/refs/heads/main/polzafre.m3u
 https://raw.githubusercontent.com/Artur4ikvip/Grand-TV/refs/heads/main/RUZIEVPLUSTV25.m3u
@@ -17,6 +22,7 @@ http://rafail1982.uz/playlists/RAFAIL.m3u
 https://satexpresstv.ru/apk/setv.m3u
 http://pl.ru-tv.site/6323b77e/d4636a8e/tv.m3u
 http://pl.ru-tv.site/6323b77e/d4636a8e/vod.m3u
+
 
 
 
