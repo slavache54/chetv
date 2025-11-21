@@ -1,117 +1,146 @@
 import asyncio
 import aiohttp
-import re
 import os
-import sys
 
 # --- НАСТРОЙКИ ---
 SOURCES_FILE = 'sources.txt'
 OUTPUT_FILE = 'master_playlist.m3u'
+TIMEOUT_SECONDS = 30 # Увеличили время ожидания для медленных серверов
 
-# Маскируемся под плеер, чтобы сервера не блокировали скачивание
+# Маскируемся под VLC плеер
 HEADERS = {
     'User-Agent': 'VLC/3.0.18 LibVLC/3.0.18',
     'Accept': '*/*'
 }
 
 def load_source_urls():
-    """Загружает только ссылки из файла."""
     urls = []
     if not os.path.exists(SOURCES_FILE):
         return urls
     with open(SOURCES_FILE, 'r', encoding='utf-8') as f:
         for line in f:
             line = line.strip()
-            # Игнорируем пустые строки и комментарии, кавычки убираем если есть
             if not line or line.startswith('#'):
                 continue
+            # Чистим от кавычек и лишнего
             url = line.replace('"', '').replace("'", "").strip()
+            # Если пользователь оставил запятые (старый формат), берем часть после запятой
+            if ',' in url:
+                url = url.split(',', 1)[1].strip()
             if url:
                 urls.append(url)
     return urls
 
-def parse_m3u_channels(content):
-    """Парсит каналы: возвращает список (Название канала, Ссылка)."""
+def parse_channels_robust(content):
+    """
+    Надежный парсер, который читает файл построчно.
+    Не ломается из-за лишних тегов (#EXTGRP, #EXTVLCOPT и т.д.)
+    """
     channels = []
-    # Регулярка ищет имя канала после запятой и следующую строку-ссылку
-    pattern = re.compile(r'#EXTINF:-1.*?,([^\n]*)\n(https?://[^\n]*)')
-    matches = pattern.findall(content)
+    current_name = None
     
-    for name, url in matches:
-        channels.append((name.strip(), url.strip()))
+    # Разбиваем на строки
+    lines = content.splitlines()
     
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+            
+        if line.startswith('#EXTINF'):
+            # Попытка извлечь имя канала (всё что после запятой)
+            # Формат обычно: #EXTINF:-1 key="value",Название Канала
+            parts = line.split(',', 1)
+            if len(parts) > 1:
+                current_name = parts[1].strip()
+            else:
+                current_name = "Без названия"
+        
+        elif line.startswith('#'):
+            # Игнорируем другие теги типа #EXTGRP, чтобы они не сбили нас
+            continue
+            
+        else:
+            # Если строка не начинается с #, мы считаем её ссылкой (URL)
+            url = line
+            name = current_name if current_name else "Канал без названия"
+            
+            channels.append({'name': name, 'url': url})
+            
+            # Сбрасываем имя, чтобы следующая ссылка не получила это же имя
+            # (если вдруг в плейлисте идет URL без EXTINF)
+            current_name = None
+            
     return channels
 
+async def fetch_playlist(session, url, index):
+    """Скачивает плейлист и возвращает (index, channels)."""
+    try:
+        print(f"  Скачивание [{index}]: {url}")
+        async with session.get(url, timeout=TIMEOUT_SECONDS) as response:
+            if response.status != 200:
+                print(f"    X Ошибка {index}: Код {response.status}")
+                return index, []
+            
+            # Используем errors='replace', чтобы не упасть на кривой кодировке
+            content = await response.text(encoding='utf-8', errors='replace')
+            channels = parse_channels_robust(content)
+            
+            if not channels:
+                print(f"    ! Предупреждение {index}: Плейлист пуст или не распознан.")
+            else:
+                print(f"    V Успех {index}: найдено {len(channels)} каналов.")
+                
+            return index, channels
+            
+    except Exception as e:
+        print(f"    X Сбой {index}: {e}")
+        return index, []
+
 async def main():
-    print("--- Запуск сборщика плейлистов (Авто-нумерация категорий) ---")
+    print("--- Запуск СТРОГОЙ сборки (Правильный порядок + Надежный парсер) ---")
     
     urls = load_source_urls()
     if not urls:
-        print(f"[ОШИБКА] Файл '{SOURCES_FILE}' пуст или не найден.")
+        print("Файл sources.txt пуст!")
         return
 
-    print(f"Загружено ссылок: {len(urls)}")
-    
-    final_header = '#EXTM3U'
-    epg_found = False
-    total_channels_written = 0
-
-    # Открываем итоговый файл для записи
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f_out:
+    tasks = []
+    async with aiohttp.ClientSession(headers=HEADERS) as session:
+        # Создаем задачи для скачивания. index начинается с 1
+        for i, url in enumerate(urls, 1):
+            task = asyncio.create_task(fetch_playlist(session, url, i))
+            tasks.append(task)
         
-        async with aiohttp.ClientSession(headers=HEADERS) as session:
-            # Проходим по ссылкам, i начинает с 1 (Плейлист - 1, Плейлист - 2...)
-            for i, url in enumerate(urls, 1):
-                group_name = f"Плейлист - {i}"
+        # Ждем завершения всех загрузок
+        results = await asyncio.gather(*tasks)
+
+    # Важный момент: результаты могут вернуться в разнобой.
+    # Нам нужно отсортировать их по индексу (1, 2, 3...), чтобы сохранить порядок.
+    results.sort(key=lambda x: x[0])
+
+    # Запись в файл
+    total_written = 0
+    
+    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+        f.write("#EXTM3U\n") # Пишем заголовок один раз
+        
+        for index, channels in results:
+            group_title = f"Плейлист - {index}"
+            
+            for ch in channels:
+                # Мы сами формируем строку #EXTINF заново, принудительно ставя нашу группу
+                # Удаляем запятые из имени, чтобы не ломать формат M3U (на всякий случай)
+                safe_name = ch['name'].replace('\n', ' ').strip()
                 
-                try:
-                    print(f"  Обработка [{i}/{len(urls)}]: {url}")
-                    async with session.get(url, timeout=30) as response:
-                        if response.status != 200:
-                            print(f"    -> Ошибка: Сервер вернул код {response.status}")
-                            continue
-                            
-                        content = await response.text()
-                        
-                        # Ищем EPG заголовок (только один раз, из первого успешного листа)
-                        if not epg_found:
-                            for line in content.splitlines():
-                                if line.startswith('#EXTM3U') and 'url-tvg' in line:
-                                    final_header = line.strip()
-                                    epg_found = True
-                                    break
-                        
-                        # Парсим каналы
-                        channels = parse_m3u_channels(content)
-                        
-                        if not channels:
-                            print("    -> Каналы не найдены (пустой лист или неверный формат)")
-                            continue
+                # Формат: #EXTINF:-1 group-title="Плейлист - N",Название
+                f.write(f'#EXTINF:-1 group-title="{group_title}",{safe_name}\n')
+                f.write(f"{ch['url']}\n")
+                total_written += 1
 
-                        # Записываем каналы в итоговый файл (только если это не первый проход - заголовок пишем в конце)
-                        # Но так как мы пишем потоково, лучше сначала собрать буфер
-                        # Для простоты: сразу пишем в файл каналы этой группы
-                        
-                        if i == 1:
-                            # Если это первый плейлист, запишем заголовок в начало файла
-                            f_out.seek(0)
-                            f_out.write(f"{final_header}\n")
-                        
-                        for channel_name, channel_url in channels:
-                            # ФОРМИРУЕМ СТРОКУ С ГРУППОЙ
-                            # group-title="..." заставляет плеер создать "плашку" (категорию)
-                            f_out.write(f'#EXTINF:-1 group-title="{group_name}",{channel_name}\n')
-                            f_out.write(f'{channel_url}\n')
-                        
-                        print(f"    -> Успешно добавлено {len(channels)} каналов в группу '{group_name}'")
-                        total_channels_written += len(channels)
-
-                except Exception as e:
-                    print(f"    -> СБОЙ: {e}")
-
-    print("\n--- Готово ---")
-    print(f"Итоговый файл: {OUTPUT_FILE}")
-    print(f"Всего каналов: {total_channels_written}")
+    print(f"\nГотово! Сохранено в {OUTPUT_FILE}")
+    print(f"Всего каналов: {total_written}")
+    print(f"Обработано источников: {len(urls)}")
 
 if __name__ == '__main__':
     asyncio.run(main())
