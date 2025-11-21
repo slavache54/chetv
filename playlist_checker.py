@@ -3,126 +3,115 @@ import aiohttp
 import re
 import os
 import sys
-from collections import defaultdict
 
 # --- НАСТРОЙКИ ---
 SOURCES_FILE = 'sources.txt'
 OUTPUT_FILE = 'master_playlist.m3u'
-DEFAULT_CATEGORY = 'Общие'
-MAX_CONCURRENT_REQUESTS = 200  # Количество одновременных асинхронных запросов
-TIMEOUT = 4  # Таймаут в секундах для одного запроса
 
+# Маскируемся под плеер, чтобы сервера не блокировали скачивание
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    'User-Agent': 'VLC/3.0.18 LibVLC/3.0.18',
+    'Accept': '*/*'
 }
 
-def parse_m3u_content(content):
-    """Парсит M3U и извлекает каналы с категориями."""
+def load_source_urls():
+    """Загружает только ссылки из файла."""
+    urls = []
+    if not os.path.exists(SOURCES_FILE):
+        return urls
+    with open(SOURCES_FILE, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            # Игнорируем пустые строки и комментарии, кавычки убираем если есть
+            if not line or line.startswith('#'):
+                continue
+            url = line.replace('"', '').replace("'", "").strip()
+            if url:
+                urls.append(url)
+    return urls
+
+def parse_m3u_channels(content):
+    """Парсит каналы: возвращает список (Название канала, Ссылка)."""
     channels = []
-    pattern = re.compile(r'#EXTINF:-1(.*?),([^\n]*)\n(https?://[^\n]*)')
+    # Регулярка ищет имя канала после запятой и следующую строку-ссылку
+    pattern = re.compile(r'#EXTINF:-1.*?,([^\n]*)\n(https?://[^\n]*)')
     matches = pattern.findall(content)
-
-    for attributes, name, url in matches:
-        group_title_match = re.search(r'group-title="(.*?)"', attributes, re.IGNORECASE)
-        category = group_title_match.group(1).strip() if group_title_match else DEFAULT_CATEGORY
-        clean_name = name.strip()
-
-        if clean_name and url:
-            channels.append({'name': clean_name, 'url': url.strip(), 'category': category})
+    
+    for name, url in matches:
+        channels.append((name.strip(), url.strip()))
+    
     return channels
 
-async def check_stream_url(session, channel, semaphore):
-    """Асинхронно проверяет доступность URL."""
-    async with semaphore:
-        try:
-            async with session.head(channel['url'], timeout=TIMEOUT, allow_redirects=True) as response:
-                if 200 <= response.status < 400:
-                    return channel
-        except (aiohttp.ClientError, asyncio.TimeoutError):
-            pass
-        return None
-
 async def main():
-    """Основная асинхронная функция."""
-    print("--- Запуск асинхронного скрипта обработки плейлистов ---")
-
-    if not os.path.exists(SOURCES_FILE):
-        print(f"[ОШИБКА] Файл '{SOURCES_FILE}' не найден.")
-        return
-
-    with open(SOURCES_FILE, 'r', encoding='utf-8') as f:
-        source_urls = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+    print("--- Запуск сборщика плейлистов (Авто-нумерация категорий) ---")
     
-    if not source_urls:
-        print("[ИНФО] Файл источников пуст.")
+    urls = load_source_urls()
+    if not urls:
+        print(f"[ОШИБКА] Файл '{SOURCES_FILE}' пуст или не найден.")
         return
-        
-    print(f"Найдено {len(source_urls)} плейлистов-источников.")
 
+    print(f"Загружено ссылок: {len(urls)}")
+    
     final_header = '#EXTM3U'
     epg_found = False
-    all_channels = []
+    total_channels_written = 0
 
-    async with aiohttp.ClientSession(headers=HEADERS) as session:
-        for url in source_urls:
-            try:
-                print(f"  Загрузка: {url}")
-                async with session.get(url, timeout=15) as response:
-                    response.raise_for_status()
-                    content = await response.text()
+    # Открываем итоговый файл для записи
+    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f_out:
+        
+        async with aiohttp.ClientSession(headers=HEADERS) as session:
+            # Проходим по ссылкам, i начинает с 1 (Плейлист - 1, Плейлист - 2...)
+            for i, url in enumerate(urls, 1):
+                group_name = f"Плейлист - {i}"
+                
+                try:
+                    print(f"  Обработка [{i}/{len(urls)}]: {url}")
+                    async with session.get(url, timeout=30) as response:
+                        if response.status != 200:
+                            print(f"    -> Ошибка: Сервер вернул код {response.status}")
+                            continue
+                            
+                        content = await response.text()
+                        
+                        # Ищем EPG заголовок (только один раз, из первого успешного листа)
+                        if not epg_found:
+                            for line in content.splitlines():
+                                if line.startswith('#EXTM3U') and 'url-tvg' in line:
+                                    final_header = line.strip()
+                                    epg_found = True
+                                    break
+                        
+                        # Парсим каналы
+                        channels = parse_m3u_channels(content)
+                        
+                        if not channels:
+                            print("    -> Каналы не найдены (пустой лист или неверный формат)")
+                            continue
 
-                    if not epg_found:
-                        for line in content.splitlines():
-                            if line.strip().startswith("#EXTM3U") and 'url-tvg' in line:
-                                final_header = line.strip()
-                                epg_found = True
-                                print(f"    -> Найден заголовок с EPG.")
-                                break
-                    
-                    channels = parse_m3u_content(content)
-                    all_channels.extend(channels)
-                    print(f"    -> Найдено {len(channels)} каналов.")
-            except (aiohttp.ClientError, asyncio.TimeoutError) as e:
-                print(f"    -> Не удалось загрузить: {e}")
+                        # Записываем каналы в итоговый файл (только если это не первый проход - заголовок пишем в конце)
+                        # Но так как мы пишем потоково, лучше сначала собрать буфер
+                        # Для простоты: сразу пишем в файл каналы этой группы
+                        
+                        if i == 1:
+                            # Если это первый плейлист, запишем заголовок в начало файла
+                            f_out.seek(0)
+                            f_out.write(f"{final_header}\n")
+                        
+                        for channel_name, channel_url in channels:
+                            # ФОРМИРУЕМ СТРОКУ С ГРУППОЙ
+                            # group-title="..." заставляет плеер создать "плашку" (категорию)
+                            f_out.write(f'#EXTINF:-1 group-title="{group_name}",{channel_name}\n')
+                            f_out.write(f'{channel_url}\n')
+                        
+                        print(f"    -> Успешно добавлено {len(channels)} каналов в группу '{group_name}'")
+                        total_channels_written += len(channels)
 
-    if not all_channels:
-        print("\nНе найдено ни одного канала для проверки.")
-        return
+                except Exception as e:
+                    print(f"    -> СБОЙ: {e}")
 
-    print(f"\nВсего найдено {len(all_channels)} каналов. Начинается проверка...")
-    
-    categorized_working_channels = defaultdict(list)
-    unique_urls = set()
-    semaphore = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
-
-    async with aiohttp.ClientSession(headers=HEADERS) as session:
-        tasks = [check_stream_url(session, channel, semaphore) for channel in all_channels]
-        total = len(tasks)
-        for i, future in enumerate(asyncio.as_completed(tasks), 1):
-            result = await future
-            sys.stdout.write(f"\rПрогресс: {i}/{total} ({i/total*100:.1f}%)")
-            sys.stdout.flush()
-
-            if result and result['url'] not in unique_urls:
-                unique_urls.add(result['url'])
-                categorized_working_channels[result['category']].append(result)
-
-    print("\nПроверка завершена.")
-    
-    sorted_categories = sorted(categorized_working_channels.keys())
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        f.write(f"{final_header}\n")
-        for category in sorted_categories:
-            channels_in_category = sorted(categorized_working_channels[category], key=lambda x: x['name'])
-            for channel in channels_in_category:
-                f.write(f'#EXTINF:-1 group-title="{channel["category"]}",{channel["name"]}\n')
-                f.write(f'{channel["url"]}\n')
-
-    total_working = len(unique_urls)
-    print("\n--- Результаты ---")
-    print(f"✅ Итоговый плейлист сохранен в файл: {OUTPUT_FILE}")
-    print(f"📊 Всего уникальных и рабочих каналов: {total_working}")
-    print(f"🗑️  Отсеяно нерабочих и дубликатов: {len(all_channels) - total_working}")
+    print("\n--- Готово ---")
+    print(f"Итоговый файл: {OUTPUT_FILE}")
+    print(f"Всего каналов: {total_channels_written}")
 
 if __name__ == '__main__':
     asyncio.run(main())
