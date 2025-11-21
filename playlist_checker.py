@@ -8,9 +8,9 @@ SOURCES_FILE = 'sources.txt'
 OUTPUT_FILE = 'master_playlist.m3u'
 TIMEOUT_SECONDS = 45
 
-# Маскируемся под VLC
+# Маскируемся под Chrome (самая надежная маскировка)
 HEADERS = {
-    'User-Agent': 'VLC/3.0.18 LibVLC/3.0.18',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': '*/*'
 }
 
@@ -23,9 +23,9 @@ def load_source_urls():
             line = line.strip()
             if not line or line.startswith('#'):
                 continue
-            # Убираем кавычки, если они есть
+            
+            # Чистим кавычки
             url = line.replace('"', '').replace("'", "").strip()
-            # Если формат с запятой, берем только ссылку
             if ',' in url:
                 url = url.split(',', 1)[1].strip()
             
@@ -35,30 +35,37 @@ def load_source_urls():
 
 def fix_github_url(url):
     """
-    Автоматически исправляет ссылки GitHub, которые пользователь 
-    вставил в формате /refs/heads/, так как они выдают ошибку 404.
+    Исправляет битые ссылки GitHub (с refs/heads), которые отдают 404.
     """
     if 'raw.githubusercontent.com' in url and '/refs/heads/' in url:
-        # Убираем '/refs/heads/' заменяя на '/'
-        fixed_url = url.replace('/refs/heads/', '/')
-        return fixed_url
+        return url.replace('/refs/heads/', '/')
     return url
 
 def clean_channel_name(name):
     """
-    Убирает символы, которые ломают группировку в Televizo (RUZIEV FIX).
+    Жесткая очистка имени канала для Televizo.
     """
-    if not name:
-        return "Канал"
-    # Заменяем вертикальную черту на тире. Это лечит 'призрачные' группы.
-    return name.replace('|', ' - ').strip()
+    if not name: return "Канал"
+    
+    # 1. Убиваем вертикальную черту - главный враг Televizo
+    name = name.replace('|', ' - ')
+    
+    # 2. Убираем приставку RUZIEV+ IPTV, чтобы не мусорила
+    name = name.replace('RUZIEV+ IPTV', '')
+    name = name.replace('RUZIEV+', '')
+    
+    # 3. Чистим лишние пробелы и тире в начале
+    name = name.strip()
+    if name.startswith('-'):
+        name = name.lstrip('-').strip()
+        
+    return name
 
 def parse_channels_strict(content):
-    """
-    Парсер, который игнорирует мусор и текст ошибок.
-    """
     channels = []
     current_name = None
+    
+    # Используем errors='replace', чтобы не падать на кривых символах
     lines = content.splitlines()
     
     for line in lines:
@@ -66,53 +73,50 @@ def parse_channels_strict(content):
         if not line: continue
         
         if line.startswith('#EXTINF'):
-            # Извлекаем имя после запятой
-            parts = line.split(',', 1)
-            if len(parts) > 1:
-                current_name = clean_channel_name(parts[1])
+            # Берем всё после первой запятой
+            if ',' in line:
+                raw_name = line.split(',', 1)[1]
+                current_name = clean_channel_name(raw_name)
             else:
                 current_name = "Без названия"
         
-        # Игнорируем старые группы
         elif line.startswith('#'):
-            continue
+            continue # Игнорируем любые другие теги
             
         else:
-            # ВАЖНО: Проверяем, что это действительно ссылка http/rtmp
-            # Это отсекает текст '404 Not Found'
+            # Если это ссылка на поток (http/rtmp/udp)
             if re.match(r'^(http|rtmp|udp)', line, re.IGNORECASE):
-                url = line
                 name = current_name if current_name else "Канал"
-                channels.append({'name': name, 'url': url})
-                current_name = None
+                channels.append({'name': name, 'url': line})
+                current_name = None # Сброс имени
     
     return channels
 
 async def fetch_playlist(session, raw_url, index):
-    # Применяем авто-фикс ссылки перед скачиванием
+    # АВТО-ИСПРАВЛЕНИЕ ССЫЛКИ ПЕРЕД СКАЧИВАНИЕМ
     url = fix_github_url(raw_url)
     
     try:
         print(f"  [{index}] Скачивание: {url}")
         async with session.get(url, timeout=TIMEOUT_SECONDS) as response:
             if response.status != 200:
-                print(f"    X ОШИБКА [{index}]: Код ответа {response.status}")
+                print(f"    X ОШИБКА [{index}]: Код {response.status}")
                 return index, []
             
-            content = await response.text(encoding='utf-8', errors='ignore')
+            content = await response.text(encoding='utf-8', errors='replace')
             
-            # Проверка на HTML (часто сервер отдает страницу ошибки вместо плейлиста)
+            # Проверка: если скачался HTML (страница ошибки 404) - игнорируем
             if content.lstrip().lower().startswith(('<html', '<!doctype')):
-                print(f"    X ОШИБКА [{index}]: Ссылка ведет на HTML-страницу (возможно, 404).")
+                print(f"    X ОШИБКА [{index}]: По ссылке не плейлист, а HTML-страница (возможно 404)")
                 return index, []
-                
+
             channels = parse_channels_strict(content)
             
             if not channels:
-                print(f"    ! Пусто [{index}]: Каналы не найдены.")
+                print(f"    ! ПУСТО [{index}]: Каналы не найдены")
             else:
-                print(f"    V Успех [{index}]: {len(channels)} каналов.")
-                
+                print(f"    V ОК [{index}]: Найдено {len(channels)}")
+            
             return index, channels
 
     except Exception as e:
@@ -120,7 +124,7 @@ async def fetch_playlist(session, raw_url, index):
         return index, []
 
 async def main():
-    print("--- СТРОГАЯ СБОРКА + RUZIEV FIX + GITHUB FIX ---")
+    print("--- ФИНАЛЬНАЯ СБОРКА: Auto-Fix URL + Clean RUZIEV ---")
     
     urls = load_source_urls()
     if not urls:
@@ -130,15 +134,14 @@ async def main():
     tasks = []
     async with aiohttp.ClientSession(headers=HEADERS) as session:
         for i, url in enumerate(urls, 1):
-            task = asyncio.create_task(fetch_playlist(session, url, i))
-            tasks.append(task)
+            tasks.append(asyncio.create_task(fetch_playlist(session, url, i)))
         
         results = await asyncio.gather(*tasks)
 
-    # Сортируем результаты, чтобы Плейлист-1 шел перед Плейлист-2
+    # Сортируем по индексу 1, 2, 3...
     results.sort(key=lambda x: x[0])
 
-    total_count = 0
+    total_written = 0
     
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write("#EXTM3U\n")
@@ -149,13 +152,13 @@ async def main():
             group_title = f"Плейлист - {index}"
             
             for ch in channels:
+                # Пишем строго нашу группу
                 f.write(f'#EXTINF:-1 group-title="{group_title}",{ch["name"]}\n')
                 f.write(f"{ch['url']}\n")
-                total_count += 1
+                total_written += 1
 
-    print(f"\n--- ГОТОВО ---")
-    print(f"Сохранено в: {OUTPUT_FILE}")
-    print(f"Всего каналов: {total_count}")
+    print(f"\nГотово. Файл: {OUTPUT_FILE}")
+    print(f"Каналов: {total_written}")
 
 if __name__ == '__main__':
     asyncio.run(main())
