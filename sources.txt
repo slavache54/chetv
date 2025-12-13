@@ -14,9 +14,10 @@ https://bit.ly/sportflix_tivi
 https://u.to/wgsYIg
 http://rafail1982.uz/playlists/RAFAIL.m3u
 https://satexpresstv.ru/apk/setv.m3u
-http://pl.ru-tv.site/6323b77e/d4636a8e/tv.m3u
-http://pl.ru-tv.site/6323b77e/d4636a8e/vod.m3u
-http://pl.ru-tv.site/6323b77e/d4636a8e/vodall.m3u
+http://pl.ru-tv.site/516599b0/b70655bd/tv.m3u
+http://pl.ru-tv.site/516599b0/b70655bd/vod.m3u
+http://pl.ru-tv.site/516599b0/b70655bd/vodall.m3u
+
 
 
 
