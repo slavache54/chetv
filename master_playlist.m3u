@@ -25118,8 +25118,6 @@ https://livetv.mylifeisgood.net.ru/channels/2x2.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",2x2
 http://178.212.71.253:8000/play/113/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",2x2
-http://95.66.188.74/2x2/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",2x2
 http://5.188.221.43:8080/play/2x2
 #EXTINF:-1 group-title="Плейлист - 11",2x2
 http://95.66.188.74:80/2x2/mono.m3u8
@@ -25127,8 +25125,6 @@ http://95.66.188.74:80/2x2/mono.m3u8
 http://89.232.68.194:8080/2x2/tracks-v3a1/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",2x2
 http://193.25.8.59:8000/2x2
-#EXTINF:-1 group-title="Плейлист - 11",2x2
-http://95.66.188.74/2x2/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",2x2
 http://176.118.197.101/2x2/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",31 канал KZ
@@ -25239,8 +25235,6 @@ http://31.148.48.15:80/A1/index.m3u8
 http://158.101.222.193:88/georgia_play.php?id=amedia
 #EXTINF:-1 group-title="Плейлист - 11",Amedia 1
 http://193.25.8.59:8000/amedia1
-#EXTINF:-1 group-title="Плейлист - 11",Amedia 1
-http://193.25.8.59:8000/amedia1
 #EXTINF:-1 group-title="Плейлист - 11",Amedia 2
 http://mfe01.cliptv.az/dash/Amedia_2_SD_PIgjf67deV.ism/playlist.mpd
 #EXTINF:-1 group-title="Плейлист - 11",Amedia 2
@@ -25253,8 +25247,6 @@ http://31.148.48.15:80/A2/index.m3u8
 http://158.101.222.193:88/georgia_play.php?id=amedia2
 #EXTINF:-1 group-title="Плейлист - 11",Amedia 2
 http://195.64.140.147:10060/60
-#EXTINF:-1 group-title="Плейлист - 11",Amedia 2
-http://193.25.8.59:8000/amedia2
 #EXTINF:-1 group-title="Плейлист - 11",Amedia 2
 http://193.25.8.59:8000/amedia2
 #EXTINF:-1 group-title="Плейлист - 11",Amedia 2
@@ -25277,8 +25269,6 @@ http://178.212.71.253:8000/play/74/index.m3u8
 http://31.148.48.15:80/Ani/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Ani
 http://95.66.188.74:80/Ani/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Ani
-http://95.66.188.74/Ani/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Ani
 http://62.89.220.15/streams/media/ani_720x576/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Ani
@@ -25314,13 +25304,9 @@ http://178.212.71.253:8000/play/110/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Bridge TV
 http://31.148.48.15:80/Bridge_TV/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Bridge TV
-http://95.66.188.74/BridgeTV/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Bridge TV
 http://5.188.221.43:8080/play/bridge-tv
 #EXTINF:-1 group-title="Плейлист - 11",Bridge TV
 http://95.66.188.74:80/BridgeTV/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Bridge TV
-http://95.66.188.74/BridgeTV/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Bridge TV
 http://45.145.32.13:20440/bridge_tv/index.m3u8?token=test
 #EXTINF:-1 group-title="Плейлист - 11",Bridge TV
@@ -25343,14 +25329,10 @@ http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8
 http://178.212.71.253:8000/play/101/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Bridge TV Русский Хит
 http://193.25.8.59:8000/rusong
-#EXTINF:-1 group-title="Плейлист - 11",Bridge TV Русский Хит
-http://193.25.8.59:8000/rusong
 #EXTINF:-1 group-title="Плейлист - 11",Bridge TV Фрэш
 http://178.212.71.253:8000/play/101/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Bridge TV Шлягер
 http://178.212.71.253:8000/play/142/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Bridge TV Шлягер
-http://193.25.8.59:8000/mtv
 #EXTINF:-1 group-title="Плейлист - 11",Bridge TV Шлягер
 http://193.25.8.59:8000/mtv
 #EXTINF:-1 group-title="Плейлист - 11",Bridge TV Этно
@@ -25385,6 +25367,8 @@ http://95.66.188.74/Cinema/mono.m3u8
 http://176.118.197.101/Cinema/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Da Vinci
 http://tv.ttk.mx:9188
+#EXTINF:-1 group-title="Плейлист - 11",Da Vinci
+http://158.101.222.193:88/georgia_play.php?id=davinci
 #EXTINF:-1 group-title="Плейлист - 11",Discovery HD
 http://mfe02.cliptv.az/dash/Discovery_Channel_HDqwer456y.ism/playlist.mpd
 #EXTINF:-1 group-title="Плейлист - 11",Docu Box
@@ -25401,16 +25385,10 @@ http://195.9.195.3:8080/hls/157239.m3u8
 http://185.164.82.18:9010/ykMHqK_Fox
 #EXTINF:-1 group-title="Плейлист - 11",FX Life HD
 http://188.237.47.212:6008
-#EXTINF:-1 group-title="Плейлист - 11",FX Life HD
-http://188.237.47.212:6008
-#EXTINF:-1 group-title="Плейлист - 11",FX Life HD
-http://188.237.47.212:6008
 #EXTINF:-1 group-title="Плейлист - 11",Fashion One HD
 http://31.148.48.15:80/Fashion_One_HD/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Fashion TV
 http://fashion.mediacdn.ru/cdn/fashiontv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Fast & Fun Box
-http://193.25.8.59:8000/Avto24
 #EXTINF:-1 group-title="Плейлист - 11",Fast & Fun Box
 http://193.25.8.59:8000/Avto24
 #EXTINF:-1 group-title="Плейлист - 11",Fight Box
@@ -25427,8 +25405,6 @@ http://serv25.vintera.tv:8081/gelendzhik/stream_1/playlist.m3u8
 http://195.26.83.96:7007/play/a00j/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Galaxy
 http://tv.ttk.mx:9071
-#EXTINF:-1 group-title="Плейлист - 11",Galaxy
-http://193.25.8.59:8000/galaxy
 #EXTINF:-1 group-title="Плейлист - 11",Galaxy
 http://193.25.8.59:8000/galaxy
 #EXTINF:-1 group-title="Плейлист - 11",Galaxy
@@ -25549,8 +25525,6 @@ http://31.148.48.15:80/RTG_HD/index.m3u8
 http://95.66.188.74/RTGHD/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",RTG HD
 http://193.25.8.59:8000/rtg
-#EXTINF:-1 group-title="Плейлист - 11",RTG HD
-http://95.66.188.74/RTGHD/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",RU TV
 https://hls-03-video.webcaramba.com/rutv/live_480/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",RU TV
@@ -25570,7 +25544,7 @@ https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Red
 http://193.25.8.59:8000/set
 #EXTINF:-1 group-title="Плейлист - 11",Red
-http://193.25.8.59:8000/set
+http://158.101.222.193:88/georgia_play.php?id=red
 #EXTINF:-1 group-title="Плейлист - 11",SD REX
 http://195.26.83.96:7029/play/a008
 #EXTINF:-1 group-title="Плейлист - 11",SD REX
@@ -25621,14 +25595,10 @@ http://141.101.205.134:8080/hls/tvaist.m3u8
 https://s68149.cdn.ngenix.net/s68149-media-origin/lvs/tvgub/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",TV1 (KG)
 http://212.2.225.30:1935/live/site.stream/playlist.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",TV1000
-http://176.118.197.125/viju-TV1000/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Terra
 https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Terra
 http://31.148.48.15/Terra/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Terra
-http://193.25.8.59:8000/natgeo
 #EXTINF:-1 group-title="Плейлист - 11",Terra
 http://193.25.8.59:8000/natgeo
 #EXTINF:-1 group-title="Плейлист - 11",Terra HD
@@ -25643,8 +25613,6 @@ http://62.89.220.15/streams/media/tiji_720x576/index.m3u8
 http://193.27.209.122/tiji/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Timeless Dizi Channel
 http://194.158.222.36:6086
-#EXTINF:-1 group-title="Плейлист - 11",Timeless Dizi Channel
-http://193.25.8.59:8000/tlc
 #EXTINF:-1 group-title="Плейлист - 11",Timeless Dizi Channel
 http://193.25.8.59:8000/tlc
 #EXTINF:-1 group-title="Плейлист - 11",Trash
@@ -25675,6 +25643,8 @@ http://tv.ttk.mx:9184
 http://45.145.32.13:20440/viasat_explore/index.m3u8?token=test
 #EXTINF:-1 group-title="Плейлист - 11",Viju Explore
 http://176.118.197.125/viju-Explore/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 11",Viju Explore
+http://158.101.222.193:88/georgia_play.php?id=viasatexp
 #EXTINF:-1 group-title="Плейлист - 11",Viju History
 http://mfe02.cliptv.az/dash/Viasat_History_SD78905ty.ism/playlist.mpd
 #EXTINF:-1 group-title="Плейлист - 11",Viju History
@@ -25694,11 +25664,11 @@ http://195.26.83.96:7013/play/37/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Viju Nature
 http://193.25.8.59:8000/nature
 #EXTINF:-1 group-title="Плейлист - 11",Viju Nature
-http://193.25.8.59:8000/nature
-#EXTINF:-1 group-title="Плейлист - 11",Viju Nature
 http://45.145.32.13:20440/viasat_nature/index.m3u8?token=test
 #EXTINF:-1 group-title="Плейлист - 11",Viju Nature
 http://176.118.197.125/viju-Nature/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 11",Viju Nature
+http://158.101.222.193:88/georgia_play.php?id=viasatnat
 #EXTINF:-1 group-title="Плейлист - 11",Viju TV1000
 http://mfe02.cliptv.az/dash/TV1000_SDdhopq23e.ism/playlist.mpd
 #EXTINF:-1 group-title="Плейлист - 11",Viju TV1000
@@ -25708,9 +25678,9 @@ http://217.11.177.56/streams/media/tv1000_720x576/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Viju TV1000
 http://193.25.8.59:8000/TV1000
 #EXTINF:-1 group-title="Плейлист - 11",Viju TV1000
-http://193.25.8.59:8000/TV1000
-#EXTINF:-1 group-title="Плейлист - 11",Viju TV1000
 http://45.145.32.13:20440/tv1000/index.m3u8?token=test
+#EXTINF:-1 group-title="Плейлист - 11",Viju TV1000
+http://176.118.197.125/viju-TV1000/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Viju TV1000 Action
 http://tv.ttk.mx:9182
 #EXTINF:-1 group-title="Плейлист - 11",Viju TV1000 Action
@@ -25795,8 +25765,6 @@ rtmp://195.191.78.200/aris24/stream
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/arktika24-hd/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Арсенал HD
 http://95.66.188.74/Arsenal_HD/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Арсенал HD
-http://95.66.188.74/Arsenal_HD/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Архыз 24
 http://live.mediacdn.ru/sr1/arhis24/playlist_sdhigh.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Архыз 24 HD
@@ -25863,10 +25831,6 @@ http://86.57.209.210/Belarus24/index.m3u8
 http://178.124.179.122:8080/Belarus24/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Беларусь 24
 http://193.25.8.59:8000/belarus24
-#EXTINF:-1 group-title="Плейлист - 11",Беларусь 24
-http://193.25.8.59:8000/belarus24
-#EXTINF:-1 group-title="Плейлист - 11",Беларусь 24
-http://86.57.209.210/Belarus24/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Беларусь 24 HD
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Беларусь 3
@@ -25890,21 +25854,17 @@ http://178.212.71.253:8002/play/a00m/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Бобер
 http://178.212.71.253:8000/play/77/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Бобер
-http://95.66.188.74/Bober/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Бобер
 http://95.66.188.74:80/Bober/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Бобер
 http://193.25.8.59:8000/bober
-#EXTINF:-1 group-title="Плейлист - 11",Бобер
-http://193.25.8.59:8000/bober
-#EXTINF:-1 group-title="Плейлист - 11",Бобер
-http://95.66.188.74/Bober/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Бобер
 http://176.118.197.125/Bober/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Бокс ТВ
 http://31.148.48.15:80/Boks_TV/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Бокс ТВ
 http://185.46.16.239:8000/Eurosport_1
+#EXTINF:-1 group-title="Плейлист - 11",Бокс ТВ
+http://158.101.222.193:88/georgia_play.php?id=boxtv
 #EXTINF:-1 group-title="Плейлист - 11",Большая Азия
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v2a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Большая Азия HD
@@ -25951,8 +25911,6 @@ http://911play.ru:3456/live/VostokSite/cdnVostaoc911tv123456/489.m3u8
 http://31.148.48.15:80/Vremya/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Время
 https://cdn4.skygo.mn/live/disk1/Vremya/HLSv3-FTA/Vremya.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Время
-http://193.25.8.59:8000/vremya
 #EXTINF:-1 group-title="Плейлист - 11",Время
 http://193.25.8.59:8000/vremya
 #EXTINF:-1 group-title="Плейлист - 11",Время
@@ -26010,10 +25968,6 @@ http://213.230.65.254:8000/play/a00o
 #EXTINF:-1 group-title="Плейлист - 11",Дом Кино
 http://193.25.8.59:8000/domkino
 #EXTINF:-1 group-title="Плейлист - 11",Дом Кино
-http://193.25.8.59:8000/domkino
-#EXTINF:-1 group-title="Плейлист - 11",Дом Кино
-http://95.66.188.74/Dom_kino/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Дом Кино
 http://62.89.220.15/streams/media/dom-kino_720x576/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Дом Кино
 http://176.118.197.101/Dom_kino/index.m3u8
@@ -26051,6 +26005,8 @@ http://95.66.188.74/Domashnij/mono.m3u8
 http://45.145.32.13:20440/domashnij/index.m3u8?token=test
 #EXTINF:-1 group-title="Плейлист - 11",Домашний
 http://31.131.141.195:8000/play/a001/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 11",Домашний Int.
+http://158.101.222.193:88/georgia_play.php?id=domashni
 #EXTINF:-1 group-title="Плейлист - 11",Дон 24
 http://donmedia.bonus-tv.ru/cdn/donmedia/playlist_sdhigh.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Дон 24 HD
@@ -26062,15 +26018,9 @@ http://tv.ttk.mx:9039
 #EXTINF:-1 group-title="Плейлист - 11",Драйв
 http://178.212.71.253:8000/play/92/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Драйв
-http://95.66.188.74/Drive/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Драйв
 http://95.66.188.74:80/Drive/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Драйв
 http://193.25.8.59:8000/drive
-#EXTINF:-1 group-title="Плейлист - 11",Драйв
-http://193.25.8.59:8000/drive
-#EXTINF:-1 group-title="Плейлист - 11",Драйв
-http://95.66.188.74/Drive/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Драйв
 http://176.118.197.125/Draiv/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Дума ТВ
@@ -26092,11 +26042,11 @@ http://185.46.16.239:8000/Yevrokino
 #EXTINF:-1 group-title="Плейлист - 11",Еврокино
 http://193.25.8.59:8000/eurokino
 #EXTINF:-1 group-title="Плейлист - 11",Еврокино
-http://193.25.8.59:8000/eurokino
-#EXTINF:-1 group-title="Плейлист - 11",Еврокино
 http://45.145.32.13:20440/eurokino/index.m3u8?token=test
 #EXTINF:-1 group-title="Плейлист - 11",Еврокино
 http://176.118.197.101/Evrokino/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 11",Еврокино
+http://158.101.222.193:88/georgia_play.php?id=eurokino
 #EXTINF:-1 group-title="Плейлист - 11",Енисей
 http://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Енисей
@@ -26119,10 +26069,6 @@ http://213.230.65.254:8000/play/a01u
 http://185.46.16.239:8000/Zhivaya_Planeta
 #EXTINF:-1 group-title="Плейлист - 11",Живая Планета
 http://95.66.188.74/Zhivaya_Planeta/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Живая Планета
-http://95.66.188.74:80/Zhivaya_Planeta/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Живая Планета
-http://95.66.188.74/Zhivaya_Planeta/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Живая Природа
 http://178.212.71.253:8002/play/a00o/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Живая Природа
@@ -26170,8 +26116,6 @@ http://185.46.16.239:8000/Zvezda
 #EXTINF:-1 group-title="Плейлист - 11",Звезда
 http://95.47.156.60:8000/play/17/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Звезда
-http://95.66.188.74/Zvezda/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Звезда
 http://5.188.221.43:8080/play/zvezda
 #EXTINF:-1 group-title="Плейлист - 11",Звезда
 http://95.66.188.74:80/Zvezda/mono.m3u8
@@ -26179,8 +26123,6 @@ http://95.66.188.74:80/Zvezda/mono.m3u8
 http://93.170.254.17/Zvezda/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Звезда
 http://193.25.8.59:8000/zvezda
-#EXTINF:-1 group-title="Плейлист - 11",Звезда
-http://95.66.188.74/Zvezda/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Звезда
 http://45.145.32.13:20440/zvezda/index.m3u8?token=test
 #EXTINF:-1 group-title="Плейлист - 11",Звезда
@@ -26212,15 +26154,11 @@ http://95.66.188.74/ZdorovoeTV/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Здоровое ТВ
 http://193.25.8.59:8000/zdorovoetv
 #EXTINF:-1 group-title="Плейлист - 11",Здоровое ТВ
-http://95.66.188.74/ZdorovoeTV/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Здоровое ТВ
 http://176.118.197.125/Zdorovoe-TV/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Зоо ТВ
 http://31.148.48.15:80/Zoo_TV/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Зоо ТВ
 http://95.66.188.74:80/Zoo_TV/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Зоо ТВ
-http://193.25.8.59:8000/zoo
 #EXTINF:-1 group-title="Плейлист - 11",Зоопарк
 http://tv.ttk.mx:9029
 #EXTINF:-1 group-title="Плейлист - 11",Зоопарк
@@ -26269,10 +26207,6 @@ http://185.46.16.239:8000/Istoriya
 http://95.66.188.74:80/Istoria/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",История
 http://193.25.8.59:8000/History
-#EXTINF:-1 group-title="Плейлист - 11",История
-http://193.25.8.59:8000/History
-#EXTINF:-1 group-title="Плейлист - 11",История
-http://95.66.188.74/Istoria/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",История
 http://176.118.197.125/Istoria/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",К16 (Саров)
@@ -26344,11 +26278,7 @@ http://185.46.16.239:8000/Karusel
 #EXTINF:-1 group-title="Плейлист - 11",Карусель
 http://95.47.156.60:8000/play/8/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Карусель
-http://95.66.188.74/Karusel/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Карусель
 http://5.188.221.43:8080/play/karusel
-#EXTINF:-1 group-title="Плейлист - 11",Карусель
-http://95.66.188.74:80/Karusel/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Карусель
 http://89.232.68.194:8080/karusel/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Карусель
@@ -26383,8 +26313,6 @@ http://31.148.48.15/Kineko/index.m3u8
 http://194.143.148.28:8080/KINEKO/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Кинеко
 http://193.25.8.59:8000/fox
-#EXTINF:-1 group-title="Плейлист - 11",Кинеко
-http://193.25.8.59:8000/fox
 #EXTINF:-1 group-title="Плейлист - 11",Кинеко HD
 http://31.148.48.15/Kineko_HD/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Кино ТВ
@@ -26411,8 +26339,6 @@ http://31.148.48.15:80/Kinopokaz/index.m3u8
 http://95.66.188.74:80/Kinopokaz/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Кинопоказ
 http://89.232.68.194:8080/kinopokaz/tracks-v3a1/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Кинопоказ
-http://95.66.188.74/Kinopokaz/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Кинопоказ
 http://176.118.197.101/Kinopokaz/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Китай ТВ
@@ -26500,8 +26426,6 @@ http://95.66.188.74:80/Kuhnya/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Кухня
 http://mfe02.cliptv.az/dash/Kuxnya_TV_SDlao150.ism/playlist.mpd
 #EXTINF:-1 group-title="Плейлист - 11",Кухня
-http://95.66.188.74/Kuhnya/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Кухня
 http://62.89.220.15/streams/media/kuhnya-tv_720x576/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ЛДПР ТВ
 http://46.46.143.222:1935/live/mp4:ldpr.stream_480p/playlist.m3u8
@@ -26549,6 +26473,8 @@ http://31.131.141.195:8000/play/a003/index.m3u8
 http://62.89.220.15/streams/media/mir_720x576/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",МИР
 http://176.118.197.125/Mir/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 11",МИР
+http://158.101.222.193:88/georgia_play.php?id=mir
 #EXTINF:-1 group-title="Плейлист - 11",МИР HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",МИР HD
@@ -26612,10 +26538,6 @@ http://213.230.65.254:8000/play/a022
 #EXTINF:-1 group-title="Плейлист - 11",Мама
 http://95.66.188.74/Mama/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Мама
-http://95.66.188.74:80/Mama/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Мама
-http://95.66.188.74/Mama/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Мама
 http://62.89.220.15/streams/media/mama_720x576/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Мама
 http://176.118.197.125/Mama/index.m3u8
@@ -26644,8 +26566,6 @@ http://94.236.201.114/MIR_SERIALA_SD/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Мир сериала
 http://193.25.8.59:8000/mirseriala
 #EXTINF:-1 group-title="Плейлист - 11",Мир сериала
-http://193.25.8.59:8000/mirseriala
-#EXTINF:-1 group-title="Плейлист - 11",Мир сериала
 http://45.145.32.13:20440/ctc_kids_hd/index.m3u8?token=test
 #EXTINF:-1 group-title="Плейлист - 11",Мир сериала
 http://62.89.220.15/streams/media/mir-seriala_720x576/index.m3u8
@@ -26667,8 +26587,6 @@ http://tv.ttk.mx:9097
 http://178.212.71.253:8000/play/28/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Москва 24
 http://193.25.8.59:8000/moskva24
-#EXTINF:-1 group-title="Плейлист - 11",Москва 24
-http://193.25.8.59:8000/moskva24
 #EXTINF:-1 group-title="Плейлист - 11",Москва Доверие
 http://tv.ttk.mx:9091
 #EXTINF:-1 group-title="Плейлист - 11",Москва Доверие
@@ -26683,8 +26601,6 @@ http://5.8.11.96:8099/mosfilmhd/index.m3u8
 http://193.25.8.59:8000/tnv
 #EXTINF:-1 group-title="Плейлист - 11",Мосфильм
 http://95.66.188.74/MosfilmHD/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Мосфильм
-http://5.8.11.96:8099/mosfilmhd/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Моя Планета
 http://194.143.148.28:8080/Nauka20/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Моя Планета
@@ -26699,8 +26615,6 @@ http://213.230.65.254:8000/play/a023
 http://5.188.221.43:8080/play/moya_planeta
 #EXTINF:-1 group-title="Плейлист - 11",Моя Планета
 http://193.25.8.59:8000/myplanet
-#EXTINF:-1 group-title="Плейлист - 11",Моя Планета
-http://193.25.8.59:8000/myplanet
 #EXTINF:-1 group-title="Плейлист - 11",Моя Планета HD
 http://tv.ttk.mx:9087
 #EXTINF:-1 group-title="Плейлист - 11",Моя Планета HD
@@ -26712,7 +26626,7 @@ http://195.26.83.96:7007/play/11/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Мужской
 http://193.25.8.59:8000/muzhskoy
 #EXTINF:-1 group-title="Плейлист - 11",Мужской
-http://193.25.8.59:8000/muzhskoy
+http://158.101.222.193:88/georgia_play.php?id=muzhskoy
 #EXTINF:-1 group-title="Плейлист - 11",Муз Союз
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Муз ТВ
@@ -26802,15 +26716,9 @@ http://tv.ttk.mx:9057
 #EXTINF:-1 group-title="Плейлист - 11",НСТ
 http://178.212.71.253:8000/play/100/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",НСТ
-http://95.66.188.74/NST/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",НСТ
 http://95.66.188.74:80/NST/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",НСТ
 http://193.25.8.59:8000/nst
-#EXTINF:-1 group-title="Плейлист - 11",НСТ
-http://193.25.8.59:8000/nst
-#EXTINF:-1 group-title="Плейлист - 11",НСТ
-http://95.66.188.74/NST/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",НСТ
 http://176.118.197.101/HCT/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",НСТ
@@ -26828,10 +26736,6 @@ http://91.239.143.57:8080/NTV/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",НТВ
 http://95.47.156.60:8000/play/4/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",НТВ
-http://95.66.188.74/NTV/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",НТВ
-http://95.66.188.74/NTV/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",НТВ
 http://5.188.221.43:8080/play/ntv
 #EXTINF:-1 group-title="Плейлист - 11",НТВ
 http://95.66.188.74:80/NTV/mono.m3u8
@@ -26839,8 +26743,6 @@ http://95.66.188.74:80/NTV/mono.m3u8
 http://93.170.254.17/HTB/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",НТВ
 http://89.232.68.194:8080/ntv/tracks-v3a1/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",НТВ
-http://95.66.188.74/NTV/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",НТВ
 http://31.131.141.195:8000/play/1040/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",НТВ
@@ -26905,8 +26807,6 @@ http://213.230.65.254:8000/play/a024
 http://185.46.16.239:8000/Nauka_2.0
 #EXTINF:-1 group-title="Плейлист - 11",Наука
 http://193.25.8.59:8000/nauka
-#EXTINF:-1 group-title="Плейлист - 11",Наука
-http://193.25.8.59:8000/nauka
 #EXTINF:-1 group-title="Плейлист - 11",Наша Сибирь
 https://livetv.mylifeisgood.net.ru/channels/nashasibirhd.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Наша Тема
@@ -26946,25 +26846,17 @@ http://31.148.48.15:80/Nostalgiya/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Ностальгия
 http://95.66.188.74/Nostalgia/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Ностальгия
-http://95.66.188.74:80/Nostalgia/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Ностальгия
-http://95.66.188.74/Nostalgia/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Ностальгия
 http://62.89.220.15/streams/media/nostalgiya_720x576/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Ностальгия
 http://176.118.197.101/Nostalgiya/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",О!
 http://95.66.188.74:80/O/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",О!
-http://95.66.188.74/O/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",О!2 ТВ
 http://195.26.83.96:7006/play/1/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",О!2 ТВ
 http://tv.ttk.mx:9059
 #EXTINF:-1 group-title="Плейлист - 11",О!2 ТВ
 http://95.66.188.74/O2TV/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",О!2 ТВ
-http://95.66.188.74/O2TV/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",О!2 ТВ
 http://77.232.131.211/O2TV/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ОК ТВ
@@ -27000,8 +26892,6 @@ https://streaming.televizor-24-tochka.ru/live/12-req_offset_28000000-req_window_
 #EXTINF:-1 group-title="Плейлист - 11",ОТР
 http://185.46.16.239:8000/OTR
 #EXTINF:-1 group-title="Плейлист - 11",ОТР
-http://95.66.188.74/OTR/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",ОТР
 http://5.188.221.43:8080/play/otr
 #EXTINF:-1 group-title="Плейлист - 11",ОТР
 http://95.66.188.74:80/OTR/mono.m3u8
@@ -27009,8 +26899,6 @@ http://95.66.188.74:80/OTR/mono.m3u8
 http://93.170.254.17/OTR/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ОТР
 http://193.25.8.59:8000/otr
-#EXTINF:-1 group-title="Плейлист - 11",ОТР
-http://95.66.188.74/OTR/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ОТР
 http://31.131.141.195:8000/play/1090/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ОТР
@@ -27031,8 +26919,6 @@ http://live.overtime26.ru/app/potok/playlist.m3u8
 http://217.11.177.57/streams/media/teatr_720x576/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Океан ТВ
 http://86.57.209.210/Ocean/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Океан ТВ
-http://86.57.209.210/Ocean/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Оплот ТВ Горловка
 http://91.214.48.158:4022/udp/224.2.2.4:10000
 #EXTINF:-1 group-title="Плейлист - 11",Оплот ТВ Харцызск
@@ -27040,9 +26926,7 @@ http://31.131.141.195:8000/play/a006/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Оружие
 http://95.66.188.74/Oruzhie/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Оружие
-http://95.66.188.74:80/Oruzhie/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Оружие
-http://95.66.188.74/Oruzhie/mono.m3u8
+http://158.101.222.193:88/georgia_play.php?id=oruzhie
 #EXTINF:-1 group-title="Плейлист - 11",Осетия-Ирыстон
 http://catchup.videoline.ru/iriston/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Осетия-Ирыстон
@@ -27057,8 +26941,6 @@ http://tv.ttk.mx:9034
 http://178.212.71.253:8000/play/93/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Охота и Рыбалка
 http://95.66.188.74:80/Ohota_i_ribalka/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Охота и Рыбалка
-http://193.25.8.59:8000/ohota
 #EXTINF:-1 group-title="Плейлист - 11",Охота и Рыбалка
 http://193.25.8.59:8000/ohota
 #EXTINF:-1 group-title="Плейлист - 11",Охотник и Рыболов HD
@@ -27112,8 +26994,6 @@ http://93.170.254.17/perviy/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Первый канал
 http://89.232.68.194:8080/1kanal/tracks-v3a1/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Первый канал
-http://95.66.188.74/PerviyKanal/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Первый канал
 http://45.145.32.13:20440/pervyj_kanal/index.m3u8?token=test
 #EXTINF:-1 group-title="Плейлист - 11",Первый канал
 http://31.131.141.195:8000/play/1010/index.m3u8
@@ -27129,8 +27009,6 @@ http://178.212.71.253:8000/play/62/index.m3u8
 http://31.148.48.15:80/Pervii_kanal_HD/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Первый канал HD
 http://95.66.188.74:80/PerviyHD/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Первый канал HD
-http://95.66.188.74/PerviyHD/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Первый канал HD Спорт
 https://cdn8.1internet.tv/dash-live3/streams/sport-1/sport-1.mpd
 #EXTINF:-1 group-title="Плейлист - 11",Первый канал Евразия
@@ -27139,6 +27017,8 @@ http://sc.id-tv.kz/1KanalEvraziya.m3u8
 https://streaming.thestream.cyou/live/210-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Перец
 https://cdn4.skygo.mn/live/disk1/Che/HLSv3-FTA/Che.m3u8
+#EXTINF:-1 group-title="Плейлист - 11",Перец
+http://158.101.222.193:88/georgia_play.php?id=perec
 #EXTINF:-1 group-title="Плейлист - 11",Пингвин ТВ
 http://sirius.greenhosting.ru/PingvinRu/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Пинск ТВ
@@ -27158,27 +27038,17 @@ http://178.212.71.253:8000/play/129/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Победа
 https://cdn4.skygo.mn/live/disk1/Pobeda/HLSv3-FTA/Pobeda.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Победа
-http://95.66.188.74/Pobeda/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Победа
 http://95.66.188.74:80/Pobeda/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Победа
 http://193.25.8.59:8000/tochka
-#EXTINF:-1 group-title="Плейлист - 11",Победа
-http://95.66.188.74/Pobeda/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Победа
 http://62.89.220.15/streams/media/pobeda_720x576/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Поехали!
 http://31.148.48.15:80/Poehali/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Поехали!
-http://95.66.188.74/Poehali/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Поехали!
 http://95.66.188.74:80/Poehali/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Поехали!
 http://193.25.8.59:8000/360
-#EXTINF:-1 group-title="Плейлист - 11",Поехали!
-http://193.25.8.59:8000/360
-#EXTINF:-1 group-title="Плейлист - 11",Поехали!
-http://95.66.188.74/Poehali/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Прим 24
 http://flussonic2.podryad.net/prim24/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Прима ТВ
@@ -27234,8 +27104,6 @@ https://streaming.televizor-24-tochka.ru/live/19-req_offset_28000000-req_window_
 #EXTINF:-1 group-title="Плейлист - 11",Пятница!
 http://95.47.156.60:8000/play/16/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Пятница!
-http://95.66.188.74/Pyatnica/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Пятница!
 http://5.188.221.43:8080/play/Pyatnica
 #EXTINF:-1 group-title="Плейлист - 11",Пятница!
 http://95.66.188.74:80/Pyatnica/mono.m3u8
@@ -27245,8 +27113,6 @@ http://93.170.254.17/Pyatnica/index.m3u8
 http://89.232.68.194:8080/pyatnitsa/tracks-v3a1/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Пятница!
 http://193.25.8.59:8000/pyatnitsa
-#EXTINF:-1 group-title="Плейлист - 11",Пятница!
-http://95.66.188.74/Pyatnica/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Пятница!
 http://45.145.32.13:20440/piatnica/index.m3u8?token=test
 #EXTINF:-1 group-title="Плейлист - 11",Пятница!
@@ -27259,6 +27125,8 @@ http://62.89.220.15/streams/media/pyatnica_720x576/index.m3u8
 https://livetv.mylifeisgood.net.ru/channels/friday.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Пятница! Int.
 https://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8
+#EXTINF:-1 group-title="Плейлист - 11",Пятница! Int.
+http://158.101.222.193:88/georgia_play.php?id=friday
 #EXTINF:-1 group-title="Плейлист - 11",Пятый канал
 https://livetv.mylifeisgood.net.ru/channels/5tv.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Пятый канал
@@ -27270,8 +27138,6 @@ https://streaming.televizor-24-tochka.ru/live/8-req_offset_28000000-req_window_0
 #EXTINF:-1 group-title="Плейлист - 11",Пятый канал
 http://95.47.156.60:8000/play/5/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Пятый канал
-http://95.66.188.74/5kanal/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Пятый канал
 http://5.188.221.43:8080/play/5_kanal
 #EXTINF:-1 group-title="Плейлист - 11",Пятый канал
 http://95.66.188.74:80/5kanal/mono.m3u8
@@ -27281,8 +27147,6 @@ http://93.170.254.17/5Channel/index.m3u8
 http://89.232.68.194:8080/5kanal/tracks-v3a1/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Пятый канал
 http://193.25.8.59:8000/5
-#EXTINF:-1 group-title="Плейлист - 11",Пятый канал
-http://95.66.188.74/5kanal/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Пятый канал
 http://31.131.141.195:8000/play/1050/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Пятый канал
@@ -27301,10 +27165,6 @@ http://95.66.188.74/RBK/index.m3u8
 http://5.188.221.43:8080/play/rbc_spb
 #EXTINF:-1 group-title="Плейлист - 11",РБК
 http://193.25.8.59:8000/RBK
-#EXTINF:-1 group-title="Плейлист - 11",РБК
-http://193.25.8.59:8000/RBK
-#EXTINF:-1 group-title="Плейлист - 11",РБК
-http://95.66.188.74/RBK/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",РБК
 http://176.118.197.101/RBK/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",РБК HD
@@ -27366,8 +27226,6 @@ http://185.46.16.239:8000/REN_TV
 #EXTINF:-1 group-title="Плейлист - 11",Рен ТВ
 http://95.47.156.60:8000/play/11/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Рен ТВ
-http://95.66.188.74/RenTV/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Рен ТВ
 http://5.188.221.43:8080/play/ren-tv
 #EXTINF:-1 group-title="Плейлист - 11",Рен ТВ
 http://95.66.188.74:80/RenTV/mono.m3u8
@@ -27377,8 +27235,6 @@ http://93.170.254.17/RenTV/index.m3u8
 http://89.232.68.194:8080/rentv/tracks-v3a1/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Рен ТВ
 http://193.25.8.59:8000/ren
-#EXTINF:-1 group-title="Плейлист - 11",Рен ТВ
-http://95.66.188.74/RenTV/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Рен ТВ
 http://45.145.32.13:20440/ren_tv/index.m3u8?token=test
 #EXTINF:-1 group-title="Плейлист - 11",Рен ТВ
@@ -27634,13 +27490,9 @@ http://95.66.188.74/Rossia24/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Россия 24
 http://5.188.221.43:8080/play/rossia_24
 #EXTINF:-1 group-title="Плейлист - 11",Россия 24
-http://95.66.188.74:80/Rossia24/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Россия 24
 http://193.25.8.59:8000/rossia24
 #EXTINF:-1 group-title="Плейлист - 11",Россия 24
 http://93.170.254.17/Rossiya24/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Россия 24
-http://95.66.188.74/Rossia24/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Россия 24
 http://31.131.141.195:8000/play/1070/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Россия 24
@@ -27869,6 +27721,8 @@ http://178.212.71.253:8000/play/49/index.m3u8
 http://31.148.48.15:80/Russkiy_illusion/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Русский Иллюзион
 http://45.145.32.13:20440/ocean_tv/index.m3u8?token=test
+#EXTINF:-1 group-title="Плейлист - 11",Русский Иллюзион
+http://158.101.222.193:88/georgia_play.php?id=rusilluzion
 #EXTINF:-1 group-title="Плейлист - 11",Русский Роман
 http://178.212.71.253:8000/play/42/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Русский Роман
@@ -27918,13 +27772,7 @@ http://185.46.16.239:8000/STS
 #EXTINF:-1 group-title="Плейлист - 11",СТС
 http://95.47.156.60:8000/play/13/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",СТС
-http://95.66.188.74/STS/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",СТС
 http://5.188.221.43:8080/play/sts
-#EXTINF:-1 group-title="Плейлист - 11",СТС
-http://95.66.188.74:80/STS/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",СТС
-http://95.66.188.74:80/CTC_HD/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",СТС
 http://93.170.254.17/STS/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",СТС
@@ -27945,6 +27793,8 @@ http://81.161.126.82:80/1230/index.m3u8
 http://95.66.188.74/CTC_HD/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",СТС International
 https://cdn4.skygo.mn/live/disk1/STS/HLSv3-FTA/STS.m3u8
+#EXTINF:-1 group-title="Плейлист - 11",СТС International
+http://158.101.222.193:88/georgia_play.php?id=ctctv
 #EXTINF:-1 group-title="Плейлист - 11",СТС Kids
 http://195.26.83.96:7006/play/a00z/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",СТС Kids
@@ -27967,10 +27817,6 @@ http://31.148.48.15:80/STS_Love/index.m3u8
 http://194.143.148.28:8080/CTC_LOVE/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",СТС Love
 http://95.66.188.74/CTC_Love/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",СТС Love
-http://95.66.188.74:80/CTC_Love/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",СТС Love
-http://95.66.188.74/CTC_Love/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Салям
 http://bsttv.bonus-tv.ru/cdn/salyam/tracks-v2a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Салям HD
@@ -28063,8 +27909,6 @@ http://185.46.16.239:8000/Disney_Channel
 http://95.66.188.74/Solnce/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Солнце
 http://5.188.221.43:8080/play/disney
-#EXTINF:-1 group-title="Плейлист - 11",Солнце
-http://95.66.188.74:80/Solnce/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Соловьев Live
 https://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1
 #EXTINF:-1 group-title="Плейлист - 11",Соловьев Live
@@ -28073,8 +27917,6 @@ http://178.212.71.253:8000/play/111/index.m3u8
 http://31.148.48.15:80/EuroNews/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Союз
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Союз
-http://176.118.197.125/Souz/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Спас
 http://tvspas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Старт
@@ -28133,12 +27975,12 @@ http://sitv.ru/hls/s86.m3u8
 http://tv.ttk.mx:9056
 #EXTINF:-1 group-title="Плейлист - 11",Т24
 http://178.212.71.253:8000/play/63/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 11",Т24
+http://158.101.222.193:88/georgia_play.php?id=24techno
 #EXTINF:-1 group-title="Плейлист - 11",ТВ 21
 http://tv.ttk.mx:9067
 #EXTINF:-1 group-title="Плейлист - 11",ТВ 21
 http://31.148.48.15:80/TV_XXI/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",ТВ 21
-http://193.25.8.59:8000/XXI
 #EXTINF:-1 group-title="Плейлист - 11",ТВ 21
 http://193.25.8.59:8000/XXI
 #EXTINF:-1 group-title="Плейлист - 11",ТВ Поиск (Клин)
@@ -28166,8 +28008,6 @@ http://185.46.16.239:8000/TV3
 #EXTINF:-1 group-title="Плейлист - 11",ТВ3
 http://95.47.156.60:8000/play/15/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ТВ3
-http://95.66.188.74/TV3/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",ТВ3
 http://5.188.221.43:8080/play/tv3
 #EXTINF:-1 group-title="Плейлист - 11",ТВ3
 http://95.66.188.74:80/TV3/mono.m3u8
@@ -28177,8 +28017,6 @@ http://93.170.254.17/TV3/index.m3u8
 http://89.232.68.194:8080/tv3/tracks-v3a1/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ТВ3
 http://193.25.8.59:8000/tv3
-#EXTINF:-1 group-title="Плейлист - 11",ТВ3
-http://95.66.188.74/TV3/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ТВ3
 http://31.131.141.195:8000/play/a002/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ТВ3
@@ -28201,8 +28039,6 @@ http://178.212.71.253:8000/play/10/index.m3u8
 https://streaming.televizor-24-tochka.ru/live/13-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ТВЦ
 http://95.47.156.60:8000/play/10/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",ТВЦ
-http://95.66.188.74/TVCenter/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ТВЦ
 http://5.188.221.43:8080/play/tv-centr
 #EXTINF:-1 group-title="Плейлист - 11",ТВЦ
@@ -28246,8 +28082,6 @@ http://185.46.16.239:8000/TNT
 #EXTINF:-1 group-title="Плейлист - 11",ТНТ
 http://95.47.156.60:8000/play/19/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ТНТ
-http://95.66.188.74/TNT/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",ТНТ
 http://5.188.221.43:8080/play/tnt
 #EXTINF:-1 group-title="Плейлист - 11",ТНТ
 http://95.66.188.74:80/TNT/mono.m3u8
@@ -28255,8 +28089,6 @@ http://95.66.188.74:80/TNT/mono.m3u8
 http://93.170.254.17/TNT/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ТНТ
 http://89.232.68.194:8080/tnt/tracks-v3a1/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",ТНТ
-http://95.66.188.74/TNT/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ТНТ
 http://31.131.141.195:8000/play/2090/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ТНТ
@@ -28269,8 +28101,6 @@ http://176.118.197.101/THT/index.m3u8
 http://tv.ttk.mx:9128
 #EXTINF:-1 group-title="Плейлист - 11",ТНТ HD
 http://95.66.188.74:80/TNT_HD/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",ТНТ HD
-http://95.66.188.74/TNT_HD/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ТНТ Music
 http://tntm.mediacdn.ru/cdn/tntmusic/playlist_sdhigh.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ТНТ Music HD
@@ -28332,8 +28162,6 @@ http://31.148.48.15:80/Sochi_HD/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Театр
 http://193.25.8.59:8000/teatr
 #EXTINF:-1 group-title="Плейлист - 11",Театр
-http://193.25.8.59:8000/teatr
-#EXTINF:-1 group-title="Плейлист - 11",Театр
 http://62.89.220.15/streams/media/teatr_720x576/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Театр
 http://176.118.197.101/Teatr/index.m3u8
@@ -28345,8 +28173,6 @@ http://31.148.48.15:80/Telekafe/index.m3u8
 https://cdn4.skygo.mn/live/disk1/Telecafe/HLSv3-FTA/Telecafe.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Телекафе
 http://213.230.65.254:8000/play/a011
-#EXTINF:-1 group-title="Плейлист - 11",Телекафе
-http://193.25.8.59:8000/telecafe
 #EXTINF:-1 group-title="Плейлист - 11",Телекафе
 http://193.25.8.59:8000/telecafe
 #EXTINF:-1 group-title="Плейлист - 11",Телекафе
@@ -28388,8 +28214,6 @@ http://31.148.48.15:80/HD_Life/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Точка РФ
 http://95.66.188.74:80/HD_Life/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Точка РФ
-http://95.66.188.74/HD_Life/mono.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Точка РФ
 http://45.145.32.13:20440/hdl/index.m3u8?token=test
 #EXTINF:-1 group-title="Плейлист - 11",Точка ТВ
 http://tv.ttk.mx:9073
@@ -28428,17 +28252,11 @@ http://tv.ttk.mx:9037
 #EXTINF:-1 group-title="Плейлист - 11",Усадьба
 http://178.212.71.253:8000/play/91/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Усадьба
-http://95.66.188.74/Usadba/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Усадьба
 http://95.66.188.74:80/Usadba/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Усадьба
 http://193.25.8.59:8000/usadba
 #EXTINF:-1 group-title="Плейлист - 11",Усадьба
 http://93.170.254.17/Usadba/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Усадьба
-http://193.25.8.59:8000/usadba
-#EXTINF:-1 group-title="Плейлист - 11",Усадьба
-http://95.66.188.74/Usadba/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Учалы ТВ
 http://s45177.cdn.ngenix.net/hls/CH_R02_UCHALYTV/variant.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Феникс плюс кино
@@ -28468,15 +28286,11 @@ http://tv.ttk.mx:9141
 #EXTINF:-1 group-title="Плейлист - 11",Че!
 http://178.212.71.253:8000/play/139/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Че!
-http://95.66.188.74/Che/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 11",Че!
 http://5.188.221.43:8080/play/che
 #EXTINF:-1 group-title="Плейлист - 11",Че!
 http://95.66.188.74:80/Che/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Че!
 http://193.25.8.59:8000/perec
-#EXTINF:-1 group-title="Плейлист - 11",Че!
-http://95.66.188.74/Che/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Че!
 http://176.118.197.101/Che/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Шансон ТВ
@@ -28493,8 +28307,6 @@ http://185.46.16.239:8000/Shanson
 http://95.66.188.74:80/Shanson_TV/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Шансон ТВ
 http://193.25.8.59:8000/shanson
-#EXTINF:-1 group-title="Плейлист - 11",Шансон ТВ
-http://95.66.188.74/Shanson_TV/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Шансон ТВ
 http://62.89.220.15/streams/media/shanson-tv_720x576/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",Шансон ТВ
@@ -28537,8 +28349,6 @@ http://95.66.188.74/U/index.m3u8
 http://5.188.221.43:8080/play/utv
 #EXTINF:-1 group-title="Плейлист - 11",Ю
 http://193.25.8.59:8000/u
-#EXTINF:-1 group-title="Плейлист - 11",Ю
-http://95.66.188.74/U/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ЮТВ Чебоксары
 http://utv.iptv2022.com/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 11",ЮУрГУ ТВ (Челябинск)
