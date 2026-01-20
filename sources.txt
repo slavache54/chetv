@@ -10,13 +10,11 @@ http://d6ac4167aea2.faststreem.org/playlists/uplist/acad15b2757cbbdaaa89e24f5941
 https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u8
 https://slynet-iptv2025.do.am/FreeBestTV.m3u8 
 https://slynet-iptv2025.do.am/AdultsTopPlay.m3u8
-https://bit.ly/sportflix_tivi
-https://u.to/wgsYIg
-http://rafail1982.uz/playlists/RAFAIL.m3u
 https://satexpresstv.ru/apk/setv.m3u
 http://pl.ru-tv.site/63742870/28262980/tv.m3u
 http://pl.ru-tv.site/63742870/28262980/vod.m3u
 http://pl.ru-tv.site/63742870/28262980/vodall.m3u
+
 
 
 
