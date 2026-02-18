@@ -11,9 +11,10 @@ https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u
 https://slynet-iptv2025.do.am/FreeBestTV.m3u8 
 https://slynet-iptv2025.do.am/AdultsTopPlay.m3u8
 https://satexpresstv.ru/apk/setv.m3u
-http://pl.ru-tv.site/63742870/28262980/tv.m3u
-http://pl.ru-tv.site/63742870/28262980/vod.m3u
-http://pl.ru-tv.site/63742870/28262980/vodall.m3u
+http://pl.ru-tv.site/6f8b6097/934ea6a9/tv.m3u
+http://pl.ru-tv.site/6f8b6097/934ea6a9/vod.m3u
+http://pl.ru-tv.site/6f8b6097/934ea6a9/vodall.m3u
+
 
 
 
