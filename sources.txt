@@ -17,6 +17,10 @@ http://pl.ru-tv.site/6f8b6097/934ea6a9/vodall.m3u
 http://rafail1982.uz/playlists/VERONA.m3u
 https://m3url.ru/FreeBestTV.m3u
 https://raw.githubusercontent.com/RomanTheQuant/IPtv/refs/heads/main/IPTV_SHARED.m3u?clckid=64faad3b
+https://raw.githubusercontent.com/premiumtvam/sp.server.ru/refs/heads/main/README.md
+https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/ZARUB
+http://rafail1982.uz/playlists/FREETV.m3u
+https://dl.dropboxusercontent.com/s/1mi2q8a1mvc1p5bdaemj3/m3u?rlkey=oxyi087r7byqch84mtekptoy6
 
 
 
