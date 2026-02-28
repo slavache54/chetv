@@ -20,8 +20,7 @@ https://raw.githubusercontent.com/RomanTheQuant/IPtv/refs/heads/main/IPTV_SHARED
 https://raw.githubusercontent.com/premiumtvam/sp.server.ru/refs/heads/main/README.md
 http://rafail1982.uz/playlists/FREETV.m3u
 https://raw.githubusercontent.com/Rafail1082GitHUB/rafail1982.ru/refs/heads/main/VENEGRET.m3u
-http://b30efcccd4de.iedem.com/playlists/uplist/3e6d2e82422e191340b44f9eba6339a5/playlist.m3u8
-http://d56c573508af.mylistbest.com/playlists/uplist/8c849acd5c7ebbe86eeaa6d6c9139722/playlist.m3u8 
+
 
 
 
