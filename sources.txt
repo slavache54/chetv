@@ -19,10 +19,7 @@ https://m3url.ru/FreeBestTV.m3u
 https://raw.githubusercontent.com/RomanTheQuant/IPtv/refs/heads/main/IPTV_SHARED.m3u?clckid=64faad3b
 https://raw.githubusercontent.com/premiumtvam/sp.server.ru/refs/heads/main/README.md
 http://rafail1982.uz/playlists/FREETV.m3u
-https://iptv-org.github.io/iptv/index.m3u
-https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVru.m3u
-https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV
-https://raw.githubusercontent.com/MaximKiselev/iptv/refs/heads/main/playlist.m3u
+
 
 
 
