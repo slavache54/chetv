@@ -50971,7 +50971,7 @@ http://bcovlive-a.akamaihd.net/ed81ac1118414d4fa893d3a83ccec9be/eu-central-1/620
 http://185.105.4.151:8080/_defapp_/ittihad/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Al Mamlaka TV
 http://bcovlive-a.akamaihd.net/4109c7ba30fd4a44ad9afe917c67a8c8/eu-central-1/6415809151001/playlist.m3u8
-#EXTINF:-1 group-title="Плейлист - 23",plsf 24.02.26 03:48 User: No-Auth IP: 64.236.141.214 channels 443
+#EXTINF:-1 group-title="Плейлист - 23",plsf 24.02.26 03:48 User: No-Auth IP: 130.131.200.35 channels 443
 http://ex.iptvin.ru/iptvin.ru.mp4
 #EXTINF:-1 group-title="Плейлист - 23",Первый канал
 https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
