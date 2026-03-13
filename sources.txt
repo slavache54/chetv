@@ -23,9 +23,11 @@ https://raw.githubusercontent.com/Rafail1082GitHUB/rafail1982.ru/refs/heads/main
 http://iptvin.ru/p/?rebuild
 https://raw.githubusercontent.com/UFOTVM/TV/refs/heads/main/ufo.m3u
 https://raw.githubusercontent.com/Karnei4/Karnei4.github.io/refs/heads/master/s/Mediacentr/Zabava-FREE-Karnei4.m3u
-https://files.catbox.moe/1vp7qv.m3u
 https://files.catbox.moe/rvf60s.m3u
 https://files.catbox.moe/cx5y2j.m3u
+https://raw.githubusercontent.com/Spirt007/Tvru/refs/heads/Master/Rus.m3u
+http://iptvin.ru/p/?rebuild
+
 
 
 
