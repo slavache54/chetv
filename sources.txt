@@ -21,6 +21,12 @@ https://raw.githubusercontent.com/premiumtvam/sp.server.ru/refs/heads/main/READM
 http://rafail1982.uz/playlists/FREETV.m3u
 https://raw.githubusercontent.com/Rafail1082GitHUB/rafail1982.ru/refs/heads/main/VENEGRET.m3u
 http://iptvin.ru/p/?rebuild
+https://raw.githubusercontent.com/UFOTVM/TV/refs/heads/main/ufo.m3u
+https://raw.githubusercontent.com/Karnei4/Karnei4.github.io/refs/heads/master/s/Mediacentr/Zabava-FREE-Karnei4.m3u
+https://files.catbox.moe/1vp7qv.m3u
+https://files.catbox.moe/rvf60s.m3u
+https://files.catbox.moe/cx5y2j.m3u
+
 
 
 
