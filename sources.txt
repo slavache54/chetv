@@ -27,6 +27,10 @@ https://files.catbox.moe/rvf60s.m3u
 https://files.catbox.moe/cx5y2j.m3u
 https://raw.githubusercontent.com/Spirt007/Tvru/refs/heads/Master/Rus.m3u
 http://iptvin.ru/p/?rebuild
+http://98033d39ffa1.faststreem.org/playlists/uplist/6fc869e0cb46a962f1c5e08967d31008/playlist.m3u8
+http://linha.meuvip.net:80/get.php?username=My@AntonioAlves1&password=OYkDVxKsxP&type=m3u_plus&output=mpegts
+
+
 
 
 
