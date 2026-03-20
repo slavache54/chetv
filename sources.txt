@@ -28,6 +28,9 @@ https://files.catbox.moe/cx5y2j.m3u
 https://raw.githubusercontent.com/Spirt007/Tvru/refs/heads/Master/Rus.m3u
 http://98033d39ffa1.faststreem.org/playlists/uplist/6fc869e0cb46a962f1c5e08967d31008/playlist.m3u8
 http://linha.meuvip.net:80/get.php?username=My@AntonioAlves1&password=OYkDVxKsxP&type=m3u_plus&output=mpegts
+http://fa4baf156f2e.yourlistbest.net/playlists/uplist/7e32086d9ecc2597ebfecd bf4ff13043/playlist.m3u8
+http://5eb591bc1d8c.mylistbest.com/playlists/uplist/702ebd2e6df6c5917b9dd61a3b58179e/playlist.m3u8
+http://8fe44045a883.mylistbest.com/playlists/uplist/e5f30003886cfedf2e1a5815c88446d/playlist.m3u8
 
 
 
