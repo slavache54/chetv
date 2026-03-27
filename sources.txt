@@ -6,7 +6,7 @@ https://loganettv.vercel.app/strawberry.m3u
 https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV
 http://pl.fox-tv.fun/6ba0941e/89bac430/tv.m3u
 http://pl.fox-tv.fun/6ba0941e/89bac430/vod.m3u
-http://d6ac4167aea2.faststreem.org/playlists/uplist/acad15b2757cbbdaaa89e24f5941c770/playlist.m3u8
+http://21bda43d0d12.yourlistbest.net/playlists/uplist/2f0848d9f1e728874b6e1cefc857b501/playlist.m3u8
 https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u8
 https://slynet-iptv2025.do.am/FreeBestTV.m3u8 
 https://slynet-iptv2025.do.am/AdultsTopPlay.m3u8
@@ -17,12 +17,12 @@ http://pl.ru-tv.site/57d3a344/818cca52/vodall.m3u
 http://rafail1982.uz/playlists/VERONA.m3u
 https://m3url.ru/FreeBestTV.m3u
 https://raw.githubusercontent.com/RomanTheQuant/IPtv/refs/heads/main/IPTV_SHARED.m3u?clckid=64faad3b
-https://raw.githubusercontent.com/premiumtvam/sp.server.ru/refs/heads/main/README.md
-http://rafail1982.uz/playlists/FREETV.m3u
-https://raw.githubusercontent.com/Rafail1082GitHUB/rafail1982.ru/refs/heads/main/VENEGRET.m3u
+http://ad2ef64bb3f8.mylistbest.net/playlists/uplist/81ff6432651081ac88851c63fc8e1cf6/playlist.m3u8
+http://9b9591bf3d67.mylistbest.net/playlists/uplist/718b2f577f38b0a4b0c747c14fee2ec1/playlist.m3u8
+http://6aad26ee8eab.mylistbest.net/playlists/uplist/f5b6799fb86d15dfe2772600d9f8e5e9/playlist.m3
 http://iptvin.ru/p/?rebuild
 https://raw.githubusercontent.com/UFOTVM/TV/refs/heads/main/ufo.m3u
-https://raw.githubusercontent.com/Karnei4/Karnei4.github.io/refs/heads/master/s/Mediacentr/Zabava-FREE-Karnei4.m3u
+http://4766bc996c17.mylistbest.net/playlists/uplist/63129b61c3fca380fb648972b60a818e/playlist.m3u8
 https://files.catbox.moe/rvf60s.m3u
 https://files.catbox.moe/cx5y2j.m3u
 https://raw.githubusercontent.com/Spirt007/Tvru/refs/heads/Master/Rus.m3u
@@ -31,6 +31,7 @@ http://linha.meuvip.net:80/get.php?username=My@AntonioAlves1&password=OYkDVxKsxP
 http://fa4baf156f2e.yourlistbest.net/playlists/uplist/7e32086d9ecc2597ebfecd bf4ff13043/playlist.m3u8
 http://5eb591bc1d8c.mylistbest.com/playlists/uplist/702ebd2e6df6c5917b9dd61a3b58179e/playlist.m3u8
 http://8fe44045a883.mylistbest.com/playlists/uplist/e5f30003886cfedf2e1a5815c88446d/playlist.m3u8
+http://a3caff1e5f55.mylistbest.net/playlists/uplist/607b308c53b609758a6fc6544cb145a1/playlist.m3u8
 
 
 
