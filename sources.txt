@@ -11,9 +11,6 @@ https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u
 https://slynet-iptv2025.do.am/FreeBestTV.m3u8 
 https://slynet-iptv2025.do.am/AdultsTopPlay.m3u8
 https://satexpresstv.ru/apk/setv.m3u
-http://pl.ru-tv.site/6a325ac8/b7fb92d9/tv.m3u
-http://pl.ru-tv.site/6a325ac8/b7fb92d9/vod.m3u
-http://pl.ru-tv.site/6a325ac8/b7fb92d9/vodall.m3u
 http://rafail1982.uz/playlists/VERONA.m3u
 https://m3url.ru/FreeBestTV.m3u
 https://raw.githubusercontent.com/RomanTheQuant/IPtv/refs/heads/main/IPTV_SHARED.m3u?clckid=64faad3b
@@ -37,8 +34,9 @@ http://4f4b5f713844.yourlistbest.net/playlists/uplist/097d7de14ed995d6eb2d52cc81
 http://7f6cbde5ccae.akciatv.org/playlists/uplist/f70405680e7b6f6ac0117477c7e5b792/playlist.m3u8
 http://1ac2f728f331.akciatv.org/playlists/uplist/90cece6d264448e86b5d6162676bdddf/playlist.m3u8
 https://www.iptv-online.me/play/D40D7EE41BF42F4/m3u8
-https://af-play.com/playlist/g27t54jj.m3u8
-https://af-play.com/playlist/g27t54jj.m3u8
+http://pl.ru-tv.site/882dcb13/f3779d29/tv.m3u
+http://pl.ru-tv.site/882dcb13/f3779d29/vodall.m3u
+http://pl.ru-tv.site/882dcb13/f3779d29/vod.m3u
 
 
 
