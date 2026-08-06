@@ -183,8 +183,6 @@ http://bethoven.af-stream.com:8080/s/13hv3dtr/polsat-news-pl-hd/video.m3u8
 http://bethoven.af-stream.com:8080/s/13hv3dtr/24ch-ua/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 1",24 Канал HD
 http://bethoven.af-stream.com:8080/s/13hv3dtr/24ch-ua-hd/video.m3u8
-#EXTINF:-1 group-title="Плейлист - 1",OBOZ TV
-http://bethoven.af-stream.com:8080/s/13hv3dtr/oboz-ua/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 1",OBOZ TV HD
 http://bethoven.af-stream.com:8080/s/13hv3dtr/oboz-ua-hd/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 1",НТН
@@ -8407,12 +8405,12 @@ http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/32082/index.m3u8
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/32083/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",RT Док HD orig
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/32085/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",РБК HD 50
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/10029/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Экоспаскоми (Коми)
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/17018/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Крик ТВ HD
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/15012/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",РБК HD 50
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/10029/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",РБК HD
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/16075/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Инфоканал
@@ -12003,12 +12001,12 @@ http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/31927/index.m3u8
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/32277/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",МУЗ-ТВ +6
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/32278/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",Женский Журнал HD
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/20010/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Shopping Live
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/860/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Мой Мир
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/5008/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",Женский Журнал HD
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/20010/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Nano orig
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9321/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",VF Граиндхаус
@@ -12715,6 +12713,20 @@ http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/19057/index.m3u8
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/19060/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",ESPN 2 HD BR
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/19061/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",Sky Sports Main Event HD 50 UK
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9308/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",Sky History HD UK
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/16037/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",Sky Sports Football HD 50 UK
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9289/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",Sky Sports Cricket HD 50 UK
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9258/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",Sky Sports Premier League HD 50 UK
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9334/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",TNT Sports 1 FHD UK
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/2505/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",Sky Sports Action HD 50 UK
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9155/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Sky Sports Mix HD 50 UK
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9310/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Premier Sports 1 HD 50 UK
@@ -12729,20 +12741,6 @@ http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9335/index.m3u8
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9248/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Sky Sports News HD 50 UK
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9314/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",Sky Sports Main Event HD 50 UK
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9308/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",Sky History HD UK
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/16037/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",Sky Sports Football HD 50 UK
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9289/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",Sky Sports Cricket HD 50 UK
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9258/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",Sky Sports Premier League HD 50 UK
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9334/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",Sky Sports Action HD 50 UK
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/9155/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",TNT Sports 1 FHD UK
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/2505/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",TNT Sports 2 HD UK
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/2506/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Premier Sports 1 HD UK
@@ -13357,6 +13355,10 @@ http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/7358/index.m3u8
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/32021/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",ON Sport 1 HD EG
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/2512/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",HOT Cinema Family HD IL
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/2151/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",Turkish Dramas 3 HD IL
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/14220/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Turkish Dramas Plus HD IL
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/14207/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Keshet 12 HD IL
@@ -13365,10 +13367,6 @@ http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/2329/index.m3u8
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/16019/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Turkish Dramas 2 HD IL
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/14208/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",HOT Cinema Family HD IL
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/2151/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",Turkish Dramas 3 HD IL
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/14220/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Reshet 13 HD IL
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/2330/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Channel 9 FHD IL
@@ -14005,16 +14003,6 @@ http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/19107/index.m3u8
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/19108/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Super Tennis HD IT
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/19111/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",Ulytau KZ
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/14231/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",Ассамблея ТВ KZ
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/15004/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",Айгак KZ
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/15002/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",Otyrar KZ
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/14237/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",Jambyl KZ
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/14232/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Qadam TV KZ
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/15005/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Aqsham TV KZ
@@ -14025,6 +14013,16 @@ http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/15001/index.m3u8
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/14233/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Qazaqstan KZ
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/2210/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",Ulytau KZ
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/14231/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",Ассамблея ТВ KZ
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/15004/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",Айгак KZ
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/15002/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",Otyrar KZ
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/14237/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",Jambyl KZ
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/14232/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",КТК HD KZ
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/2211/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Первый канал Евразия KZ
@@ -14197,10 +14195,10 @@ http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/6509/index.m3u8
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/6512/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",CBC Toronto HD CA
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/6513/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",ICI Radio-Canada Télé CA
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/6515/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",FX
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/6516/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",ICI Radio-Canada Télé CA
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/6515/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",TSN 5 HD CA
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/6517/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",History CA
@@ -14537,10 +14535,10 @@ http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/15202/index.m3u8
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/15203/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",TVM Channel
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/32293/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 9",Eurosport 1 HD PL
-http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/20058/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Eurosport 2 HD PL
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/20066/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 9",Eurosport 1 HD PL
+http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/20058/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Polsat Rodzina HD PL
 http://1f93dd99.cbilant.com/iptv/FM2YENVSTBPDB8TVMWRDHWGP/7301/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 9",Canal+ Kuchnia PL
@@ -32591,12 +32589,12 @@ http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/32082/index.m3u8
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/32083/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",RT Док HD orig
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/32085/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",РБК HD 50
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/10029/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Экоспаскоми (Коми)
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/17018/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Крик ТВ HD
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/15012/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",РБК HD 50
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/10029/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",РБК HD
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/16075/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Инфоканал
@@ -36187,12 +36185,12 @@ http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/31927/index.m3u8
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/32277/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",МУЗ-ТВ +6
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/32278/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Мой Мир
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/5008/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Женский Журнал HD
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/20010/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Shopping Live
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/860/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Мой Мир
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/5008/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Nano orig
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9321/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",VF Граиндхаус
@@ -36899,20 +36897,6 @@ http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/19057/index.m3u8
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/19060/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",ESPN 2 HD BR
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/19061/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Premier Sports 1 HD 50 UK
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/2160/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Sky Sports Golf HD 50 UK
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9293/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Sky Sports F1 HD 50 UK
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9283/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Sky Sports Racing HD 50 UK
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9335/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Sky Sports+ HD UK
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9248/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Sky Sports News HD 50 UK
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9314/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Sky Sports Main Event HD 50 UK
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9308/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Sky History HD UK
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/16037/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Sky Sports Football HD 50 UK
@@ -36927,6 +36911,20 @@ http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9155/index.m3u8
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/2505/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Sky Sports Mix HD 50 UK
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9310/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Premier Sports 1 HD 50 UK
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/2160/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Sky Sports Golf HD 50 UK
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9293/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Sky Sports F1 HD 50 UK
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9283/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Sky Sports Racing HD 50 UK
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9335/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Sky Sports+ HD UK
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9248/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Sky Sports News HD 50 UK
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9314/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Sky Sports Main Event HD 50 UK
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/9308/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",TNT Sports 2 HD UK
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/2506/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Premier Sports 1 HD UK
@@ -37541,18 +37539,18 @@ http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/7358/index.m3u8
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/32021/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",ON Sport 1 HD EG
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/2512/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Keshet 12 HD IL
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/2329/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",5Sport 4K IL
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/16019/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Turkish Dramas 2 HD IL
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/14208/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",HOT Cinema Family HD IL
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/2151/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Turkish Dramas 3 HD IL
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/14220/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Turkish Dramas Plus HD IL
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/14207/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Keshet 12 HD IL
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/2329/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",5Sport 4K IL
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/16019/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Turkish Dramas 2 HD IL
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/14208/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Reshet 13 HD IL
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/2330/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Channel 9 FHD IL
@@ -38189,6 +38187,14 @@ http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/19107/index.m3u8
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/19108/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Super Tennis HD IT
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/19111/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Ontustik KZ
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/15001/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Qyzylorda KZ
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/14233/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Qazaqstan KZ
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/2210/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Ulytau KZ
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/14231/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Ассамблея ТВ KZ
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/15004/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Айгак KZ
@@ -38201,14 +38207,6 @@ http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/14232/index.m3u8
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/15005/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Aqsham TV KZ
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/14223/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Ontustik KZ
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/15001/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Qyzylorda KZ
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/14233/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Qazaqstan KZ
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/2210/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Ulytau KZ
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/14231/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",КТК HD KZ
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/2211/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Первый канал Евразия KZ
@@ -38381,10 +38379,10 @@ http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/6509/index.m3u8
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/6512/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",CBC Toronto HD CA
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/6513/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",ICI Radio-Canada Télé CA
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/6515/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",FX
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/6516/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",ICI Radio-Canada Télé CA
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/6515/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",TSN 5 HD CA
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/6517/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",History CA
@@ -38721,10 +38719,10 @@ http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/15202/index.m3u8
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/15203/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",TVM Channel
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/32293/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 17",Eurosport 1 HD PL
-http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/20058/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Eurosport 2 HD PL
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/20066/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 17",Eurosport 1 HD PL
+http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/20058/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Polsat Rodzina HD PL
 http://49fef925.rossteleccom.net/iptv/387KCZUVDRQAXR/7301/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 17",Canal+ Kuchnia PL
@@ -44617,12 +44615,12 @@ http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/31927/index.m3u8
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/32277/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",МУЗ-ТВ +6
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/32278/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",Мой Мир
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/5008/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Женский Журнал HD
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/20010/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Shopping Live
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/860/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",Мой Мир
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/5008/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Nano orig
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/9321/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",VF Граиндхаус
@@ -45329,6 +45327,18 @@ http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/19057/index.m3u8
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/19060/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",ESPN 2 HD BR
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/19061/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",Sky Sports Football HD 50 UK
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/9289/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",Sky Sports Cricket HD 50 UK
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/9258/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",Sky Sports Premier League HD 50 UK
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/9334/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",TNT Sports 1 FHD UK
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2505/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",Sky Sports Action HD 50 UK
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/9155/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",Sky Sports Mix HD 50 UK
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/9310/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Premier Sports 1 HD 50 UK
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2160/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Sky Sports Golf HD 50 UK
@@ -45345,18 +45355,6 @@ http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/9314/index.m3u8
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/9308/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Sky History HD UK
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/16037/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",Sky Sports Football HD 50 UK
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/9289/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",Sky Sports Cricket HD 50 UK
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/9258/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",Sky Sports Premier League HD 50 UK
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/9334/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",Sky Sports Action HD 50 UK
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/9155/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",TNT Sports 1 FHD UK
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2505/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",Sky Sports Mix HD 50 UK
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/9310/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",TNT Sports 2 HD UK
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2506/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Premier Sports 1 HD UK
@@ -45971,18 +45969,18 @@ http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/7358/index.m3u8
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/32021/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",ON Sport 1 HD EG
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2512/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",Keshet 12 HD IL
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2329/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",5Sport 4K IL
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/16019/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",Turkish Dramas 2 HD IL
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/14208/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",HOT Cinema Family HD IL
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2151/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Turkish Dramas 3 HD IL
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/14220/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Turkish Dramas Plus HD IL
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/14207/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",Keshet 12 HD IL
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2329/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",5Sport 4K IL
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/16019/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",Turkish Dramas 2 HD IL
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/14208/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Reshet 13 HD IL
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2330/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Channel 9 FHD IL
@@ -46619,6 +46617,14 @@ http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/19107/index.m3u8
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/19108/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Super Tennis HD IT
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/19111/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",Ontustik KZ
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/15001/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",Qyzylorda KZ
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/14233/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",Qazaqstan KZ
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2210/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",Ulytau KZ
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/14231/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Ассамблея ТВ KZ
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/15004/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Айгак KZ
@@ -46631,14 +46637,6 @@ http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/14232/index.m3u8
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/15005/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Aqsham TV KZ
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/14223/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",Ontustik KZ
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/15001/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",Qyzylorda KZ
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/14233/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",Qazaqstan KZ
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2210/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",Ulytau KZ
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/14231/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",КТК HD KZ
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2211/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Первый канал Евразия KZ
@@ -46811,10 +46809,10 @@ http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/6509/index.m3u8
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/6512/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",CBC Toronto HD CA
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/6513/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",ICI Radio-Canada Télé CA
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/6515/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",FX
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/6516/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",ICI Radio-Canada Télé CA
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/6515/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",TSN 5 HD CA
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/6517/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",History CA
@@ -47151,10 +47149,10 @@ http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/15202/index.m3u8
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/15203/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",TVM Channel
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/32293/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 18",Eurosport 1 HD PL
-http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/20058/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Eurosport 2 HD PL
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/20066/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 18",Eurosport 1 HD PL
+http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/20058/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Polsat Rodzina HD PL
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/7301/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",Canal+ Kuchnia PL
@@ -48847,7 +48845,7 @@ http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/18002/index.m3u8
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2071/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",KBS World HD KR
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/32217/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 20",plsf 05.08.26 03:48 User: No-Auth IP: 135.119.132.149 channels 526
+#EXTINF:-1 group-title="Плейлист - 20",plsf 05.08.26 03:48 User: No-Auth IP: 48.214.55.68 channels 526
 http://ex.iptvin.ru/iptvin.ru.mp4
 #EXTINF:-1 group-title="Плейлист - 20",Первый канал
 http://flussonic.mkpnet.ru/tv-4f9598ab5f91dca4/video.m3u8
@@ -50138,7 +50136,7 @@ http://stream.mcquack.net/236/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Дом кино Premium HD
 https://s70378.cdn.ngenix.net/dom_kino_premium_hd/3/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",.Sci-Fi
-http://62.32.84.50:18000/play/a0h4/index.m3u8
+http://31.148.48.15:80/SONY_SCI_FI/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",.Sci-Fi HD
 http://stream.mcquack.net/180/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",.Black
@@ -50161,6 +50159,8 @@ http://stream.mcquack.net/170/index.m3u8
 http://93.170.254.17/Kinomiks/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Кинохит HD
 http://peers.tv-live-669.workers.dev/?ID=http://api.peers.tv/timeshift/kinohit/16/playlist.m3u8
+#EXTINF:-1 group-title="Плейлист - 21",Кинохит
+http://stream.mcquack.net/126/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Мужское кино HD
 http://stream.mcquack.net/107/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Кинокомедия
@@ -50220,11 +50220,11 @@ http://tv.ttk.mx:9149
 #EXTINF:-1 group-title="Плейлист - 21",Русский Иллюзион
 http://185.46.16.239:8000/Russkiy_Illyuzion
 #EXTINF:-1 group-title="Плейлист - 21",Сапфир HD
-http://46.32.176.50/foxlife/index.m3u8
+http://31.148.48.15/Sapfir_HD/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Феникс+Кино
-http://158.101.222.193:88/georgia_play.php?id=fenikspluskino
+http://31.148.48.15/Feniks_plus_kino/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Патриот
-https://tinyurl.com/2x47stw5/2070.m3u8
+http://cdntv.online/low/36m9rn5du2/2070.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Bollywood HD
 http://176.118.197.101/Bollywood_HD/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Т24
@@ -50286,7 +50286,7 @@ http://185.46.16.239:8000/Planeta_HD
 #EXTINF:-1 group-title="Плейлист - 21",Big Planet HD
 http://46.32.176.50/bigplanet/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Terra HD
-http://62.32.84.50:18000/play/a0m9/index.m3u8
+http://31.148.48.15/Terra_HD/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",TLC
 http://stream.mcquack.net/168/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Travel+Adventure
@@ -50402,7 +50402,7 @@ http://livestream.siliconweb.com/live/kissfm/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Bridge
 http://62.32.84.50:18000/play/a0lf/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Bridge Deluxe HD
-http://46.32.176.50/BridgeTVHD/index.m3u8
+http://5.188.159.128:8070/Bridge_TV_Deluxe/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Bridge TV Hits
 http://62.32.84.50:18000/play/a0lc/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Bridge TV FRESH
@@ -50611,38 +50611,6 @@ http://5.188.158.65:4040/IPTVPLAYVOV.tv/video.m3u8?token=lqRGka5-YwwqF0
 http://5.188.158.65:4040/IPTVPLAYTEST.tv/video.m3u8?token=lqRGka5-YwwqF0
 #EXTINF:-1 group-title="Плейлист - 21",IPTVPLAY PROMO
 http://5.188.158.65:4040/IPTVPLAYPromo.tv/video.m3u8?token=lqRGka5-YwwqF0
-#EXTINF:-1 group-title="Плейлист - 21",BCU Premiere 1 HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148906&extension=ts&play_token=rNDnpm9h7u
-#EXTINF:-1 group-title="Плейлист - 21",BCU Premiere 2 HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148905&extension=ts&play_token=4gkjNoz5vE
-#EXTINF:-1 group-title="Плейлист - 21",BCU Premiere 3 HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148904&extension=ts&play_token=QkH9EGNZWb
-#EXTINF:-1 group-title="Плейлист - 21",BCU Ultra 4K
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148898&extension=ts&play_token=5dZ7e8PNcF
-#EXTINF:-1 group-title="Плейлист - 21",BCU VHS HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148897&extension=ts&play_token=DBp11FjwsT
-#EXTINF:-1 group-title="Плейлист - 21",BCU Marvel HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148903&extension=ts&play_token=y87wg3eL3B
-#EXTINF:-1 group-title="Плейлист - 21",BCU Action HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148913&extension=ts&play_token=Ls1iVZemdU
-#EXTINF:-1 group-title="Плейлист - 21",BCU CINEMA HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148912&extension=ts&play_token=vpFlNYwLDT
-#EXTINF:-1 group-title="Плейлист - 21",BCU Cinema+ HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148911&extension=ts&play_token=maSjCUrsf3
-#EXTINF:-1 group-title="Плейлист - 21",BCU Comedy HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148910&extension=ts&play_token=Y64wFjGpYa
-#EXTINF:-1 group-title="Плейлист - 21",BCU Fantastic HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148909&extension=ts&play_token=cG3ImUAhOI
-#EXTINF:-1 group-title="Плейлист - 21",BCU Kids+ HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148908&extension=ts&play_token=IVoOTAhYL2
-#EXTINF:-1 group-title="Плейлист - 21",BCU Kinorating HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148907&extension=ts&play_token=Ly1axMGsu1
-#EXTINF:-1 group-title="Плейлист - 21",BCU Multserial HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148902&extension=ts&play_token=VfREWwpp3K
-#EXTINF:-1 group-title="Плейлист - 21",BCU Romantic HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148901&extension=ts&play_token=zxMEIac7Qf
-#EXTINF:-1 group-title="Плейлист - 21",BCU Russian HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148900&extension=ts&play_token=HJh0yiqJM2
 #EXTINF:-1 group-title="Плейлист - 21",CineMan
 https://tinyurl.com/4tfv9tup/11004/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",CineMan Premium
@@ -51533,12 +51501,12 @@ http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/32082/index.m3u8
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/32083/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",RT Док HD orig
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/32085/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 22",Экоспаскоми (Коми)
-http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/17018/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Крик ТВ HD
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/15012/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",РБК HD 50
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/10029/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 22",Экоспаскоми (Коми)
+http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/17018/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",РБК HD
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/16075/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Инфоканал
@@ -55129,12 +55097,12 @@ http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/31927/index.m3u8
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/32277/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",МУЗ-ТВ +6
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/32278/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 22",Женский Журнал HD
-http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/20010/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Shopping Live
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/860/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Мой Мир
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/5008/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 22",Женский Журнал HD
+http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/20010/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Nano orig
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/9321/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",VF Граиндхаус
@@ -55841,14 +55809,10 @@ http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/19057/index.m3u8
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/19060/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",ESPN 2 HD BR
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/19061/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 22",Sky Sports Cricket HD 50 UK
-http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/9258/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 22",Sky Sports Premier League HD 50 UK
-http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/9334/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 22",TNT Sports 1 FHD UK
-http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/2505/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Sky Sports Action HD 50 UK
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/9155/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 22",TNT Sports 1 FHD UK
+http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/2505/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Sky Sports Mix HD 50 UK
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/9310/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Premier Sports 1 HD 50 UK
@@ -55869,6 +55833,10 @@ http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/9308/index.m3u8
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/16037/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Sky Sports Football HD 50 UK
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/9289/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 22",Sky Sports Cricket HD 50 UK
+http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/9258/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 22",Sky Sports Premier League HD 50 UK
+http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/9334/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",TNT Sports 2 HD UK
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/2506/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Premier Sports 1 HD UK
@@ -56483,8 +56451,6 @@ http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/7358/index.m3u8
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/32021/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",ON Sport 1 HD EG
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/2512/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 22",Turkish Dramas 3 HD IL
-http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/14220/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Turkish Dramas Plus HD IL
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/14207/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Keshet 12 HD IL
@@ -56495,6 +56461,8 @@ http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/16019/index.m3u8
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/14208/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",HOT Cinema Family HD IL
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/2151/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 22",Turkish Dramas 3 HD IL
+http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/14220/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Reshet 13 HD IL
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/2330/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Channel 9 FHD IL
@@ -57131,8 +57099,6 @@ http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/19107/index.m3u8
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/19108/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Super Tennis HD IT
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/19111/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 22",Qyzylorda KZ
-http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/14233/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Qazaqstan KZ
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/2210/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Ulytau KZ
@@ -57151,6 +57117,8 @@ http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/15005/index.m3u8
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/14223/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Ontustik KZ
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/15001/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 22",Qyzylorda KZ
+http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/14233/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",КТК HD KZ
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/2211/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Первый канал Евразия KZ
@@ -57323,10 +57291,10 @@ http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/6509/index.m3u8
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/6512/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",CBC Toronto HD CA
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/6513/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 22",FX
-http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/6516/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",ICI Radio-Canada Télé CA
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/6515/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 22",FX
+http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/6516/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",TSN 5 HD CA
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/6517/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",History CA
@@ -57663,10 +57631,10 @@ http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/15202/index.m3u8
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/15203/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",TVM Channel
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/32293/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 22",Eurosport 2 HD PL
-http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/20066/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Eurosport 1 HD PL
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/20058/index.m3u8
+#EXTINF:-1 group-title="Плейлист - 22",Eurosport 2 HD PL
+http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/20066/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Polsat Rodzina HD PL
 http://277472c8.ucomist.net/iptv/ETCG79KSPNFAEFCP3PDECDXF/7301/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 22",Canal+ Kuchnia PL
