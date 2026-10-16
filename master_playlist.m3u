@@ -63,6 +63,8 @@ http://bethoven.af-stream.com:8080/s/13hv3dtr/sankt-peterburg-hd/video.m3u8
 http://bethoven.af-stream.com:8080/s/13hv3dtr/centralnoe-tv/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 1",5 канал
 http://bethoven.af-stream.com:8080/s/13hv3dtr/5kanal/video.m3u8
+#EXTINF:-1 group-title="Плейлист - 1",5 Канал HD
+http://bethoven.af-stream.com:8080/s/13hv3dtr/5kanal-hd/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 1",Россия Культура
 http://bethoven.af-stream.com:8080/s/13hv3dtr/rossija-k/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 1",Россия Культура HD
@@ -133,6 +135,8 @@ http://bethoven.af-stream.com:8080/s/13hv3dtr/dozhd-hd/video.m3u8
 http://bethoven.af-stream.com:8080/s/13hv3dtr/nastoyaschee-vremya-hd/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 1",Россия 24
 http://bethoven.af-stream.com:8080/s/13hv3dtr/rossija24/video.m3u8
+#EXTINF:-1 group-title="Плейлист - 1",Россия 24 HD
+http://bethoven.af-stream.com:8080/s/13hv3dtr/rossija24-hd/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 1",EuroNews
 http://bethoven.af-stream.com:8080/s/13hv3dtr/evronews/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 1",EuroNews HD
@@ -145,6 +149,8 @@ http://bethoven.af-stream.com:8080/s/13hv3dtr/izvestija-hd/video.m3u8
 http://bethoven.af-stream.com:8080/s/13hv3dtr/360-novosti-hd/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 1",Москва 24
 http://bethoven.af-stream.com:8080/s/13hv3dtr/moskva-24/video.m3u8
+#EXTINF:-1 group-title="Плейлист - 1",Москва 24 HD
+http://bethoven.af-stream.com:8080/s/13hv3dtr/moskva-24-hd/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 1",РБК
 http://bethoven.af-stream.com:8080/s/13hv3dtr/rbk/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 1",РБК HD
@@ -42762,7 +42768,7 @@ http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2071/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",KBS World HD KR
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/32217/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Первый FHD
-https://edge07r.mediavitrina.ru/hls-livef6/1tv/index.m3u8?token=v2.F28rMcTnpZfCxgKWOrK-fjhzXq9omQ9o6gIQBe_eJq8.iiIpxy7RNbjvbvAzejRFhl4f7ib8x-0oesrTt25dZbA.1792151508.37b16b31d2fb037ae13beaedf2f216b0
+https://edge01r.mediavitrina.ru/hls-livef6/1tv/index.m3u8?token=v2.wvj298-ek_tSVm7XZT5Oeajot7jAfvVRbmZms8IO62U.5REquxaB2dRl7jSjuGhtTXUMCvBW8ozV8nR3ci-RUe8.1792772886.cf8b6f3bb506b9c7240a9d41bd120807
 #EXTINF:-1 group-title="Плейлист - 21",Первый HD
 https://bl.rutube.ru/livestream/c58f502c7bb34a8fcdd976b221fca292/index.m3u8?s=S18LD_G9b2BgxLMuDWfQPQ&e=2072222109&scheme=https
 #EXTINF:-1 group-title="Плейлист - 21",Первый
@@ -42788,7 +42794,7 @@ https://bl.rutube.ru/livestream/ca70d39eba2e8771358bbcb4bfbad860/index.m3u8?s=2h
 #EXTINF:-1 group-title="Плейлист - 21",RT Doc HD
 https://flussonic.mkpnet.ru/tv-501eac834b24c3cf/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Рен ТВ HD
-https://edge04p.mediavitrina.ru/hls-livef6/ren-tv/index.m3u8?token=v2.1xjPTLUawMdS9ZguFNwE4zFQraO0TVS0M0pi2dtZ0Os.2kAfvtjAeESOXjuXm2C_D1R6-qGBCVe75gO5msgBFhs.1792151616.e5251c75ed50dcbf0f6b7ada130a55d5
+https://edge03p.mediavitrina.ru/hls-livef5/ren-tv/index.m3u8?token=v2.HYOcDODYZ_v4TXcxNuSf4QCXMOi6n91leITwvoY-C2s.GJWmxqKd2P6iMVDIPHLXMZOq5-E1fl8_LbWO6fB8-gY.1792772986.a9d0560efb0ab626ae35e5a607044518
 #EXTINF:-1 group-title="Плейлист - 21",Рен ТВ
 http://31.131.141.195:8000/play/2010/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",THT HD
@@ -42796,7 +42802,7 @@ https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=E0
 #EXTINF:-1 group-title="Плейлист - 21",THT
 http://176.118.197.101/THT/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",СТС HD
-https://edge06r.mediavitrina.ru/hls-livef6/ctc/index.m3u8?token=v2.78-tideCalfVfBeRwjAsxaetf_idOj-XqdteQ2haxK8.IwShG_yKUjoIwFyEYBDL2J6-0J2ODqXCNmj8NSBpA2Y.1792151765.188f8a958a14e5843a0d46e792cd520a
+https://edge06r.mediavitrina.ru/hls-livef5/ctc/index.m3u8?token=v2.HyZWKnKFEYfD7Y-f3Hy2vFlqcGHeRtuqyaYAoduNeKY.0HBA0HqAo_YpSd-bIkzXZQPHE2tJPw2MK-aQa6tbE0M.1792773063.95675102221036c113700699f5535989
 #EXTINF:-1 group-title="Плейлист - 21",СТС
 http://31.131.141.195:8000/play/2030/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",ТВ3 HD
@@ -42818,7 +42824,7 @@ https://fs.uplink.kz/domashniy/mono.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Плейлист - 21",Ю
 https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?s=x45t0M4xuuiCNqRQBW70Jg&e=2069285051&scheme=https
 #EXTINF:-1 group-title="Плейлист - 21",ТВЦ HD
-https://edge07r.mediavitrina.ru/hls-livef5/tvc/index.m3u8?token=v2.9xS075J5DGK1sl0WtOR0kVsxbNJwOUad84lhRLIwgYA.PUYavE-_Pkz4BfG4hQ-4pbCB-RrjbQXbrJRJN9uHH0s.1792151855.425510223702f787e5a265124ea4c490
+https://edge01d.mediavitrina.ru/hls-livef5/tvc/index.m3u8?token=v2.gaFyetXZl6VUqnhjdaU1p_x-e5Gg0BjVkT3IN0XQgYA.lB3QSNxK-ERhQ1Q5AT0WJ2MHCTvEA59OsYaHc84CLVQ.1792773144.1b6d421410e6c9cb4fcd1b983f653da6
 #EXTINF:-1 group-title="Плейлист - 21",ТВЦ
 http://31.131.141.195:8000/play/1100/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Россия K
@@ -42826,7 +42832,7 @@ https://live.smotrim.ru/vgtrk/0/kultura-hd/track_105_319a299f/chunklist.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Пятый канал
 http://31.131.141.195:8000/play/1050/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Пятый канал HD
-https://edge06r.mediavitrina.ru/hls-livef8/5tv/index.m3u8?token=v2.ta-JZmbiqHLZYjHfWRcKTPjscQFZkiTxKQMRAxCrL58.xxDvzB7xnP_HrD9jjHhh7aMLqoORTEDLU5L124xmiDM.1792151940.38d7b2424f7e77a0522eb4bc61250328
+https://edge01p.mediavitrina.ru/hls-livef7/5tv/index.m3u8?token=v2.P6k9fWQPtUEWS0psvpCDxR3ZBviV2prMDS6BqhONQh8.UYx2peDhZTwy4LcNAb_z1KOL7aDRFbLIDaQH3BhnFFk.1792773224.319268e67db884236588c0dff157e741
 #EXTINF:-1 group-title="Плейлист - 21",8 канал
 https://flussonic.mkpnet.ru/tv-a308d006109b1c1f/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",ОТР
