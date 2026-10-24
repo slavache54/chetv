@@ -42680,7 +42680,7 @@ https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Удар HD
 http://stream.mcquack.net/279/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",MMA-TV
-http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869569&extension=ts
+http://tv.ttk.mx:9196
 #EXTINF:-1 group-title="Плейлист - 21",Бокс ТВ
 http://185.46.16.239:8000/Eurosport_1
 #EXTINF:-1 group-title="Плейлист - 21",KHL HD
@@ -42740,9 +42740,9 @@ https://flussonic.mkpnet.ru/tv-e107d21a90cb808f/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Vip Serial HD
 http://46.53.200.153:7777/play/Viju_Serial_HD/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Дом кино
-http://195.64.140.147:10057/57
+http://176.118.197.101/Dom_kino/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Дом кино Premium HD
-http://194.152.35.17/dom-kino-premium-hd/index.m3u8
+http://tv.ttk.mx:9084
 #EXTINF:-1 group-title="Плейлист - 21",Fox
 https://bl.rutube.ru/livestream/bcf8e82a331067e567f765d65ed52b21/index.m3u8?s=A5iqJk_hPu1pqskFuJZU_Q&e=2092311403&scheme=https
 #EXTINF:-1 group-title="Плейлист - 21",Fox Life
@@ -42844,7 +42844,7 @@ https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",ТВ21
 http://stream.mcquack.net/152/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",НСТ
-http://stream.mcquack.net/207/index.m3u8
+http://176.118.197.101/HCT/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Plan B
 http://stream.mcquack.net/196/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",КиноТВ HD
@@ -42906,7 +42906,7 @@ http://stream.mcquack.net/239/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Visast History HD
 http://stream.mcquack.net/101/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Viasat Nature HD
-https://stream1.cinerama.uz/1228/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Viasat Nature
 https://flussonic.mkpnet.ru/tv-7a85ea25208f5bf7/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Глазами Туриста HD
@@ -43017,6 +43017,8 @@ https://bl.rutube.ru/livestream/25a96d214a176541fba1d342ac760ee9/index.m3u8?s=bV
 https://bl.rutube.ru/livestream/bc2933d28daf33f5a68257ebc72787cd/index.m3u8?s=fBmsOXfAGMP23DVnD3Lbcw&e=2092566530&scheme=https
 #EXTINF:-1 group-title="Плейлист - 21",Наше Аниме
 https://bl.rutube.ru/livestream/ec5267347fa50d03edba227906eba679/index.m3u8?s=eyWUEumrlwhGIkabFi6A2Q&e=2092566529&scheme=https
+#EXTINF:-1 group-title="Плейлист - 21",Cartoons VHS-ка
+http://kinowalk.hopto.org/myvhs_live
 #EXTINF:-1 group-title="Плейлист - 21",1HD Music
 http://176.118.197.101/1HD/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Deluxe Dance
@@ -43024,7 +43026,7 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.
 #EXTINF:-1 group-title="Плейлист - 21",Deluxe Music
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",V2BEAT HD
-http://de1se01.v2beat.live/playlist.m3u8
+http://185.221.213.254/live/stream112.php?q=h0c5Eyuek0CppzJQmzPiyBmI9DfhNnGVuNxzdYNOfd-NZXVzxn-5nG-V_i8HN8fOncJvGq5lECFJqBxDuhBF8xYjC2tkF9a_vsuZWsYaKrs
 #EXTINF:-1 group-title="Плейлист - 21",radio m2o
 http://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/chunklist_b1728000.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",MM TB rut
@@ -43040,7 +43042,7 @@ http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Муз ТВ HD
 https://bl.rutube.ru/livestream/df6fe73494a26f74da51573fd97b9baa/index.m3u8?s=JTAW4J-xV9JKMAUbJmgmIQ&e=2068506966&scheme=https
 #EXTINF:-1 group-title="Плейлист - 21",RU.TV HD
-http://flussonic.mkpnet.ru/tv-64b2c4ff13365817/video.m3u8
+https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?s=rQSsYMQtBKDnf3IYbSqJ4w&e=2092824627&scheme=https
 #EXTINF:-1 group-title="Плейлист - 21",Mezzo
 http://live-3.otcnet.ru/Mezzo/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",FON Music
@@ -43059,6 +43061,8 @@ https://tv.city.bg/play/tshls/citytv/2.m3u8
 https://edge1-eu-west.picarto.tv/stream/hls/golive+TMFRUS/1_0/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",TechnoDanceMusic
 rtmp://vkvsd260.okcdn.ru/playback/4541149555686?stkn=_GLaJIlrWpbJgXi_b5gtNKlx404aCHbd48x9zKalkpUqDF0ccnViROdGa7iV8JjrPLmm0qJTU0w&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+#EXTINF:-1 group-title="Плейлист - 21",TDM walk
+http://kinowalk.hopto.org/technodancemusic_live
 #EXTINF:-1 group-title="Плейлист - 21",Kronehit
 http://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",VIVA Russia
@@ -43073,8 +43077,6 @@ https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/p
 https://bl.rutube.ru/livestream/60b73481dcc9880850f22690142c8d17/index.m3u8?s=A6TrQmZyPv2n8X6TnDy-AA&e=2068506969&scheme=https
 #EXTINF:-1 group-title="Плейлист - 21",Clubbing TV
 http://46.151.151.250:9201
-#EXTINF:-1 group-title="Плейлист - 21",EDM Mainstage
-https://mbit1.worldcast.tv/dancetelevisionseven/stream_0.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",RETROHITS
 rtmp://vkvsd285.okcdn.ru/playback/7765205854979?stkn=3YIqbICN3HQXqSqHe0t6L_U4aObzKpZdQDqaZigiXarsKvoVAU1g9ABrdjLIO7hYZdJPsBcdTGk&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
 #EXTINF:-1 group-title="Плейлист - 21",VB Русская Танцевальная Попса 80х-90х
@@ -43093,8 +43095,12 @@ http://kinowalk.hopto.org/selecaotv_live
 http://kinowalk.hopto.org/selecaotv1_live
 #EXTINF:-1 group-title="Плейлист - 21",Kino Mix
 http://kinowalk.hopto.org/yurich_kinomix_live
+#EXTINF:-1 group-title="Плейлист - 21",Kino Mix 2
+http://kinowalk.hopto.org/dak3767_live
 #EXTINF:-1 group-title="Плейлист - 21",VHS Forever
 http://kinowalk.hopto.org/vhs-forever_live
+#EXTINF:-1 group-title="Плейлист - 21",VHS store
+http://kinowalk.hopto.org/channel36774366_live
 #EXTINF:-1 group-title="Плейлист - 21",VideoArsenal
 http://kinowalk.hopto.org/videoarsenal_live
 #EXTINF:-1 group-title="Плейлист - 21",FantasticMistyc
@@ -43119,8 +43125,6 @@ http://kinowalk.hopto.org/vb-all-in-one_live
 http://kinowalk.hopto.org/russerials_live
 #EXTINF:-1 group-title="Плейлист - 21",KinoJam
 http://kinowalk.hopto.org/kinojam_live
-#EXTINF:-1 group-title="Плейлист - 21",AkudjiTV
-http://kinowalk.hopto.org/akudjitv_live
 #EXTINF:-1 group-title="Плейлист - 21",Доктор Хаус(swat2k)
 http://kinowalk.hopto.org/swat2k_live
 #EXTINF:-1 group-title="Плейлист - 21",Video_Prokat
@@ -43133,44 +43137,24 @@ http://kinowalk.hopto.org/timetohorror_live
 http://kinowalk.hopto.org/timetomovie_live
 #EXTINF:-1 group-title="Плейлист - 21",Blockbusters Time
 http://kinowalk.hopto.org/blockbusterstime_live
-#EXTINF:-1 group-title="Плейлист - 21",Dimpon TV
-http://kinowalk.hopto.org/dimpon_live
 #EXTINF:-1 group-title="Плейлист - 21",Малдер Всё ТВ
 http://kinowalk.hopto.org/maldrvsetv_live
-#EXTINF:-1 group-title="Плейлист - 21",kinolampa
-http://kinowalk.hopto.org/kinolampa_live
-#EXTINF:-1 group-title="Плейлист - 21",Play 4 Fun
-http://kinowalk.hopto.org/play4fun_live
-#EXTINF:-1 group-title="Плейлист - 21",Kinofon
-http://kinowalk.hopto.org/kinofon_live
-#EXTINF:-1 group-title="Плейлист - 21",Alex.Films
-http://kinowalk.hopto.org/alex.films_live
-#EXTINF:-1 group-title="Плейлист - 21",AlexVira
-http://kinowalk.hopto.org/alexvira_live
-#EXTINF:-1 group-title="Плейлист - 21",ZubrilomFilm
-http://kinowalk.hopto.org/zubrilomfilm_live
 #EXTINF:-1 group-title="Плейлист - 21",АPRICUS live
 http://kinowalk.hopto.org/apricus_live
 #EXTINF:-1 group-title="Плейлист - 21",Тоха Киноман
 http://kinowalk.hopto.org/kinomania_stream_live
-#EXTINF:-1 group-title="Плейлист - 21",Коновал ТВ
-http://kinowalk.hopto.org/www.konoval_tv_live
+#EXTINF:-1 group-title="Плейлист - 21",dj Zour
+http://kinowalk.hopto.org/zsmedia_live
 #EXTINF:-1 group-title="Плейлист - 21",NeoVision TV
 http://kinowalk.hopto.org/neovisiontv_live
 #EXTINF:-1 group-title="Плейлист - 21",RE_BOOT
 http://kinowalk.hopto.org/re_boot_live
-#EXTINF:-1 group-title="Плейлист - 21",КИНОУЖАС HD
-http://kinowalk.hopto.org/kinouzhas_live
+#EXTINF:-1 group-title="Плейлист - 21",Кинотека FULL_HD
+http://kinowalk.hopto.org/kinoteka_full_hd_top_live
 #EXTINF:-1 group-title="Плейлист - 21",кино кино кино
 http://kinowalk.hopto.org/kinopro_live
 #EXTINF:-1 group-title="Плейлист - 21",Кинотеатр без билетов
 http://kinowalk.hopto.org/x-x-vanes-x-x_live
-#EXTINF:-1 group-title="Плейлист - 21",Кинотека FULL_HD
-http://kinowalk.hopto.org/kinoteka_full_hd_top_live
-#EXTINF:-1 group-title="Плейлист - 21",КИНО05
-http://kinowalk.hopto.org/kino05_live
-#EXTINF:-1 group-title="Плейлист - 21",Aisman
-http://kinowalk.hopto.org/aisman_live
 #EXTINF:-1 group-title="Плейлист - 21",lampoTV
 http://kinowalk.hopto.org/lampotv_live
 #EXTINF:-1 group-title="Плейлист - 21",Игрун 1997
@@ -43179,12 +43163,8 @@ http://kinowalk.hopto.org/igrun1997_live
 http://kinowalk.hopto.org/video_channel_live
 #EXTINF:-1 group-title="Плейлист - 21",Wfliq
 http://kinowalk.hopto.org/wfliq_live
-#EXTINF:-1 group-title="Плейлист - 21",Snoochies Boochies
-http://kinowalk.hopto.org/sinema_live
 #EXTINF:-1 group-title="Плейлист - 21",Эквилибриум
 http://kinowalk.hopto.org/equilibrium_live
-#EXTINF:-1 group-title="Плейлист - 21",ROMEO Video
-http://kinowalk.hopto.org/romantic_live
 #EXTINF:-1 group-title="Плейлист - 21",Maksim Films
 http://kinowalk.hopto.org/mmaxim0vich_live
 #EXTINF:-1 group-title="Плейлист - 21",SerialTV
@@ -43195,30 +43175,42 @@ http://kinowalk.hopto.org/miiz90x_live
 http://kinowalk.hopto.org/backtotheussr_live
 #EXTINF:-1 group-title="Плейлист - 21",У КРАЯ БЕЗДНЫ 24/7
 http://kinowalk.hopto.org/ddator_live
-#EXTINF:-1 group-title="Плейлист - 21",InMuNa Live
-http://kinowalk.hopto.org/inmuna_live
 #EXTINF:-1 group-title="Плейлист - 21",Тоха Стрим
 http://kinowalk.hopto.org/toxa_stream_live
-#EXTINF:-1 group-title="Плейлист - 21",не Кино
-http://kinowalk.hopto.org/notnotes_live
 #EXTINF:-1 group-title="Плейлист - 21",Solo ink
 http://kinowalk.hopto.org/soloink_live
 #EXTINF:-1 group-title="Плейлист - 21",TopMoment LiVE
 http://kinowalk.hopto.org/topmomentlive_live
 #EXTINF:-1 group-title="Плейлист - 21",KINOPRO
 http://kinowalk.hopto.org/kinopro_live
-#EXTINF:-1 group-title="Плейлист - 21",Baragozz_TV
-http://kinowalk.hopto.org/baragozz_tv_live
-#EXTINF:-1 group-title="Плейлист - 21",𝕂𝔸ℂℂ𝔼𝕋𝔸
-http://kinowalk.hopto.org/kasseta_live
 #EXTINF:-1 group-title="Плейлист - 21",Первый ряд
 http://kinowalk.hopto.org/perviryad_live
 #EXTINF:-1 group-title="Плейлист - 21",ChowAmigo
 http://kinowalk.hopto.org/chowamigo_live
 #EXTINF:-1 group-title="Плейлист - 21",Kycman мульт
 http://kinowalk.hopto.org/kycman_live
-#EXTINF:-1 group-title="Плейлист - 21",dj Zour
-http://kinowalk.hopto.org/zsmedia_live
+#EXTINF:-1 group-title="Плейлист - 21",Егор Егорыч ))
+http://kinowalk.hopto.org/yegor_yegorych_live
+#EXTINF:-1 group-title="Плейлист - 21",Cinema Time
+http://kinowalk.hopto.org/yegor_yegorych_live
+#EXTINF:-1 group-title="Плейлист - 21",Dimpon TV
+http://kinowalk.hopto.org/dimpon_live
+#EXTINF:-1 group-title="Плейлист - 21",КИНОУЖАС HD
+http://kinowalk.hopto.org/kinouzhas_live
+#EXTINF:-1 group-title="Плейлист - 21",𝕂𝔸ℂℂ𝔼𝕋𝔸
+http://kinowalk.hopto.org/kasseta_live
+#EXTINF:-1 group-title="Плейлист - 21",Play 4 Fun
+http://kinowalk.hopto.org/play4fun_live
+#EXTINF:-1 group-title="Плейлист - 21",Kinofon
+http://kinowalk.hopto.org/kinofon_live
+#EXTINF:-1 group-title="Плейлист - 21",Alex.Films
+http://kinowalk.hopto.org/alex.films_live
+#EXTINF:-1 group-title="Плейлист - 21",AlexVira
+http://kinowalk.hopto.org/alexvira_live
+#EXTINF:-1 group-title="Плейлист - 21",kinolampa
+http://kinowalk.hopto.org/kinolampa_live
+#EXTINF:-1 group-title="Плейлист - 21",Aisman
+http://kinowalk.hopto.org/aisman_live
 #EXTINF:-1 group-title="Плейлист - 21",Смотрим 100% Праздник HD
 https://stream.smotrim.ru/hls3/fasttv04/playlist_3.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Смотрим 100% Классика HD
