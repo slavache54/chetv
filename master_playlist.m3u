@@ -42501,7 +42501,7 @@ http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/18002/index.m3u8
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/2071/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 18",KBS World HD KR
 http://592e2c7a.kazaktelekom.com/iptv/Q99YS3GDGRVKQ3THV8RMV5WU/32217/index.m3u8
-#EXTINF:-1 group-title="Плейлист - 20",plsf 25.09.26 01:49 User: No-Auth IP: 130.131.214.0 channels 593
+#EXTINF:-1 group-title="Плейлист - 20",plsf 25.09.26 01:49 User: No-Auth IP: 172.172.237.65 channels 593
 http://ex.iptvin.ru/iptvin.ru.mp4
 #EXTINF:-1 group-title="Плейлист - 20",Первый канал HD
 https://stream3.cinerama.uz/1214/mono.m3u8
