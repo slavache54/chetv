@@ -39333,6 +39333,8 @@ https://bl.rutube.ru/livestream/ff5c11c9a51750f5d33427762abc315c/index.m3u8?s=IB
 http://stitch.teletarget.ru/vintera/movieseason/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Русский экстрим
 http://tv.ttk.mx:9095
+#EXTINF:-1 group-title="Плейлист - 21",Ultra 4K Extreme
+http://46.53.200.153:7777/play/test_krask1/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",КВН ТВ
 https://fs.uplink.kz/kvn_tv/mono.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Плейлист - 21",Gagsnetwork
@@ -39342,7 +39344,7 @@ http://176.118.197.101/Nostalgiya/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Ретро
 http://176.118.197.101/Retro/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Телекафе
-http://tv.ttk.mx:9081
+https://fs.uplink.kz/telecafe/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",Вопросы и ответы
 https://stream8.cinerama.uz/1429/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Время
@@ -39364,17 +39366,17 @@ https://tinyurl.com/4tfv9tup/2112/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Наша Тема
 http://live-3.otcnet.ru/nashatema/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Оружие
-https://tinyurl.com/teh55yef/2087/index.m3u8
+https://fs.uplink.kz/oruzhie/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",Мужской
 https://flussonic.mkpnet.ru/tv-55c94e838b306657/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Поехали!
-http://tv.ttk.mx:9082
+https://fs.uplink.kz/poehali/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",Рыбалка и охота
 http://stream.mcquack.net/155/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Точка отрыва
 https://flussonic.mkpnet.ru/tv-025f6f42ae5bcfc6/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",АВТО 24
-http://stream.mcquack.net/78/index.m3u8
+https://fs.uplink.kz/avto24/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",Кухня ТВ
 http://stream.mcquack.net/179/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",WF мода HD
@@ -39406,19 +39408,17 @@ https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Удар HD
 http://stream.mcquack.net/279/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",MMA-TV
-http://tv.ttk.mx:9196
+https://fs.uplink.kz/mma/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",Бокс ТВ
 http://185.46.16.239:8000/Eurosport_1
 #EXTINF:-1 group-title="Плейлист - 21",KHL HD
-http://stream.mcquack.net/178/index.m3u8
+https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",КХЛ ТВ
 https://flussonic.mkpnet.ru/tv-e3d23fc7511b5fcd/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",NHL Network
 https://bl.rutube.ru/livestream/7a485ef5da9fe50ba939f36ca3e6ed96/index.m3u8?s=kzFd14_NM5e7oc008gaZnQ&e=2073777469&scheme=https
 #EXTINF:-1 group-title="Плейлист - 21",Матч! Арена
 https://flussonic.mkpnet.ru/tv-9dda1dd9d740a9a4/video.m3u8
-#EXTINF:-1 group-title="Плейлист - 21",Мир Баскетбола
-http://45.145.32.13:20440/mir_basketbola/index.m3u8?token=test
 #EXTINF:-1 group-title="Плейлист - 21",Extreme Sports
 https://flussonic.mkpnet.ru/tv-1a9441fd32d63873/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Овертайм ТВ
@@ -39442,7 +39442,7 @@ http://tv.ttk.mx:9156
 #EXTINF:-1 group-title="Плейлист - 21",Amedia Hit HD
 https://flussonic.mkpnet.ru/tv-8f04998179283ee5/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Amedia PREMIUM HD
-http://stream.mcquack.net/151/index.m3u8
+https://fs.uplink.kz/amedia_premium_hd/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",TV1000 HD
 http://91.205.196.7:8000/play/a02j
 #EXTINF:-1 group-title="Плейлист - 21",TV1000
@@ -39484,15 +39484,15 @@ http://176.100.46.245:90/red/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Start Air HD
 https://tinyurl.com/4tfv9tup/18036/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Start Air
-http://195.64.140.147:10063/63
+https://fs.uplink.kz/start_air/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",Start World HD
-https://tinyurl.com/upwnsw7p/19248/index.m3u8
+https://fs.uplink.kz/start_world/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",Кинопремьера HD
 http://5.188.159.128:8070/KINOPREMIERA/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Кинопремьера
 http://185.121.1.163:8083/Kinopremyera/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Киносемья
-http://195.64.140.147:10042/42
+https://fs.uplink.kz/kinosemya/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",Киномикс
 http://93.170.254.17/Kinomiks/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Кинохит HD
@@ -39506,11 +39506,11 @@ http://stream.mcquack.net/265/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Киноужас HD
 http://stream.mcquack.net/278/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Киноужас
-http://195.64.140.147:10043/43
+https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Плейлист - 21",Наше новое кино
 http://185.46.16.239:8000/Nickelodeon
 #EXTINF:-1 group-title="Плейлист - 21",Наше новое кино HD
-http://45.159.94.49:8080/play/live.php?mac=00:1A:79:0F:46:C6&stream=869473&extension=ts
+http://66.90.110.10:8080/cxzOWX5W18/index.m3u8?token=CNVkbIWpdNQAUXGC
 #EXTINF:-1 group-title="Плейлист - 21",Киносвидание
 https://flussonic.mkpnet.ru/tv-be2ba983babad866/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Киносерия
@@ -39560,7 +39560,7 @@ http://stitch.teletarget.ru/vintera/sovietmovie/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Киносат
 https://flussonic.mkpnet.ru/tv-e055808223a74709/video.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Победа
-http://tv.ttk.mx:9149
+https://fs.uplink.kz/pobeda/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",Русский Иллюзион
 http://185.46.16.239:8000/Russkiy_Illyuzion
 #EXTINF:-1 group-title="Плейлист - 21",Bollywood HD
@@ -39568,11 +39568,11 @@ http://176.118.197.101/Bollywood_HD/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Т24
 https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",ТВ21
-http://stream.mcquack.net/152/index.m3u8
+https://fs.uplink.kz/tvxxi/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",НСТ
 http://176.118.197.101/HCT/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Plan B
-http://stream.mcquack.net/196/index.m3u8
+http://195.64.140.147:10082/82
 #EXTINF:-1 group-title="Плейлист - 21",КиноТВ HD
 http://tv.ttk.mx:9113
 #EXTINF:-1 group-title="Плейлист - 21",КиноТВ
@@ -39646,7 +39646,7 @@ http://tv.ttk.mx:9071
 #EXTINF:-1 group-title="Плейлист - 21",Планета HD
 http://185.46.16.239:8000/Planeta_HD
 #EXTINF:-1 group-title="Плейлист - 21",Big Planet HD
-https://tinyurl.com/4tfv9tup/20036/index.m3u8
+https://fs.uplink.kz/big_planet/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",Terra HD
 http://195.64.140.147:10150/150
 #EXTINF:-1 group-title="Плейлист - 21",TLC
@@ -39714,13 +39714,13 @@ https://tinyurl.com/teh55yef/15098/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Da Vinci
 https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Лапки LIVE
-https://fs.uplink.kz/lapki_live/mono.m3u8?token=onlinetv
+https://fs.uplink.kz/lapki_live/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",English Club TV
 https://stream8.cinerama.uz/1442/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",СТС Kids HD
 http://stream.mcquack.net/197/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",СТС Kids
-https://flussonic.mkpnet.ru/tv-4af112c31b77e2a8/video.m3u8
+https://fs.uplink.kz/sts_kids/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Плейлист - 21",СуперГерои
 http://109.94.1.3:8080/132/index.m3u8
 #EXTINF:-1 group-title="Плейлист - 21",Cartoon Classics
