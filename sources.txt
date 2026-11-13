@@ -2,7 +2,7 @@ https://af-play.com/playlist/g27t54jj.m3u8
 https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVru.m3u
 http://server-1.onlinetv-sochi.ru/live/mod.m3u
 https://loganettv.vercel.app/all.m3u
-https://loganettv.vercel.app/strawberry.m3u
+https://m3u.su/bb3
 https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV
 http://pl.fox-tv.fun/6ba0941e/89bac430/tv.m3u
 http://pl.fox-tv.fun/6ba0941e/89bac430/vod.m3u
