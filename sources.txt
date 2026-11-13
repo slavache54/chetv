@@ -1,33 +1,33 @@
 # IPTV-STATUS: 🟢 OK | 12/33 рабочих
 https://af-play.com/playlist/g27t54jj.m3u8
 # IPTV-STATUS: 🟡 ERROR | HTTP 404
-https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVru.m3u
+https://ngrch.github.io/iptv/ru.m3u
 # IPTV-STATUS: 🟡 ERROR | ClientConnectorDNSError
-http://server-1.onlinetv-sochi.ru/live/mod.m3u
+https://ngrch.github.io/iptv/cartoons.m3u
 # IPTV-STATUS: 🟡 ERROR | HTTP 402
-https://loganettv.vercel.app/all.m3u
+http://vipl.one/high/jzpmkib8excw/playlist.m3u8
 # IPTV-STATUS: 🟢 OK | 29/56 рабочих
 https://m3u.su/bb3
 # IPTV-STATUS: 🟢 OK | 247/345 рабочих
 https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV
 # IPTV-STATUS: 🟡 ERROR | HTTP 403
-http://pl.fox-tv.fun/6ba0941e/89bac430/tv.m3u
+http://ott.watch/playlist/F99LNUA8HU/m3u
 # IPTV-STATUS: 🟡 ERROR | HTTP 403
-http://pl.fox-tv.fun/6ba0941e/89bac430/vod.m3u
+http://m3u.uspeh-bil.ru/ru/token=p38CeA56C8wzWCm3
 # IPTV-STATUS: 🟢 OK | 74/75 рабочих
 http://21bda43d0d12.yourlistbest.net/playlists/uplist/2f0848d9f1e728874b6e1cefc857b501/playlist.m3u8
 # IPTV-STATUS: 🟢 OK | 104/104 рабочих
 https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u8
 # IPTV-STATUS: 🟡 ERROR | HTTP 404
-https://slynet-iptv2025.do.am/FreeBestTV.m3u8 
+http://cdntv.online/high/4862a9mx3f/playlist.m3u8
 # IPTV-STATUS: 🟡 ERROR | HTTP 404
-https://slynet-iptv2025.do.am/AdultsTopPlay.m3u8
+https://ilook.epg.one/E4U2DGXEHR9YCA/img
 # IPTV-STATUS: 🟢 OK | 16/39 рабочих
 https://satexpresstv.ru/apk/setv.m3u
 # IPTV-STATUS: 🟡 ERROR | ClientConnectorDNSError
-http://rafail1982.uz/playlists/VERONA.m3u
+http://49702763fb5e.iedem.com/playlists/uplist/23813d4606de4b435bdfea9cdb588196/playlist.m3u8
 # IPTV-STATUS: 🟡 ERROR | TLS error
-https://m3url.ru/FreeBestTV.m3u
+http://cdntv.online/hls/5c24skzmbrx9/playlist.m3u8
 # IPTV-STATUS: 🟢 OK | 61/170 рабочих
 https://raw.githubusercontent.com/RomanTheQuant/IPtv/refs/heads/main/IPTV_SHARED.m3u?clckid=64faad3b
 # IPTV-STATUS: 🟢 OK | 77/77 рабочих
@@ -35,17 +35,17 @@ http://ad2ef64bb3f8.mylistbest.net/playlists/uplist/81ff6432651081ac88851c63fc8e
 # IPTV-STATUS: 🟢 OK | 71/72 рабочих
 http://9b9591bf3d67.mylistbest.net/playlists/uplist/718b2f577f38b0a4b0c747c14fee2ec1/playlist.m3u8
 # IPTV-STATUS: 🟡 ERROR | ClientConnectorDNSError
-http://6aad26ee8eab.mylistbest.net/playlists/uplist/f5b6799fb86d15dfe2772600d9f8e5e9/playlist.m3
+http://tvtm.one/pl/121/80dj5hivvhj73/playlist.m3u8
 # IPTV-STATUS: 🟡 ERROR | TimeoutError
-http://iptvin.ru/p/?rebuild
+http://m.cdntv.online/f/k9nmfxjv5wyr/playlist.m3u8
 # IPTV-STATUS: 🟢 OK | 223/298 рабочих
 https://raw.githubusercontent.com/UFOTVM/TV/refs/heads/main/ufo.m3u
 # IPTV-STATUS: 🔴 DEAD | 0/75 рабочих
-http://4766bc996c17.mylistbest.net/playlists/uplist/63129b61c3fca380fb648972b60a818e/playlist.m3u8
+http://stream.mcquack.net/stream.mcquack.net.m3u
 # IPTV-STATUS: 🟡 ERROR | no channel URLs found
-https://files.catbox.moe/rvf60s.m3u
+https://u.to/DT6EIg
 # IPTV-STATUS: 🔴 DEAD | 0/118 рабочих
-https://files.catbox.moe/cx5y2j.m3u
+https://raw.githubusercontent.com/slavache54/chetv/refs/heads/main/sports_vip.m3u8
 # IPTV-STATUS: 🟢 OK | 301/367 рабочих
 https://raw.githubusercontent.com/Spirt007/Tvru/refs/heads/Master/Rus.m3u
 # IPTV-STATUS: 🟢 OK | 81/81 рабочих
