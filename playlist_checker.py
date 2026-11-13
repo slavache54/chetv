@@ -15,12 +15,16 @@ from collections import Counter
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import aiohttp
 
 SOURCES_FILE = Path(os.getenv('SOURCES_FILE', 'sources.txt'))
 OUTPUT_FILE = Path(os.getenv('OUTPUT_FILE', 'master_playlist.m3u'))
 REPORT_FILE = Path(os.getenv('REPORT_FILE', 'playlist_report.json'))
+STATUS_FILE = Path(os.getenv('STATUS_FILE', 'PLAYLIST_STATUS.md'))
+STATE_FILE = Path(os.getenv('STATE_FILE', 'playlist_state.json'))
+STATUS_PREFIX = '# IPTV-STATUS:'
 MAX_CONCURRENT_PROBES = max(1, int(os.getenv('MAX_CONCURRENT_PROBES', '20')))
 MAX_CONCURRENT_DOWNLOADS = max(1, int(os.getenv('MAX_CONCURRENT_DOWNLOADS', '12')))
 PROBE_TIMEOUT = max(3, int(os.getenv('PROBE_TIMEOUT', '14')))
@@ -45,15 +49,15 @@ class Channel:
     referer: str = ''
 
 
-def load_sources():
+def source_lines_and_urls():
     if not SOURCES_FILE.exists():
         raise FileNotFoundError('sources.txt is missing')
+    lines = SOURCES_FILE.read_text(encoding='utf-8-sig').splitlines()
     urls = []
-    for line in SOURCES_FILE.read_text(encoding='utf-8-sig').splitlines():
-        line = line.strip().strip('"\'')
+    for raw in lines:
+        line = raw.strip().strip('"\'')
         if not line or line.startswith('#'):
             continue
-        # Compatibility with old 'name,URL' entries; do not split URL queries.
         if not VALID_URL.match(line) and ',' in line:
             line = line.split(',', 1)[1].strip()
         line = line.replace('/refs/heads/', '/') if 'raw.githubusercontent.com/' in line else line
@@ -61,7 +65,85 @@ def load_sources():
             urls.append(line)
         else:
             print('Skipped an invalid source line (URL not displayed).')
-    return urls
+    return lines, urls
+
+
+def load_sources():
+    return source_lines_and_urls()[1]
+
+
+def safe_reason(reason):
+    # Never place provider URLs, access tokens, or network exception strings in public status files.
+    if not reason:
+        return ''
+    if re.fullmatch(r'HTTP [0-9]{3}', str(reason)):
+        return str(reason)
+    if reason in ('no channel URLs found', 'playlist exceeds 12 MiB',
+                  'server returned HTML instead of M3U'):
+        return str(reason)
+    if 'SSL' in str(reason) or 'certificate' in str(reason).lower():
+        return 'TLS error'
+    return re.sub(r'[^a-zA-Z0-9_ -]', '', type(reason).__name__ if not isinstance(reason, str) else str(reason).split(':', 1)[0])[:50] or 'network error'
+
+
+def status_for(item):
+    if item['download_error']:
+        return '🟡 ERROR', safe_reason(item['download_error'])
+    if item['working']:
+        return '🟢 OK', f"{item['working']}/{item['total']} рабочих"
+    return '🔴 DEAD', f"0/{item['total']} рабочих"
+
+
+def status_sources_text(lines, by_source):
+    # Strip ONLY our generated comments; preserve the exact original URLs and other comments.
+    stripped = [line for line in lines if not line.strip().startswith(STATUS_PREFIX)]
+    out = []
+    idx = 0
+    for raw in stripped:
+        line = raw.strip().strip('"\'')
+        candidate = line
+        if candidate and not candidate.startswith('#') and not VALID_URL.match(candidate) and ',' in candidate:
+            candidate = candidate.split(',', 1)[1].strip()
+        if candidate and not candidate.startswith('#') and VALID_URL.match(candidate):
+            idx += 1
+            item = by_source.get(idx)
+            if item:
+                status, detail = status_for(item)
+                out.append(f'{STATUS_PREFIX} {status} | {detail}')
+        out.append(raw)
+    return '\n'.join(out).rstrip() + '\n'
+
+
+def markdown_status(sources, by_source, report):
+    lines = [
+        '# Состояние IPTV-источников', '',
+        f"Последняя проверка (UTC): {report['timestamp_utc']}", '',
+        f"Источников: **{report['sources_total']}** · Найдено каналов: **{report['channels_found']}** · "
+        f"Прошли FFprobe: **{report['channels_verified']}** · Отклонено: **{report['channels_rejected']}**", '',
+        f"**Публикация:** {'обновлена' if report['published'] else 'заблокирована защитой, старый master_playlist.m3u сохранён'}", '',
+        '| № | Домен источника | Статус | Рабочих / всего | Причина |',
+        '|---:|---|---|---:|---|',
+    ]
+    for i, url in enumerate(sources, 1):
+        item = by_source[i]
+        status, detail = status_for(item)
+        domain = (urlsplit(url).hostname or '—').replace('|', '')
+        reason = safe_reason(item['download_error']) if item['download_error'] else ('нет работающих потоков' if not item['working'] else '—')
+        lines.append(f"| {i} | `{domain}` | {status} | {item['working']} / {item['total']} | {reason} |")
+    lines.extend(['', '🟢 OK: есть потоки, прошедшие FFprobe. 🔴 DEAD: скачан, но проверку не прошёл ни один поток. 🟡 ERROR: источник недоступен или не разобран.', '',
+                  'Статусы относятся к проверке на GitHub Actions, а не к гарантированному воспроизведению на конкретном устройстве. Источники не удаляются, повторная проверка выполняется при каждом запуске.',
+                  'В таблице нет полных адресов и параметров доступа.', ''])
+    return '\n'.join(lines)
+
+
+def verified_baseline():
+    # Old, unverified master playlists must NOT block the first verified publication.
+    try:
+        data = json.loads(STATE_FILE.read_text(encoding='utf-8'))
+        n = data.get('last_verified_channels', 0)
+        return n if isinstance(n, int) and n > 0 else 0
+    except (OSError, ValueError, TypeError):
+        return 0
 
 
 def clean_name(name):
@@ -204,7 +286,7 @@ def existing_count():
 async def main():
     if not shutil.which('ffprobe'):
         raise RuntimeError('ffprobe is missing: install FFmpeg before running the checker')
-    sources = load_sources()
+    original_lines, sources = source_lines_and_urls()
     if not sources:
         raise RuntimeError('sources.txt has no valid sources')
     print(f'Начинаем проверку {len(sources)} источников; параллельных потоков: {MAX_CONCURRENT_PROBES}')
@@ -252,7 +334,7 @@ async def main():
         print(f"Источник {item['id']}: {item['working']}/{item['total']} рабочих, "
               f"отключено {item['rejected']}")
 
-    previous = existing_count()
+    previous = verified_baseline()
     current = len(written)
     # Fail closed on a suspicious mass outage, preserving the last published file.
     safe = current > 0 and (previous == 0 or current >= previous * MIN_RETAIN_RATIO)
@@ -271,11 +353,14 @@ async def main():
         'channels_verified': current,
         'channels_rejected': len(all_channels) - current,
         'failures_by_reason': dict(errors),
-        'previous_published_channels': previous,
+        'previous_verified_channels': previous,
+        'previous_published_channels': existing_count(),
         'published': safe,
         'publication_block_reason': reason,
     }
     write_atomic(REPORT_FILE, json.dumps(report, ensure_ascii=False, indent=2) + '\n')
+    write_atomic(STATUS_FILE, markdown_status(sources, by_source, report))
+    write_atomic(SOURCES_FILE, status_sources_text(original_lines, by_source))
     if not safe:
         print(f'Сборка не опубликована: {reason}. Последний рабочий файл сохранён.')
         return 1
@@ -286,6 +371,7 @@ async def main():
         output.extend(ch.options)
         output.append(ch.url)
     write_atomic(OUTPUT_FILE, '\n'.join(output) + '\n')
+    write_atomic(STATE_FILE, json.dumps({'last_verified_channels': current, 'timestamp_utc': report['timestamp_utc']}, ensure_ascii=False, indent=2) + '\n')
     print(f'Опубликовано: {current} рабочих каналов в {OUTPUT_FILE}')
     return 0
 
