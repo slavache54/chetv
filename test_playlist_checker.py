@@ -41,5 +41,46 @@ class ParserTests(unittest.TestCase):
             self.assertEqual(target.read_text(), '#EXTM3U\n')
 
 
+class StatusTests(unittest.TestCase):
+    def test_status_comments_are_idempotent_and_urls_unchanged(self):
+        lines = ['# My own note', 'https://example.org/a.m3u?token=secret',
+                 '', 'http://example.net/b.m3u']
+        data = {
+            1: {'total': 2, 'working': 1, 'download_error': None},
+            2: {'total': 0, 'working': 0, 'download_error': 'HTTP 403'},
+        }
+        first = pc.status_sources_text(lines, data)
+        second = pc.status_sources_text(first.splitlines(), data)
+        self.assertEqual(first, second)
+        self.assertEqual(first.count(pc.STATUS_PREFIX), 2)
+        self.assertIn('# My own note', first)
+        self.assertIn('https://example.org/a.m3u?token=secret', first)
+        self.assertIn('🟡 ERROR | HTTP 403', first)
+
+    def test_report_does_not_leak_url_credentials(self):
+        report = {'timestamp_utc': '2026-11-13T00:00:00Z', 'sources_total': 1,
+                  'channels_found': 0, 'channels_verified': 0, 'channels_rejected': 0,
+                  'published': False}
+        sources = ['https://user:secret@example.org/path?token=secret']
+        data = {1: {'id': 1, 'total': 0, 'working': 0,
+                    'download_error': 'HTTP 403'}}
+        output = pc.markdown_status(sources, data, report)
+        self.assertIn('example.org', output)
+        self.assertNotIn('secret', output)
+        self.assertNotIn('token=', output)
+
+    def test_first_verified_baseline_is_zero(self):
+        with tempfile.TemporaryDirectory() as d:
+            with patch.object(pc, 'STATE_FILE', Path(d) / 'missing.json'):
+                self.assertEqual(pc.verified_baseline(), 0)
+
+    def test_saved_verified_baseline(self):
+        with tempfile.TemporaryDirectory() as d:
+            state = Path(d) / 'state.json'
+            state.write_text(json.dumps({'last_verified_channels': 1403}))
+            with patch.object(pc, 'STATE_FILE', state):
+                self.assertEqual(pc.verified_baseline(), 1403)
+
+
 if __name__ == '__main__':
     unittest.main()
