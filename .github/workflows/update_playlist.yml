@@ -56,14 +56,14 @@ jobs:
           if-no-files-found: ignore
           retention-days: 14
 
-      - name: Commit verified playlist
-        if: steps.check.outcome == 'success'
+      - name: Commit status and verified playlist
+        if: always()
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'Auto-update verified IPTV playlist'
           commit_user_name: 'GitHub Actions Bot'
           commit_user_email: 'actions@github.com'
-          file_pattern: master_playlist.m3u
+          file_pattern: 'master_playlist.m3u playlist_state.json PLAYLIST_STATUS.md sources.txt'
 
       - name: Mark validation failure
         if: steps.check.outcome != 'success'
