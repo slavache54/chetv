@@ -2,39 +2,71 @@ name: Update IPTV Playlist
 
 on:
   schedule:
-    # Запуск раз в день в 3:00 по UTC
-    - cron: '0 */5 * * *'
+    - cron: '0 */5 * * *'  # Every 5 hours (UTC)
   workflow_dispatch:
 
-  # --- ДОБАВЬТЕ ЭТОТ БЛОК ---
 permissions:
   contents: write
-# -------------------------
+
+concurrency:
+  group: update-iptv-playlist
+  cancel-in-progress: false
 
 jobs:
   build-playlist:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
-      # --- ИЗМЕНЕНИЕ ЗДЕСЬ ---
-      # Устанавливаем зависимости из файла requirements.txt
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
 
-      - name: Run playlist generator
+      - name: Install FFprobe
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          ffprobe -version | head -1
+
+      - name: Run parser tests
+        run: python -m unittest -v test_playlist_checker.py
+
+      - name: Check channels and build playlist
+        id: check
+        continue-on-error: true
+        env:
+          MAX_CONCURRENT_PROBES: '20'
+          PROBE_TIMEOUT: '14'
+          RETRIES: '2'
+          MIN_RETAIN_RATIO: '0.25'
         run: python playlist_checker.py
 
-      - name: Commit and push if changed
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playlist-validation-report
+          path: playlist_report.json
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Commit verified playlist
+        if: steps.check.outcome == 'success'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-update playlist"
-          commit_user_name: "GitHub Actions Bot"
-          commit_user_email: "actions@github.com"
+          commit_message: 'Auto-update verified IPTV playlist'
+          commit_user_name: 'GitHub Actions Bot'
+          commit_user_email: 'actions@github.com'
           file_pattern: master_playlist.m3u
+
+      - name: Mark validation failure
+        if: steps.check.outcome != 'success'
+        run: |
+          echo 'Playlist not updated because validation failed. See report artifact.'
+          exit 1
