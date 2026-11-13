@@ -1,54 +1,54 @@
-# IPTV-STATUS: 🟢 OK | 12/33 рабочих
+# IPTV-STATUS: 🟢 OK | 8/20 рабочих
 https://af-play.com/playlist/g27t54jj.m3u8
-# IPTV-STATUS: 🟡 ERROR | HTTP 404
+# IPTV-STATUS: 🟢 OK | 38/43 рабочих
 https://ngrch.github.io/iptv/ru.m3u
-# IPTV-STATUS: 🟡 ERROR | ClientConnectorDNSError
+# IPTV-STATUS: 🟢 OK | 64/64 рабочих
 https://ngrch.github.io/iptv/cartoons.m3u
-# IPTV-STATUS: 🟡 ERROR | HTTP 402
+# IPTV-STATUS: 🟢 OK | 59/60 рабочих
 http://vipl.one/high/jzpmkib8excw/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 29/56 рабочих
+# IPTV-STATUS: 🟢 OK | 32/56 рабочих
 https://m3u.su/bb3
-# IPTV-STATUS: 🟢 OK | 247/345 рабочих
+# IPTV-STATUS: 🟢 OK | 120/217 рабочих
 https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV
-# IPTV-STATUS: 🟡 ERROR | HTTP 403
+# IPTV-STATUS: 🟢 OK | 53/53 рабочих
 http://ott.watch/playlist/F99LNUA8HU/m3u
-# IPTV-STATUS: 🟡 ERROR | HTTP 403
+# IPTV-STATUS: 🟢 OK | 5/8 рабочих
 http://m3u.uspeh-bil.ru/ru/token=p38CeA56C8wzWCm3
-# IPTV-STATUS: 🟢 OK | 74/75 рабочих
+# IPTV-STATUS: 🔴 DEAD | 0/10 рабочих
 http://21bda43d0d12.yourlistbest.net/playlists/uplist/2f0848d9f1e728874b6e1cefc857b501/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 104/104 рабочих
+# IPTV-STATUS: 🟢 OK | 307/307 рабочих
 https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u8
-# IPTV-STATUS: 🟡 ERROR | HTTP 404
+# IPTV-STATUS: 🟢 OK | 21/21 рабочих
 http://cdntv.online/high/4862a9mx3f/playlist.m3u8
-# IPTV-STATUS: 🟡 ERROR | HTTP 404
+# IPTV-STATUS: 🟢 OK | 78/79 рабочих
 https://ilook.epg.one/E4U2DGXEHR9YCA/img
 # IPTV-STATUS: 🟢 OK | 16/39 рабочих
 https://satexpresstv.ru/apk/setv.m3u
-# IPTV-STATUS: 🟡 ERROR | ClientConnectorDNSError
+# IPTV-STATUS: 🟢 OK | 66/67 рабочих
 http://49702763fb5e.iedem.com/playlists/uplist/23813d4606de4b435bdfea9cdb588196/playlist.m3u8
-# IPTV-STATUS: 🟡 ERROR | TLS error
+# IPTV-STATUS: 🟢 OK | 46/47 рабочих
 http://cdntv.online/hls/5c24skzmbrx9/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 61/170 рабочих
+# IPTV-STATUS: 🟢 OK | 135/418 рабочих
 https://raw.githubusercontent.com/RomanTheQuant/IPtv/refs/heads/main/IPTV_SHARED.m3u?clckid=64faad3b
-# IPTV-STATUS: 🟢 OK | 77/77 рабочих
+# IPTV-STATUS: 🟢 OK | 20/21 рабочих
 http://ad2ef64bb3f8.mylistbest.net/playlists/uplist/81ff6432651081ac88851c63fc8e1cf6/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 71/72 рабочих
+# IPTV-STATUS: 🟢 OK | 19/19 рабочих
 http://9b9591bf3d67.mylistbest.net/playlists/uplist/718b2f577f38b0a4b0c747c14fee2ec1/playlist.m3u8
-# IPTV-STATUS: 🟡 ERROR | ClientConnectorDNSError
+# IPTV-STATUS: 🟢 OK | 25/25 рабочих
 http://tvtm.one/pl/121/80dj5hivvhj73/playlist.m3u8
-# IPTV-STATUS: 🟡 ERROR | TimeoutError
+# IPTV-STATUS: 🟢 OK | 3/23 рабочих
 http://m.cdntv.online/f/k9nmfxjv5wyr/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 223/298 рабочих
+# IPTV-STATUS: 🟢 OK | 13/18 рабочих
 https://raw.githubusercontent.com/UFOTVM/TV/refs/heads/main/ufo.m3u
-# IPTV-STATUS: 🔴 DEAD | 0/75 рабочих
+# IPTV-STATUS: 🟢 OK | 14/14 рабочих
 http://stream.mcquack.net/stream.mcquack.net.m3u
-# IPTV-STATUS: 🟡 ERROR | no channel URLs found
+# IPTV-STATUS: 🟢 OK | 32/32 рабочих
 https://u.to/DT6EIg
-# IPTV-STATUS: 🔴 DEAD | 0/118 рабочих
+# IPTV-STATUS: 🟢 OK | 279/509 рабочих
 https://raw.githubusercontent.com/slavache54/chetv/refs/heads/main/sports_vip.m3u8
-# IPTV-STATUS: 🟢 OK | 301/367 рабочих
+# IPTV-STATUS: 🟢 OK | 104/132 рабочих
 https://raw.githubusercontent.com/Spirt007/Tvru/refs/heads/Master/Rus.m3u
-# IPTV-STATUS: 🟢 OK | 81/81 рабочих
+# IPTV-STATUS: 🟢 OK | 78/81 рабочих
 http://98033d39ffa1.faststreem.org/playlists/uplist/6fc869e0cb46a962f1c5e08967d31008/playlist.m3u8
 # IPTV-STATUS: 🟡 ERROR | HTTP 404
 http://linha.meuvip.net:80/get.php?username=My@AntonioAlves1&password=OYkDVxKsxP&type=m3u_plus&output=mpegts
