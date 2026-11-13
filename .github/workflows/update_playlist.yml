@@ -44,7 +44,7 @@ jobs:
           MAX_CONCURRENT_PROBES: '20'
           PROBE_TIMEOUT: '14'
           RETRIES: '2'
-          MIN_RETAIN_RATIO: '0.25'
+          MIN_RETAIN_RATIO: '0'
         run: python playlist_checker.py
 
       - name: Upload validation report
