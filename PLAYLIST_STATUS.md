@@ -1,39 +1,39 @@
 # Состояние IPTV-источников
 
-Последняя проверка (UTC): 2026-11-16T00:02:10.544506+00:00
+Последняя проверка (UTC): 2026-11-16T05:53:08.257329+00:00
 
-Источников: **38** · Найдено каналов: **2721** · Прошли FFprobe: **1927** · Отклонено: **794**
+Источников: **38** · Найдено каналов: **3027** · Прошли FFprobe: **1889** · Отклонено: **1138**
 
 **Публикация:** обновлена
 
 | № | Домен источника | Статус | Рабочих / всего | Причина |
 |---:|---|---|---:|---|
-| 1 | `af-play.com` | 🟢 OK | 5 / 5 | — |
-| 2 | `ngrch.github.io` | 🟢 OK | 29 / 36 | — |
-| 3 | `ngrch.github.io` | 🟢 OK | 53 / 53 | — |
+| 1 | `af-play.com` | 🟢 OK | 1 / 1 | — |
+| 2 | `ngrch.github.io` | 🟢 OK | 44 / 50 | — |
+| 3 | `ngrch.github.io` | 🟢 OK | 95 / 95 | — |
 | 4 | `vipl.one` | 🟢 OK | 60 / 60 | — |
-| 5 | `m3u.su` | 🟢 OK | 30 / 56 | — |
-| 6 | `raw.githubusercontent.com` | 🟢 OK | 102 / 184 | — |
-| 7 | `ott.watch` | 🟢 OK | 61 / 61 | — |
-| 8 | `m3u.uspeh-bil.ru` | 🟢 OK | 4 / 8 | — |
-| 9 | `m3u8.su` | 🟢 OK | 18 / 28 | — |
+| 5 | `m3u.su` | 🟢 OK | 32 / 56 | — |
+| 6 | `raw.githubusercontent.com` | 🟢 OK | 245 / 345 | — |
+| 7 | `ott.watch` | 🟢 OK | 29 / 29 | — |
+| 8 | `m3u.uspeh-bil.ru` | 🟢 OK | 5 / 8 | — |
+| 9 | `m3u8.su` | 🟢 OK | 10 / 28 | — |
 | 10 | `raw.githubusercontent.com` | 🟢 OK | 307 / 307 | — |
-| 11 | `cdntv.online` | 🟢 OK | 20 / 21 | — |
-| 12 | `m3u8.su` | 🟢 OK | 14 / 29 | — |
+| 11 | `cdntv.online` | 🟢 OK | 28 / 28 | — |
+| 12 | `m3u8.su` | 🟢 OK | 7 / 29 | — |
 | 13 | `satexpresstv.ru` | 🟢 OK | 17 / 39 | — |
-| 14 | `49702763fb5e.iedem.com` | 🟢 OK | 66 / 67 | — |
-| 15 | `cdntv.online` | 🟢 OK | 15 / 15 | — |
-| 16 | `raw.githubusercontent.com` | 🟢 OK | 133 / 418 | — |
-| 17 | `ad2ef64bb3f8.mylistbest.net` | 🟢 OK | 77 / 77 | — |
-| 18 | `9b9591bf3d67.mylistbest.net` | 🟢 OK | 19 / 19 | — |
-| 19 | `tvtm.one` | 🟢 OK | 87 / 87 | — |
-| 20 | `m3u8.su` | 🟢 OK | 16 / 29 | — |
-| 21 | `raw.githubusercontent.com` | 🟢 OK | 139 / 162 | — |
-| 22 | `stream.mcquack.net` | 🟢 OK | 78 / 79 | — |
+| 14 | `49702763fb5e.iedem.com` | 🟢 OK | 57 / 58 | — |
+| 15 | `cdntv.online` | 🟢 OK | 4 / 4 | — |
+| 16 | `raw.githubusercontent.com` | 🟢 OK | 137 / 418 | — |
+| 17 | `ad2ef64bb3f8.mylistbest.net` | 🟢 OK | 32 / 32 | — |
+| 18 | `9b9591bf3d67.mylistbest.net` | 🟢 OK | 9 / 9 | — |
+| 19 | `tvtm.one` | 🟢 OK | 42 / 42 | — |
+| 20 | `m3u8.su` | 🟢 OK | 11 / 29 | — |
+| 21 | `raw.githubusercontent.com` | 🟢 OK | 182 / 227 | — |
+| 22 | `stream.mcquack.net` | 🟢 OK | 30 / 30 | — |
 | 23 | `u.to` | 🟢 OK | 69 / 69 | — |
-| 24 | `raw.githubusercontent.com` | 🟢 OK | 271 / 546 | — |
-| 25 | `raw.githubusercontent.com` | 🟢 OK | 101 / 129 | — |
-| 26 | `98033d39ffa1.faststreem.org` | 🟢 OK | 48 / 49 | — |
+| 24 | `raw.githubusercontent.com` | 🔴 DEAD | 0 / 546 | нет работающих потоков |
+| 25 | `raw.githubusercontent.com` | 🟢 OK | 267 / 319 | — |
+| 26 | `98033d39ffa1.faststreem.org` | 🟢 OK | 81 / 81 | — |
 | 27 | `linha.meuvip.net` | 🟡 ERROR | 0 / 0 | HTTP 404 |
 | 28 | `fa4baf156f2e.yourlistbest.net` | 🟡 ERROR | 0 / 0 | ClientConnectorDNSError |
 | 29 | `9e5e5750e9eb.goodstreem.org` | 🟡 ERROR | 0 / 0 | ClientConnectorDNSError |
