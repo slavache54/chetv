@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u
 # IPTV-STATUS: 🟢 OK | 40/41 рабочих
 http://cdntv.online/high/4862a9mx3f/playlist.m3u8
 # IPTV-STATUS: 🔴 DEAD | 0/29 рабочих
-https://m3u8.su/p/6qdmzp3.m3u8
+https://ntvampire.github.io/IPTV/index.m3u
 # IPTV-STATUS: 🟢 OK | 23/39 рабочих
 https://satexpresstv.ru/apk/setv.m3u
 # IPTV-STATUS: 🟢 OK | 66/67 рабочих
@@ -45,7 +45,7 @@ http://stream.mcquack.net/stream.mcquack.net.m3u
 # IPTV-STATUS: 🟢 OK | 120/120 рабочих
 https://u.to/DT6EIg
 # IPTV-STATUS: 🔴 DEAD | 0/546 рабочих
-https://raw.githubusercontent.com/slavache54/chetv/refs/heads/main/sports_vip.m3u8
+https://cdntv.online/hls/6kwispjyn892/playlist.m3u8
 # IPTV-STATUS: 🟢 OK | 193/218 рабочих
 https://raw.githubusercontent.com/Spirt007/Tvru/refs/heads/Master/Rus.m3u
 # IPTV-STATUS: 🟢 OK | 37/38 рабочих
