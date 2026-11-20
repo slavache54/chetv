@@ -1,56 +1,56 @@
-# IPTV-STATUS: 🟢 OK | 5/5 рабочих
+# IPTV-STATUS: 🟢 OK | 16/45 рабочих
 https://af-play.com/playlist/g27t54jj.m3u8
-# IPTV-STATUS: 🟢 OK | 26/36 рабочих
+# IPTV-STATUS: 🟢 OK | 9/14 рабочих
 https://ngrch.github.io/iptv/ru.m3u
-# IPTV-STATUS: 🟢 OK | 53/53 рабочих
+# IPTV-STATUS: 🟢 OK | 43/43 рабочих
 https://ngrch.github.io/iptv/cartoons.m3u
 # IPTV-STATUS: 🟢 OK | 60/60 рабочих
 http://vipl.one/high/jzpmkib8excw/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 33/56 рабочих
+# IPTV-STATUS: 🟢 OK | 29/56 рабочих
 https://m3u.su/bb3
-# IPTV-STATUS: 🟢 OK | 128/229 рабочих
+# IPTV-STATUS: 🟢 OK | 99/184 рабочих
 https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV
-# IPTV-STATUS: 🟡 ERROR | HTTP 404
+# IPTV-STATUS: 🟢 OK | 60/61 рабочих
 https://cdnua03.hls.tv/play/fed308b75fc76c8e0a8ca9fd3574d7f9/list.m3u
-# IPTV-STATUS: 🟢 OK | 5/19 рабочих
+# IPTV-STATUS: 🟢 OK | 5/8 рабочих
 http://m3u.uspeh-bil.ru/ru/token=p38CeA56C8wzWCm3
 # IPTV-STATUS: 🟢 OK | 27/48 рабочих
 https://m3u8.su/p/3evv7fm.m3u8
-# IPTV-STATUS: 🟢 OK | 307/307 рабочих
+# IPTV-STATUS: 🟢 OK | 214/215 рабочих
 https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u8
-# IPTV-STATUS: 🟢 OK | 51/53 рабочих
+# IPTV-STATUS: 🟢 OK | 55/59 рабочих
 http://cdntv.online/high/4862a9mx3f/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 19/19 рабочих
+# IPTV-STATUS: 🟢 OK | 5/5 рабочих
 https://ntvampire.github.io/IPTV/index.m3u
-# IPTV-STATUS: 🟢 OK | 17/39 рабочих
+# IPTV-STATUS: 🟢 OK | 16/39 рабочих
 https://satexpresstv.ru/apk/setv.m3u
 # IPTV-STATUS: 🟢 OK | 66/67 рабочих
 http://49702763fb5e.iedem.com/playlists/uplist/23813d4606de4b435bdfea9cdb588196/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 15/15 рабочих
+# IPTV-STATUS: 🟢 OK | 21/21 рабочих
 http://cdntv.online/hls/5c24skzmbrx9/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 134/418 рабочих
+# IPTV-STATUS: 🟢 OK | 18/41 рабочих
 https://raw.githubusercontent.com/RomanTheQuant/IPtv/refs/heads/main/IPTV_SHARED.m3u?clckid=64faad3b
-# IPTV-STATUS: 🟢 OK | 77/77 рабочих
+# IPTV-STATUS: 🔴 DEAD | 0/10 рабочих
 http://ad2ef64bb3f8.mylistbest.net/playlists/uplist/81ff6432651081ac88851c63fc8e1cf6/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 71/72 рабочих
+# IPTV-STATUS: 🟢 OK | 9/9 рабочих
 http://9b9591bf3d67.mylistbest.net/playlists/uplist/718b2f577f38b0a4b0c747c14fee2ec1/playlist.m3u8
 # IPTV-STATUS: 🟢 OK | 87/87 рабочих
 http://tvtm.one/pl/121/80dj5hivvhj73/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 53/56 рабочих
+# IPTV-STATUS: 🟢 OK | 55/56 рабочих
 https://m3u8.su/p/xj5npww.m3u8
-# IPTV-STATUS: 🟢 OK | 62/79 рабочих
+# IPTV-STATUS: 🟢 OK | 88/112 рабочих
 https://raw.githubusercontent.com/UFOTVM/TV/refs/heads/main/ufo.m3u
-# IPTV-STATUS: 🟡 ERROR | HTTP 403
+# IPTV-STATUS: 🟢 OK | 20/30 рабочих
 https://iptv-org.github.io/iptv/languages/rus.m3u
-# IPTV-STATUS: 🟢 OK | 31/32 рабочих
+# IPTV-STATUS: 🟢 OK | 142/143 рабочих
 https://u.to/DT6EIg
-# IPTV-STATUS: 🟢 OK | 3/3 рабочих
+# IPTV-STATUS: 🟢 OK | 13/13 рабочих
 https://cdntv.online/hls/6kwispjyn892/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 71/103 рабочих
+# IPTV-STATUS: 🟢 OK | 70/103 рабочих
 https://raw.githubusercontent.com/Spirt007/Tvru/refs/heads/Master/Rus.m3u
 # IPTV-STATUS: 🟢 OK | 81/81 рабочих
 http://98033d39ffa1.faststreem.org/playlists/uplist/6fc869e0cb46a962f1c5e08967d31008/playlist.m3u8
-# IPTV-STATUS: 🟡 ERROR | HTTP 404
+# IPTV-STATUS: 🟢 OK | 122/308 рабочих
 https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
 # IPTV-STATUS: 🟡 ERROR | ClientConnectorDNSError
 http://fa4baf156f2e.yourlistbest.net/playlists/uplist/7e32086d9ecc2597ebfecd bf4ff13043/playlist.m3u8
@@ -62,8 +62,7 @@ http://5447754083d.yourlistbest.net/playlists/uplist/97654a4b4c7bd6f2490132cfd21
 http://link-pile.ch/iptv/p/XCfLvubAavY9yY/Sharavoz.Tv.navigator-ott.m3u?p=1
 # IPTV-STATUS: 🟡 ERROR | no channel URLs found
 http://link-pile.ch/iptv/p/y8UzFBAsvxQBq5/Sharavoz.Tv.TelevizoOTTplay.m3u?p=1
-# IPTV-STATUS: 🟢 OK | 87/87 рабочих
+# IPTV-STATUS: 🟢 OK | 17/18 рабочих
 http://7f6cbde5ccae.akciatv.org/playlists/uplist/f70405680e7b6f6ac0117477c7e5b792/playlist.m3u8
 # IPTV-STATUS: 🟢 OK | 1/1 рабочих
 http://pl.ru-tv.site/882dcb13/f3779d29/tv.m3u
-
