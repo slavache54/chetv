@@ -51,7 +51,7 @@ https://raw.githubusercontent.com/Spirt007/Tvru/refs/heads/Master/Rus.m3u
 # IPTV-STATUS: 🟢 OK | 81/81 рабочих
 http://98033d39ffa1.faststreem.org/playlists/uplist/6fc869e0cb46a962f1c5e08967d31008/playlist.m3u8
 # IPTV-STATUS: 🟡 ERROR | HTTP 404
-http://linha.meuvip.net:80/get.php?username=My@AntonioAlves1&password=OYkDVxKsxP&type=m3u_plus&output=mpegts
+https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
 # IPTV-STATUS: 🟡 ERROR | ClientConnectorDNSError
 http://fa4baf156f2e.yourlistbest.net/playlists/uplist/7e32086d9ecc2597ebfecd bf4ff13043/playlist.m3u8
 # IPTV-STATUS: 🟡 ERROR | ClientConnectorDNSError
