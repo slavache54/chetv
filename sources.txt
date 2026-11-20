@@ -11,7 +11,7 @@ https://m3u.su/bb3
 # IPTV-STATUS: 🟢 OK | 128/229 рабочих
 https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV
 # IPTV-STATUS: 🟡 ERROR | HTTP 404
-http://ott.watch/playlist/F99LNUA8HU/m3u
+https://cdnua03.hls.tv/play/fed308b75fc76c8e0a8ca9fd3574d7f9/list.m3u
 # IPTV-STATUS: 🟢 OK | 5/19 рабочих
 http://m3u.uspeh-bil.ru/ru/token=p38CeA56C8wzWCm3
 # IPTV-STATUS: 🟢 OK | 27/48 рабочих
@@ -41,7 +41,7 @@ https://m3u8.su/p/xj5npww.m3u8
 # IPTV-STATUS: 🟢 OK | 62/79 рабочих
 https://raw.githubusercontent.com/UFOTVM/TV/refs/heads/main/ufo.m3u
 # IPTV-STATUS: 🟡 ERROR | HTTP 403
-http://stream.mcquack.net/stream.mcquack.net.m3u
+https://m.cdntv.online/f/3rtdzbfmw5/playlist.m3u8
 # IPTV-STATUS: 🟢 OK | 31/32 рабочих
 https://u.to/DT6EIg
 # IPTV-STATUS: 🟢 OK | 3/3 рабочих
