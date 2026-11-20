@@ -1,56 +1,56 @@
-# IPTV-STATUS: 🟢 OK | 1/1 рабочих
+# IPTV-STATUS: 🟢 OK | 10/22 рабочих
 https://af-play.com/playlist/g27t54jj.m3u8
-# IPTV-STATUS: 🟢 OK | 63/80 рабочих
+# IPTV-STATUS: 🟢 OK | 15/21 рабочих
 https://ngrch.github.io/iptv/ru.m3u
-# IPTV-STATUS: 🟢 OK | 161/162 рабочих
+# IPTV-STATUS: 🟢 OK | 84/85 рабочих
 https://ngrch.github.io/iptv/cartoons.m3u
 # IPTV-STATUS: 🟢 OK | 60/60 рабочих
 http://vipl.one/high/jzpmkib8excw/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 32/56 рабочих
+# IPTV-STATUS: 🟢 OK | 30/56 рабочих
 https://m3u.su/bb3
-# IPTV-STATUS: 🟢 OK | 241/346 рабочих
+# IPTV-STATUS: 🟢 OK | 127/229 рабочих
 https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV
 # IPTV-STATUS: 🟢 OK | 60/61 рабочих
 https://cdnua03.hls.tv/play/fed308b75fc76c8e0a8ca9fd3574d7f9/list.m3u
 # IPTV-STATUS: 🟢 OK | 5/8 рабочих
 http://m3u.uspeh-bil.ru/ru/token=p38CeA56C8wzWCm3
-# IPTV-STATUS: 🟢 OK | 27/48 рабочих
+# IPTV-STATUS: 🟢 OK | 6/34 рабочих
 https://m3u8.su/p/3evv7fm.m3u8
 # IPTV-STATUS: 🟢 OK | 307/307 рабочих
 https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u8
 # IPTV-STATUS: 🟢 OK | 15/15 рабочих
 http://cdntv.online/high/4862a9mx3f/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 152/154 рабочих
+# IPTV-STATUS: 🟢 OK | 55/69 рабочих
 https://ntvampire.github.io/IPTV/index.m3u
 # IPTV-STATUS: 🟢 OK | 17/39 рабочих
 https://satexpresstv.ru/apk/setv.m3u
-# IPTV-STATUS: 🟢 OK | 62/67 рабочих
+# IPTV-STATUS: 🟢 OK | 67/68 рабочих
 http://49702763fb5e.iedem.com/playlists/uplist/23813d4606de4b435bdfea9cdb588196/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 10/10 рабочих
+# IPTV-STATUS: 🟢 OK | 59/59 рабочих
 http://cdntv.online/hls/5c24skzmbrx9/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 131/384 рабочих
+# IPTV-STATUS: 🟢 OK | 104/261 рабочих
 https://raw.githubusercontent.com/RomanTheQuant/IPtv/refs/heads/main/IPTV_SHARED.m3u?clckid=64faad3b
-# IPTV-STATUS: 🟢 OK | 72/77 рабочих
+# IPTV-STATUS: 🟢 OK | 78/79 рабочих
 http://ad2ef64bb3f8.mylistbest.net/playlists/uplist/81ff6432651081ac88851c63fc8e1cf6/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 45/51 рабочих
+# IPTV-STATUS: 🟢 OK | 40/41 рабочих
 http://9b9591bf3d67.mylistbest.net/playlists/uplist/718b2f577f38b0a4b0c747c14fee2ec1/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 58/58 рабочих
+# IPTV-STATUS: 🟢 OK | 87/87 рабочих
 http://tvtm.one/pl/121/80dj5hivvhj73/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 52/56 рабочих
+# IPTV-STATUS: 🟢 OK | 1/36 рабочих
 https://m3u8.su/p/xj5npww.m3u8
-# IPTV-STATUS: 🟢 OK | 226/328 рабочих
+# IPTV-STATUS: 🟢 OK | 116/191 рабочих
 https://raw.githubusercontent.com/UFOTVM/TV/refs/heads/main/ufo.m3u
-# IPTV-STATUS: 🟢 OK | 48/80 рабочих
+# IPTV-STATUS: 🟢 OK | 23/38 рабочих
 https://iptv-org.github.io/iptv/languages/rus.m3u
-# IPTV-STATUS: 🟢 OK | 82/82 рабочих
+# IPTV-STATUS: 🟢 OK | 56/56 рабочих
 https://u.to/DT6EIg
 # IPTV-STATUS: 🟢 OK | 3/3 рабочих
 https://cdntv.online/hls/6kwispjyn892/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 312/457 рабочих
+# IPTV-STATUS: 🟢 OK | 197/249 рабочих
 https://raw.githubusercontent.com/Spirt007/Tvru/refs/heads/Master/Rus.m3u
-# IPTV-STATUS: 🟢 OK | 22/27 рабочих
+# IPTV-STATUS: 🟢 OK | 38/38 рабочих
 http://98033d39ffa1.faststreem.org/playlists/uplist/6fc869e0cb46a962f1c5e08967d31008/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 122/308 рабочих
+# IPTV-STATUS: 🟢 OK | 127/308 рабочих
 https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
 # IPTV-STATUS: 🟡 ERROR | ClientConnectorDNSError
 http://fa4baf156f2e.yourlistbest.net/playlists/uplist/7e32086d9ecc2597ebfecd bf4ff13043/playlist.m3u8
@@ -62,7 +62,7 @@ http://5447754083d.yourlistbest.net/playlists/uplist/97654a4b4c7bd6f2490132cfd21
 http://link-pile.ch/iptv/p/XCfLvubAavY9yY/Sharavoz.Tv.navigator-ott.m3u?p=1
 # IPTV-STATUS: 🟡 ERROR | no channel URLs found
 http://link-pile.ch/iptv/p/y8UzFBAsvxQBq5/Sharavoz.Tv.TelevizoOTTplay.m3u?p=1
-# IPTV-STATUS: 🟢 OK | 105/110 рабочих
+# IPTV-STATUS: 🟢 OK | 88/88 рабочих
 http://7f6cbde5ccae.akciatv.org/playlists/uplist/f70405680e7b6f6ac0117477c7e5b792/playlist.m3u8
 # IPTV-STATUS: 🟢 OK | 1/1 рабочих
 http://pl.ru-tv.site/882dcb13/f3779d29/tv.m3u
