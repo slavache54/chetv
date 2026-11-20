@@ -41,7 +41,7 @@ https://m3u8.su/p/xj5npww.m3u8
 # IPTV-STATUS: 🟢 OK | 62/79 рабочих
 https://raw.githubusercontent.com/UFOTVM/TV/refs/heads/main/ufo.m3u
 # IPTV-STATUS: 🟡 ERROR | HTTP 403
-https://m.cdntv.online/f/3rtdzbfmw5/playlist.m3u8
+https://iptv-org.github.io/iptv/languages/rus.m3u
 # IPTV-STATUS: 🟢 OK | 31/32 рабочих
 https://u.to/DT6EIg
 # IPTV-STATUS: 🟢 OK | 3/3 рабочих
