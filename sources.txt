@@ -1,58 +1,58 @@
-# IPTV-STATUS: 🟢 OK | 15/45 рабочих
+# IPTV-STATUS: 🟢 OK | 16/41 рабочих
 https://af-play.com/playlist/g27t54jj.m3u8
-# IPTV-STATUS: 🟢 OK | 41/56 рабочих
+# IPTV-STATUS: 🟢 OK | 54/68 рабочих
 https://ngrch.github.io/iptv/ru.m3u
-# IPTV-STATUS: 🟢 OK | 122/122 рабочих
+# IPTV-STATUS: 🟢 OK | 106/106 рабочих
 https://ngrch.github.io/iptv/cartoons.m3u
 # IPTV-STATUS: 🟢 OK | 76/77 рабочих
 http://670ba2c0aff3.mylistbest.com/playlists/uplist/4bd842e40301720a2508a4783994118b/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 29/56 рабочих
+# IPTV-STATUS: 🟢 OK | 33/56 рабочих
 https://m3u.su/bb3
-# IPTV-STATUS: 🟢 OK | 240/346 рабочих
+# IPTV-STATUS: 🟢 OK | 164/268 рабочих
 https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV
 # IPTV-STATUS: 🟢 OK | 60/61 рабочих
 https://cdnua03.hls.tv/play/fed308b75fc76c8e0a8ca9fd3574d7f9/list.m3u
 # IPTV-STATUS: 🟢 OK | 1/1 рабочих
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_4/variant.m3u8
-# IPTV-STATUS: 🟢 OK | 412/470 рабочих
+# IPTV-STATUS: 🟢 OK | 396/429 рабочих
 https://raw.githubusercontent.com/loganettv/playlists/main/all.m3u
-# IPTV-STATUS: 🟢 OK | 307/307 рабочих
+# IPTV-STATUS: 🟢 OK | 54/54 рабочих
 https://raw.githubusercontent.com/user797/Playlists/refs/heads/main/Cartoons.m3u8
 # IPTV-STATUS: 🟢 OK | 15/15 рабочих
 http://cdntv.online/high/4862a9mx3f/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 146/149 рабочих
+# IPTV-STATUS: 🟢 OK | 52/55 рабочих
 https://ntvampire.github.io/IPTV/index.m3u
-# IPTV-STATUS: 🟢 OK | 16/39 рабочих
+# IPTV-STATUS: 🟢 OK | 17/39 рабочих
 https://satexpresstv.ru/apk/setv.m3u
-# IPTV-STATUS: 🟢 OK | 47/49 рабочих
+# IPTV-STATUS: 🟢 OK | 66/67 рабочих
 http://49702763fb5e.iedem.com/playlists/uplist/23813d4606de4b435bdfea9cdb588196/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 15/15 рабочих
+# IPTV-STATUS: 🟢 OK | 53/53 рабочих
 http://cdntv.online/hls/5c24skzmbrx9/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 142/568 рабочих
+# IPTV-STATUS: 🟢 OK | 135/418 рабочих
 https://raw.githubusercontent.com/RomanTheQuant/IPtv/refs/heads/main/IPTV_SHARED.m3u?clckid=64faad3b
-# IPTV-STATUS: 🟢 OK | 77/77 рабочих
+# IPTV-STATUS: 🟢 OK | 54/55 рабочих
 http://ad2ef64bb3f8.mylistbest.net/playlists/uplist/81ff6432651081ac88851c63fc8e1cf6/playlist.m3u8
-# IPTV-STATUS: 🔴 DEAD | 0/72 рабочих
+# IPTV-STATUS: 🟢 OK | 50/51 рабочих
 http://9b9591bf3d67.mylistbest.net/playlists/uplist/718b2f577f38b0a4b0c747c14fee2ec1/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 86/87 рабочих
+# IPTV-STATUS: 🟢 OK | 58/58 рабочих
 http://tvtm.one/pl/121/80dj5hivvhj73/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 122/134 рабочих
+# IPTV-STATUS: 🟢 OK | 93/102 рабочих
 https://loganettv.github.io/playlists/mega.m3u
-# IPTV-STATUS: 🟢 OK | 386/531 рабочих
+# IPTV-STATUS: 🟢 OK | 222/328 рабочих
 https://raw.githubusercontent.com/UFOTVM/TV/refs/heads/main/ufo.m3u
-# IPTV-STATUS: 🟢 OK | 51/84 рабочих
+# IPTV-STATUS: 🟢 OK | 31/52 рабочих
 https://iptv-org.github.io/iptv/languages/rus.m3u
-# IPTV-STATUS: 🟢 OK | 128/130 рабочих
+# IPTV-STATUS: 🟢 OK | 119/120 рабочих
 https://u.to/DT6EIg
-# IPTV-STATUS: 🟢 OK | 37/47 рабочих
+# IPTV-STATUS: 🟢 OK | 40/47 рабочих
 https://loganettv.github.io/playlists/sport.m3u
-# IPTV-STATUS: 🟢 OK | 261/352 рабочих
+# IPTV-STATUS: 🟢 OK | 298/411 рабочих
 https://raw.githubusercontent.com/Spirt007/Tvru/refs/heads/Master/Rus.m3u
-# IPTV-STATUS: 🟢 OK | 81/81 рабочих
+# IPTV-STATUS: 🟢 OK | 37/38 рабочих
 http://98033d39ffa1.faststreem.org/playlists/uplist/6fc869e0cb46a962f1c5e08967d31008/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 98/227 рабочих
+# IPTV-STATUS: 🟢 OK | 128/308 рабочих
 https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
-# IPTV-STATUS: 🟢 OK | 41/87 рабочих
+# IPTV-STATUS: 🟢 OK | 87/87 рабочих
 http://7f6cbde5ccae.akciatv.org/playlists/uplist/f70405680e7b6f6ac0117477c7e5b792/playlist.m3u8
 # IPTV-STATUS: 🟢 OK | 1/1 рабочих
 http://pl.ru-tv.site/882dcb13/f3779d29/tv.m3u
