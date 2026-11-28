@@ -1,41 +1,41 @@
 # Состояние IPTV-источников
 
-Последняя проверка (UTC): 2026-11-27T19:30:12.033820+00:00
+Последняя проверка (UTC): 2026-11-28T02:40:16.591985+00:00
 
-Источников: **29** · Найдено каналов: **1794** · Прошли FFprobe: **1294** · Отклонено: **500**
+Источников: **29** · Найдено каналов: **2292** · Прошли FFprobe: **1679** · Отклонено: **613**
 
 **Публикация:** обновлена
 
 | № | Домен источника | Статус | Рабочих / всего | Причина |
 |---:|---|---|---:|---|
-| 1 | `af-play.com` | 🟢 OK | 5 / 5 | — |
-| 2 | `ngrch.github.io` | 🟢 OK | 32 / 35 | — |
-| 3 | `ngrch.github.io` | 🟢 OK | 33 / 33 | — |
-| 4 | `670ba2c0aff3.mylistbest.com` | 🟢 OK | 42 / 44 | — |
-| 5 | `m3u.su` | 🟢 OK | 32 / 56 | — |
-| 6 | `raw.githubusercontent.com` | 🟢 OK | 131 / 241 | — |
+| 1 | `af-play.com` | 🔴 DEAD | 0 / 1 | нет работающих потоков |
+| 2 | `ngrch.github.io` | 🟢 OK | 8 / 13 | — |
+| 3 | `ngrch.github.io` | 🟢 OK | 12 / 12 | — |
+| 4 | `670ba2c0aff3.mylistbest.com` | 🟢 OK | 76 / 77 | — |
+| 5 | `m3u.su` | 🟢 OK | 33 / 56 | — |
+| 6 | `raw.githubusercontent.com` | 🟢 OK | 206 / 314 | — |
 | 7 | `cdnua03.hls.tv` | 🟢 OK | 60 / 61 | — |
 | 8 | `zabava-htlive.cdn.ngenix.net` | 🟢 OK | 1 / 1 | — |
-| 9 | `raw.githubusercontent.com` | 🟢 OK | 236 / 272 | — |
-| 10 | `raw.githubusercontent.com` | 🟢 OK | 54 / 54 | — |
-| 11 | `cdntv.online` | 🟢 OK | 10 / 10 | — |
-| 12 | `ntvampire.github.io` | 🟢 OK | 26 / 26 | — |
+| 9 | `raw.githubusercontent.com` | 🟢 OK | 69 / 82 | — |
+| 10 | `raw.githubusercontent.com` | 🟢 OK | 251 / 274 | — |
+| 11 | `cdntv.online` | 🟢 OK | 15 / 15 | — |
+| 12 | `ntvampire.github.io` | 🟢 OK | 9 / 9 | — |
 | 13 | `satexpresstv.ru` | 🟢 OK | 18 / 39 | — |
-| 14 | `49702763fb5e.iedem.com` | 🔴 DEAD | 0 / 67 | нет работающих потоков |
-| 15 | `cdntv.online` | 🟢 OK | 4 / 4 | — |
-| 16 | `raw.githubusercontent.com` | 🟢 OK | 44 / 89 | — |
-| 17 | `ad2ef64bb3f8.mylistbest.net` | 🟢 OK | 43 / 43 | — |
-| 18 | `9b9591bf3d67.mylistbest.net` | 🟢 OK | 9 / 9 | — |
+| 14 | `49702763fb5e.iedem.com` | 🟢 OK | 18 / 20 | — |
+| 15 | `cdntv.online` | 🟢 OK | 15 / 15 | — |
+| 16 | `raw.githubusercontent.com` | 🟢 OK | 67 / 205 | — |
+| 17 | `ad2ef64bb3f8.mylistbest.net` | 🟢 OK | 32 / 32 | — |
+| 18 | `9b9591bf3d67.mylistbest.net` | 🟢 OK | 19 / 19 | — |
 | 19 | `tvtm.one` | 🟡 ERROR | 0 / 0 | HTTP 404 |
-| 20 | `loganettv.github.io` | 🟢 OK | 29 / 32 | — |
-| 21 | `raw.githubusercontent.com` | 🟢 OK | 144 / 191 | — |
-| 22 | `iptv-org.github.io` | 🟢 OK | 44 / 86 | — |
-| 23 | `u.to` | 🟢 OK | 7 / 8 | — |
-| 24 | `loganettv.github.io` | 🟢 OK | 34 / 40 | — |
-| 25 | `raw.githubusercontent.com` | 🟢 OK | 113 / 126 | — |
-| 26 | `98033d39ffa1.faststreem.org` | 🟢 OK | 59 / 60 | — |
-| 27 | `raw.githubusercontent.com` | 🟢 OK | 43 / 121 | — |
-| 28 | `7f6cbde5ccae.akciatv.org` | 🟢 OK | 40 / 40 | — |
+| 20 | `loganettv.github.io` | 🟢 OK | 36 / 38 | — |
+| 21 | `raw.githubusercontent.com` | 🟢 OK | 159 / 221 | — |
+| 22 | `iptv-org.github.io` | 🟢 OK | 20 / 37 | — |
+| 23 | `u.to` | 🟢 OK | 68 / 69 | — |
+| 24 | `loganettv.github.io` | 🟢 OK | 39 / 47 | — |
+| 25 | `raw.githubusercontent.com` | 🟢 OK | 143 / 160 | — |
+| 26 | `98033d39ffa1.faststreem.org` | 🟢 OK | 81 / 81 | — |
+| 27 | `raw.githubusercontent.com` | 🟢 OK | 136 / 306 | — |
+| 28 | `7f6cbde5ccae.akciatv.org` | 🟢 OK | 87 / 87 | — |
 | 29 | `pl.ru-tv.site` | 🟢 OK | 1 / 1 | — |
 
 🟢 OK: есть потоки, прошедшие FFprobe. 🔴 DEAD: скачан, но проверку не прошёл ни один поток. 🟡 ERROR: источник недоступен или не разобран.
